@@ -402,3 +402,21 @@ zero records.
 
 **ACA and CAMA `PERMIT.DAT` are different views of permits** — city system of record vs
 county parcel-linked copy with valuation. Do not sum them.
+
+## Freshness is mostly unknowable on ArcGIS
+
+**98% of published layers report no last-edit date.** Of 1,671 layers carrying records,
+only 37 expose `editingInfo.lastEditDate`. For the rest there is no machine-readable way
+to tell whether the data is current — a consumer cannot distinguish a live layer from an
+abandoned copy without asking someone.
+
+**Item `modified` is not a data-freshness signal.** It moves when the item record changes,
+not when the data does. `Dayton Used Address` has an item date of 2018 yet matched 99.97%
+of 2026 code enforcement addresses — the data is maintained, the metadata is not. Do not
+treat a stale item date as evidence the data is stale, or a fresh one as evidence it isn't.
+
+**Some served layers are years old.** `SLSA_2014_Parcels` (88,512 rows) last changed in
+2017; `City_of_Dayton_Owned_Parcel` in 2021. They are still discoverable and still
+returned by queries. Check age before using anything as current.
+
+Full detail, including measured County cadence, is in `docs/FRESHNESS.md`.

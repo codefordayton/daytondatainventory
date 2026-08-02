@@ -72,6 +72,31 @@ def load(name):
     return json.load(open(p)) if os.path.exists(p) else None
 
 
+def observed_cadence(files):
+    """Infer refresh interval from the median gap between published files."""
+    dates = []
+    for f in files:
+        try:
+            m, d_, y = f["created"].split("/")
+            dates.append(datetime.date(int(y), int(m), int(d_)))
+        except Exception:
+            pass
+    if len(dates) < 3:
+        return "unknown cadence"
+    dates.sort()
+    gaps = [(dates[i + 1] - dates[i]).days for i in range(len(dates) - 1)]
+    gaps = [g for g in gaps if g > 0]
+    if not gaps:
+        return "unknown cadence"
+    gaps.sort()
+    med = gaps[len(gaps) // 2]
+    for limit, label in ((2, "daily"), (10, "weekly"), (20, "fortnightly"),
+                         (45, "monthly"), (100, "quarterly"), (200, "twice yearly")):
+        if med <= limit:
+            return label
+    return "annual" if med <= 400 else "irregular"
+
+
 def rec(**kw):
     base = dict.fromkeys(COLS, "")
     base.update(kw)
@@ -118,7 +143,8 @@ def rows():
                 geography="City of Dayton" if publisher == "City of Dayton" else "Miami Valley region",
                 granularity=classify(blob, GRAN),
                 access="Public — ArcGIS REST API, no auth",
-                cadence="live service (verify)",
+                cadence=("live service; item last modified "
+                         f"{ms_to_date(i.get('modified')) or 'unknown'}"),
                 formats="ArcGIS FeatureServer/MapServer; GeoJSON, CSV, Shapefile export",
                 records=counts.get(i["id"], ""),
                 updated=ms_to_date(i.get("modified")),
@@ -164,13 +190,17 @@ def rows():
             if not ds["files"]:
                 continue
             newest, oldest = ds["files"][0], ds["files"][-1]
+            # Cadence is measured from the gaps between published files rather
+            # than asserted — several of these turn out to be daily, not the
+            # monthly the page's naming implies.
+            cadence_label = observed_cadence(ds["files"])
             out.append(rec(
                 name=f"MC {ds['name']}", publisher="Montgomery County Auditor/Treasurer",
                 source_owner="Montgomery County Treasurer (lien data: Jennifer Connolly)",
                 theme=classify(ds["name"], THEMES, "ownership/transfers"),
                 geography="Montgomery County", granularity="parcel",
                 access="Public — direct HTTP download, no auth",
-                cadence=f"periodic archive ({oldest.get('created')} → {newest.get('created')})",
+                cadence=f"{cadence_label} (observed; {oldest.get('created')} → {newest.get('created')})",
                 formats="ZIP of CSV (see docs/mc_file_layouts/)",
                 records=f"{ds['file_count']} files",
                 updated=newest.get("created") or "",

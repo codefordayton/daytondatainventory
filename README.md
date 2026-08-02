@@ -29,6 +29,7 @@ authoritative but not yet systematically swept.
 | `docs/HOUSING_PRIORITY.md` | The shortlist: which datasets actually matter for housing policy |
 | `docs/SOURCES.md` | Source register — every portal, how to access it, what's blocked |
 | `docs/CAVEATS.md` | Data gotchas found while harvesting. **Read before analyzing.** |
+| `docs/FRESHNESS.md` | Measured refresh cadence and staleness. Which sources are actually current. |
 | `docs/mc_file_layouts/` | Official record-layout PDFs from the County (7 files) |
 | `data/raw/` | Raw harvest output (JSON). Regenerate the rest from these. |
 | `scripts/` | Harvesters + generators. All re-runnable. |
