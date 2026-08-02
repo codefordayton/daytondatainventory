@@ -41,8 +41,8 @@ HOLDINGS = [
      "Exterior condition graded 0–5 citywide, with the 2023 grade in the same row. "
      "Condition <em>change</em> is measurable at parcel level today."),
     ("Code enforcement", "12,879 complaints",
-     "Housing complaints for 2026 with status and outcome. Published on a city server "
-     "that is not linked from any public portal."),
+     "Housing complaints for 2026 with status and outcome, served from the City's "
+     "GIS REST API."),
     ("County property records", "3,856 archived files",
      "Sales, tax roll, delinquency and full property characteristics — monthly, some "
      "back to 2001. Includes owner-occupancy, foreclosure dates and census tract."),
@@ -58,15 +58,15 @@ HOLDINGS = [
 ]
 
 UNLOCKED = [
-    ("Code enforcement was already public",
-     "It sits on a second city GIS server that no portal links to. 12,879 housing "
-     "complaints with status and outcome, available now."),
+    ("Code enforcement is available now",
+     "12,879 housing complaints with status and outcome, served from the City's GIS "
+     "REST API. No request needed."),
     ("Tenure is in the tax roll",
      "Owner-occupancy, rental registration and foreclosure dates are columns in a file "
-     "anyone can download. This was assumed to need a records request."),
+     "the County publishes daily — no request needed."),
     ("Permits are reachable",
-     "Not in any GIS layer, but the City's permitting portal answers queries across all "
-     "49 record types — a route first proven by Code for Dayton's demolition checker."),
+     "The City's permitting portal answers queries across all 49 record types — a route "
+     "first proven by Code for Dayton's demolition checker."),
     ("The data joins up",
      "City and County parcel IDs already match at 96%. Code enforcement, which carries no "
      "parcel ID, now bridges through the city address layer at 99.97%."),
@@ -75,11 +75,11 @@ UNLOCKED = [
 # Each gap names who holds it, so the ask has an owner.
 GAPS = [
     ("Vacant property registry", "City of Dayton",
-     "The program exists under ordinance; only the form is published. The County publishes "
-     "its rental registry as 67 downloadable files — a direct precedent."),
+     "The program runs under ordinance and the registration form is online. The County "
+     "publishes its rental registry as 67 downloadable files — a useful precedent."),
     ("Code enforcement history", "City of Dayton GIS",
-     "Two published windows leave a three-year hole, 2023–2025. The live service works; "
-     "this is the same data over a longer range."),
+     "Two published windows leave a gap between 2023 and 2025. The live service already "
+     "works — this is the same data over a longer range."),
     ("Evictions", "Municipal Court",
      "Not published in any form. The clearest available measure of displacement."),
     ("Deeds, mortgages, liens", "County Recorder",
@@ -93,9 +93,9 @@ GAPS = [
 NEXT = [
     ("Ask for the vacant property registry",
      "Highest value for least effort, and the County has already set the precedent."),
-    ("Put two questions to City GIS",
-     "The missing years of code enforcement, and two datasets listed publicly that "
-     "require a login — likely a settings error rather than a decision."),
+    ("Follow up with City GIS",
+     "The earlier years of code enforcement, publishing last-edit dates on layers, and "
+     "two datasets that are listed publicly but ask for a login."),
     ("Answer one real question with what we hold",
      "Everything needed is in hand and joined. Start with: does private reinvestment "
      "reach the properties in worst condition, or avoid them?"),
@@ -226,10 +226,10 @@ TEMPLATE = r"""<title>Housing Data Inventory — Briefing</title>
     <p class="eyebrow">City of Dayton · Housing Data Subcommittee</p>
     <h1>Housing data inventory: what exists, what we have, what to ask for</h1>
     <p class="lede">We set out to catalogue the housing data published by the
-      <strong>City of Dayton</strong> and <strong>Montgomery County</strong>. We found six
-      separate publishing systems, two of which are not linked from any public portal.
-      Every figure below was pulled directly from the source and verified, not read off a
-      landing page.</p>
+      <strong>City of Dayton</strong> and <strong>Montgomery County</strong>. There are six
+      separate publishing systems; two are reached through their REST APIs rather than a
+      portal listing. Every figure below was pulled directly from the source and
+      verified.</p>
     <div class="strip">
       <div><b>{total}</b><span>Datasets catalogued</span></div>
       <div><b>{housing}</b><span>Housing-relevant</span></div>

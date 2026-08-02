@@ -22,7 +22,7 @@ FINDINGS = [
      "in the same row — parcel-level condition change is computable today.",
      "dayton-housing-condition-survey-parcels-2025"),
     ("Code enforcement", "12,879", "housing complaints, 2026 YTD, with status and outcome. "
-     "Published at maps.daytonohio.gov and not advertised anywhere.",
+     "Served from maps.daytonohio.gov via the REST API.",
      "address-parcel-bridge"),
     ("County bulk archive", "3,856", "files of sales, tax roll, delinquency and full CAMA "
      "property characteristics — some back to 2001.", "mc-taxroll"),
@@ -53,7 +53,8 @@ SYSTEMS = [
      "https://daytonohio.maps.arcgis.com", "Open REST, no auth."),
     ("City of Dayton — on-premise server", "352 services · 35 folders",
      "https://maps.daytonohio.gov/gisservices/rest/services",
-     "Larger than the AGOL org and surfaced by no Hub site. Code enforcement lives here."),
+     "A larger catalog than the ArcGIS Online org, reached through the REST API. "
+     "Code enforcement is served from here."),
     ("County Auditor / Treasurer — bulk files", "9 datasets · 3,856 files",
      "https://go.mcohio.org/applications/treasurer/search/filedownloads.cfm",
      "Plain HTTP. Official record layouts published as PDFs."),
@@ -65,7 +66,7 @@ SYSTEMS = [
      "Shapefile download needs a browser User-Agent."),
     ("MVRPC — regional", "3,422 items · 1,011 data services",
      "https://mvrpc.maps.arcgis.com",
-     "Holds the affordability and cost-burden data the city's own data lacks."),
+     "Regional affordability, tenure and cost-burden indicators derived from ACS."),
 ]
 
 CAVEATS = [
@@ -85,8 +86,8 @@ CAVEATS = [
      "non-owner-occupied. The gap measures compliance, not tenure."),
     ("Not every service holds data", "59 of the city's published feature services are "
      "Survey123 <code>_form</code> endpoints — write-only, <code>Create,Editing</code>, no "
-     "Query. Another 40 declare Query but contain zero layers. They are listed here and "
-     "marked <b>not readable</b>; opening one in a map viewer fails by design."),
+     "Query. Another 40 declare Query but contain no layers. They are listed here and "
+     "marked <b>not readable</b> — a map viewer cannot open them, by design."),
     ("Don't add LIHTC to Section 8", "15 properties appear in both federal datasets. "
      "Summing them inflates the subsidized-unit count."),
 ]
@@ -339,10 +340,10 @@ TEMPLATE = r"""<title>Dayton Housing Data Inventory</title>
 <header class="mast">
   <div class="wrap mast-in">
     <p class="eyebrow">City of Dayton · Housing Data Subcommittee</p>
-    <h1>What housing data Dayton and Montgomery County actually publish</h1>
+    <h1>Housing data published by Dayton and Montgomery County</h1>
     <p class="lede">An inventory of <strong>{total} datasets</strong> across six source systems,
       built for the subcommittee's assess-current-datasets deliverable. Every count here was
-      pulled live from the source, not read off a landing page.</p>
+      pulled live from the source and verified.</p>
     <div class="mast-meta">
       <span>Harvested <b>{harvested}</b></span>
       <span><b>{total}</b> datasets catalogued</span>
@@ -380,9 +381,19 @@ TEMPLATE = r"""<title>Dayton Housing Data Inventory</title>
 </section>
 
 <section class="wrap">
+  <p class="eyebrow">Where it comes from</p>
+  <h2>Six source systems</h2>
+  <p class="sub">Each is queryable directly. Two are reached through their REST APIs
+    rather than a portal listing, so they are easy to miss when browsing.</p>
+  <ul class="plain">
+{systems}
+  </ul>
+</section>
+
+<section class="wrap">
   <p class="eyebrow">The catalog</p>
   <h2>Every dataset found</h2>
-  <p class="sub">Search by name, publisher, or theme. Of the 374 city services probed,
+  <p class="sub">Search by name, publisher, or theme. Of the 374 City services probed,
     <strong>256 hold readable data</strong> and 118 do not — form endpoints, empty services,
     and dead links. Both filters start on, so you see housing data you can actually open.</p>
   <div class="filters">
@@ -408,20 +419,11 @@ TEMPLATE = r"""<title>Dayton Housing Data Inventory</title>
 </section>
 
 <section class="wrap">
-  <p class="eyebrow">Where it comes from</p>
-  <h2>Six source systems</h2>
-  <p class="sub">Two of these are not linked from any public portal and were found by
-    enumerating the servers directly.</p>
-  <ul class="plain">
-{systems}
-  </ul>
-</section>
-
-<section class="wrap">
   <p class="eyebrow">Read before analyzing</p>
-  <h2>Traps that produce confident wrong answers</h2>
-  <p class="sub">None of these throw an error. Each was hit during the harvest and is
-    documented in full in <span class="mono">docs/CAVEATS.md</span>.</p>
+  <h2>Notes to read before analyzing</h2>
+  <p class="sub">Each of these was encountered during the harvest. None of them raise an
+    error, so they are worth knowing in advance. Full detail in
+    <span class="mono">docs/CAVEATS.md</span>.</p>
   <ul class="plain">
 {caveats}
   </ul>
