@@ -1,0 +1,5720 @@
+{
+  "source": "data/raw/prior_research_items.json",
+  "harvested": "2026-08-02",
+  "count": 2,
+  "datasets": [
+    {
+      "id": "HS_BlockGroups_MVRPC",
+      "title": "MVRPC Regional Housing Study - Block Groups (HS_BlockGroups)",
+      "type": "Feature Service",
+      "url": "https://services.arcgis.com/3TIUdMHOqnLBrZEH/arcgis/rest/services/HS_BlockGroups/FeatureServer",
+      "owner": "msimpson_MVRPC",
+      "snippet": "2025 MVRPC Regional Housing Study block-group indicators: tenure, cost burden, rent bands, values, vacancy, year built, income (ACS-derived). 422 of 793 block groups are in Montgomery County.",
+      "description": null,
+      "tags": [
+        "MVRPC",
+        "Regional Housing Study",
+        "ACS"
+      ],
+      "created": null,
+      "modified": null,
+      "numViews": null,
+      "licenseInfo": null,
+      "layers": [
+        {
+          "id": 1,
+          "name": "HS_BlockGroups",
+          "description": "",
+          "geometryType": "esriGeometryPolygon",
+          "recordCount": 793,
+          "lastEditDate": 1772740057883,
+          "fields": [
+            {
+              "name": "OBJECTID",
+              "alias": "OBJECTID",
+              "type": "esriFieldTypeOID",
+              "nullable": false,
+              "length": null
+            },
+            {
+              "name": "TotalPop",
+              "alias": "TotalPop",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GEOID",
+              "alias": "GEOID",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "County",
+              "alias": "County",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "CountyShort",
+              "alias": "CountyShort",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 3
+            },
+            {
+              "name": "AreaSQMI",
+              "alias": "AreaSQMI",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Households",
+              "alias": "Total Households",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianHHIncome",
+              "alias": "Median Household Income",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopPovDet",
+              "alias": "Population for Whom Poverty is Determined",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopInPov",
+              "alias": "Population in Poverty",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PovPercent",
+              "alias": "Percent of Population in Poverty",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Pop16Plus",
+              "alias": "Population 16 or Older",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopInCivLaborForce",
+              "alias": "Population in Civilian Labor Force",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Employed",
+              "alias": "Employed Population",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Unemployed",
+              "alias": "Unemployed Population",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PercUnemployed",
+              "alias": "Percent of Population Unemployed",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Pop25Plus",
+              "alias": "Total Population 25 or Older",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopLessHSEd",
+              "alias": "Total Population that Attained at Highest Less than a HS Degree",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopHSEd",
+              "alias": "Total Population that Attained at Highest a HS Degree",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopSomeCollege",
+              "alias": "Total Population that Attained at Highest Some College",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopAssociates",
+              "alias": "Total Population that Attained at Highest an Associates",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopBachelors",
+              "alias": "Total Population that Attained at Highest a Bachelors",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopProfessional",
+              "alias": "Total Population that Attained at Highest a Masters or Beyond",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerLessHSEd",
+              "alias": "Percent of Population that Attained at Highest Less than a HS Degree",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerHSEd",
+              "alias": "Percent of Population that Attained at Highest a HS Degree",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerSomeCollege",
+              "alias": "Percent of Population that Attained at Highest Some College",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerAssociates",
+              "alias": "Percent of Population that Attained at Highest an Associates",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerBachelors",
+              "alias": "Percent of Population that Attained at Highest a Bachelors",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerProfessional",
+              "alias": "Percent of Population that Attained at Highest a Masters or Beyond",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Pop5Plus",
+              "alias": "Total Population 5+",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopLEP",
+              "alias": "Total Population determined to be LEP",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerLEP",
+              "alias": "Percent of Population determined to be LEP",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ZeroCarHH",
+              "alias": "Total Households with 0 Vehicles Available",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ZeroCarPer",
+              "alias": "Percent of Households with 0 Vehicles Available",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TotalHUs",
+              "alias": "TotalHUs",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccHUs",
+              "alias": "OccHUs",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantHUs",
+              "alias": "VacantHUs",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerVacantHUs",
+              "alias": "Percent of Housing Units Vacant",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Male",
+              "alias": "Male",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Female",
+              "alias": "Female",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedAge",
+              "alias": "MedAge",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnerOcc",
+              "alias": "OwnerOcc",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RenterOcc",
+              "alias": "RenterOcc",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccHUMedValue",
+              "alias": "OccHUMedValue",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnerOccCB",
+              "alias": "OwnerOccCB",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RenterOccCB",
+              "alias": "RenterOccCB",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBHouseholds",
+              "alias": "CBHouseholds",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerCBHouseholds",
+              "alias": "PerCBHouseholds",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnerOccCBPer",
+              "alias": "Percent of Owner Occupied Household which are Cost Burdened",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RenterOccCBPer",
+              "alias": "Percent of Renter Occupied Household which are Cost Burdened",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerCapitaIncome",
+              "alias": "PerCapitaIncome",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "White",
+              "alias": "White",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Black",
+              "alias": "Black",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Asian",
+              "alias": "Asian",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OtherRace",
+              "alias": "OtherRace",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoOrMoreRaces",
+              "alias": "TwoOrMoreRaces",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Hispanic",
+              "alias": "Hispanic",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerWhite",
+              "alias": "PerWhite",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerBlack",
+              "alias": "PerBlack",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerAsian",
+              "alias": "PerAsian",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerOtherRace",
+              "alias": "PerOtherRace",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerTwoOrMoreRaces",
+              "alias": "PerTwoOrMoreRaces",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerHispanic",
+              "alias": "PerHispanic",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CivNonInstPop",
+              "alias": "CivNonInstPop",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Uninsured",
+              "alias": "Uninsured",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerUninsured",
+              "alias": "PerUninsured",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopPovDet20to64",
+              "alias": "PopPovDet20to64",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "DisabilityPop",
+              "alias": "DisabilityPop",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerDisabilityPop",
+              "alias": "PerDisabilityPop",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "WithMortgage",
+              "alias": "WithMortgage",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PerWithMortgage",
+              "alias": "PerWithMortgage",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built1949",
+              "alias": "Built1949",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built1969",
+              "alias": "Built1969",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built2000",
+              "alias": "Built2000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "BuiltPresent",
+              "alias": "BuiltPresent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "BuiltMedian",
+              "alias": "BuiltMedian",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 255
+            },
+            {
+              "name": "BuiltMedianAdjusted",
+              "alias": "BuiltMedianAdjusted",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ValueLess100k",
+              "alias": "ValueLess100k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ValueBetween100kAnd175k",
+              "alias": "ValueBetween100kAnd175k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Valuebetween175kAnd250k",
+              "alias": "Valuebetween175kAnd250k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ValueBetween250kAnd400k",
+              "alias": "ValueBetween250kAnd400k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ValueOver400k",
+              "alias": "ValueOver400k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedHHIncomeAdjusted",
+              "alias": "MedHHIncomeAdjusted",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OneVehHH",
+              "alias": "OneVehHH",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoVehHH",
+              "alias": "TwoVehHH",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ThreeOrMoreVehHH",
+              "alias": "ThreeOrMoreVehHH",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OneUnit",
+              "alias": "OneUnit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoToFourUnit",
+              "alias": "TwoToFourUnit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FiveTo19Unit",
+              "alias": "FiveTo19Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwentyPlusUnit",
+              "alias": "TwentyPlusUnit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MobileHomeOrOther",
+              "alias": "MobileHomeOrOther",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeUnder18",
+              "alias": "AgeUnder18",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Age18to29",
+              "alias": "Age18to29",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Age30to49",
+              "alias": "Age30to49",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Age50to64",
+              "alias": "Age50to64",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Age65Plus",
+              "alias": "Age65Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "IndIncome12500",
+              "alias": "IndIncome12500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "IndIncome30000",
+              "alias": "IndIncome30000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "IndIncome50000",
+              "alias": "IndIncome50000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "IndIncome75000",
+              "alias": "IndIncome75000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "IndIncome75000Plus",
+              "alias": "IndIncome75000Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccManagement",
+              "alias": "OccManagement",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccService",
+              "alias": "OccService",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccSales",
+              "alias": "OccSales",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccConstruction",
+              "alias": "OccConstruction",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccProduction",
+              "alias": "OccProduction",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnerOccCBWithMG",
+              "alias": "OwnerOccCBWithMG",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedOwnerCostsWithMG",
+              "alias": "MedOwnerCostsWithMG",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedGrossRent",
+              "alias": "MedGrossRent",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Pop3PlusInSchool",
+              "alias": "Pop3PlusInSchool",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PopKinderTo12th",
+              "alias": "PopKinderTo12th",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ClassPrivate",
+              "alias": "ClassPrivate",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ClassSelfEmpInc",
+              "alias": "ClassSelfEmpInc",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ClassNonProfit",
+              "alias": "ClassNonProfit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ClassGov",
+              "alias": "ClassGov",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ClassSelfEmpNotInc",
+              "alias": "ClassSelfEmpNotInc",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHMortgCost1000",
+              "alias": "HHMortgCost1000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHMortgCost1250",
+              "alias": "HHMortgCost1250",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHMortgCost1500",
+              "alias": "HHMortgCost1500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHMortgCost2000",
+              "alias": "HHMortgCost2000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHMortgCost2000Plus",
+              "alias": "HHMortgCost2000Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent500",
+              "alias": "GrossRent500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent750",
+              "alias": "GrossRent750",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent1000",
+              "alias": "GrossRent1000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent1500",
+              "alias": "GrossRent1500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent1500Plus",
+              "alias": "GrossRent1500Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamHH",
+              "alias": "FamHH",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc30000",
+              "alias": "HHInc30000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc60000",
+              "alias": "HHInc60000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc100000",
+              "alias": "HHInc100000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc150000",
+              "alias": "HHInc150000",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc150000Plus",
+              "alias": "HHInc150000Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Age5to19",
+              "alias": "Age5to19",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TotalHouseholdsDouble",
+              "alias": "TotalHouseholdsDouble",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TotalPopDecennial",
+              "alias": "TotalPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "WhitePopDecennial",
+              "alias": "WhitePopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "BlackPopDecennial",
+              "alias": "BlackPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AIANPopDecennial",
+              "alias": "AIANPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AsianPopDecennial",
+              "alias": "AsianPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PacificIslanderPopDecennial",
+              "alias": "PacificIslanderPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OtherRacePopDecennial",
+              "alias": "OtherRacePopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoOrMoreRacesPopDecennial",
+              "alias": "TwoOrMoreRacesPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HispanicDecennial",
+              "alias": "HispanicDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GroupQuartersPopDecennial",
+              "alias": "GroupQuartersPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "InstitutionalizedPopDecennial",
+              "alias": "InstitutionalizedPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonInstitutionalizedPopDecennial",
+              "alias": "NonInstitutionalizedPopDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TotalHousingUnitsDecennial",
+              "alias": "TotalHousingUnitsDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccupiedHousingUnitsDecennial",
+              "alias": "OccupiedHousingUnitsDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantHousingUnitsDecennial",
+              "alias": "VacantHousingUnitsDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OnePersonOwnerHHDecennial",
+              "alias": "OnePersonOwnerHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoPersonOwnerHHDecennial",
+              "alias": "TwoPersonOwnerHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ThreePersonOwnerHHDecennial",
+              "alias": "ThreePersonOwnerHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FourPersonOwnerHHDecennial",
+              "alias": "FourPersonOwnerHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FivePersonOwnerHHDecennial",
+              "alias": "FivePersonOwnerHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SixPersonOwnerHHDecennial",
+              "alias": "SixPersonOwnerHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SevenPlusPersonOwnerHHDecennial",
+              "alias": "SevenPlusPersonOwnerHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OnePersonRenterrHHDecennial",
+              "alias": "OnePersonRenterrHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoPersonRenterHHDecennial",
+              "alias": "TwoPersonRenterHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ThreePersonRenterHHDecennial",
+              "alias": "ThreePersonRenterHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FourPersonRenterHHDecennial",
+              "alias": "FourPersonRenterHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FivePersonRenterHHDecennial",
+              "alias": "FivePersonRenterHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SixPersonRenterHHDecennial",
+              "alias": "SixPersonRenterHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SevenPlusPersonRenterHHDecennial",
+              "alias": "SevenPlusPersonRenterHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "UrbanHousingUnitsDecennial",
+              "alias": "UrbanHousingUnitsDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RuralHousingUnitsDecennial",
+              "alias": "RuralHousingUnitsDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnedWithMortgageDecennial",
+              "alias": "OwnedWithMortgageDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnedNoMortgageDecennial",
+              "alias": "OwnedNoMortgageDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RenterOccupiedDecennial",
+              "alias": "RenterOccupiedDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantForRentDecennial",
+              "alias": "VacantForRentDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantRentedNotOccupiedDecennial",
+              "alias": "VacantRentedNotOccupiedDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantForSaleOnlyDecennial",
+              "alias": "VacantForSaleOnlyDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantSoldNotOccupiedDecennial",
+              "alias": "VacantSoldNotOccupiedDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantSeasonalUseDecennial",
+              "alias": "VacantSeasonalUseDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantForMigrantWorkersDecennial",
+              "alias": "VacantForMigrantWorkersDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantOtherDecennial",
+              "alias": "VacantOtherDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamilyHHDecennial",
+              "alias": "FamilyHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamilyHHDecennial",
+              "alias": "NonFamilyHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MarriedCoupleHHDecennial",
+              "alias": "MarriedCoupleHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MarriedCoupleHHChildrenDecennial",
+              "alias": "MarriedCoupleHHChildrenDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MarriedCoupleHHNoChildrenDecennial",
+              "alias": "MarriedCoupleHHNoChildrenDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CohabitatingCoupleHHDecennial",
+              "alias": "CohabitatingCoupleHHDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CohabitatingCoupleHHChildrenDecennial",
+              "alias": "CohabitatingCoupleHHChildrenDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CohabitatingCoupleHHNoChildrenDecennial",
+              "alias": "CohabitatingCoupleHHNoChildrenDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MaleHouseholderNoPartnerDecennial",
+              "alias": "MaleHouseholderNoPartnerDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MaleHouseholderNoPartnerAloneDecennial",
+              "alias": "MaleHouseholderNoPartnerAloneDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MaleHouseholderNoPartnerChildrenDecennial",
+              "alias": "MaleHouseholderNoPartnerChildrenDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MaleHouseholderNoPartnerNoChildrenDecennial",
+              "alias": "MaleHouseholderNoPartnerNoChildrenDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MaleHouseholderNoPartnerOtherDecennial",
+              "alias": "MaleHouseholderNoPartnerOtherDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FemaleHouseholderNoPartnerDecennial",
+              "alias": "FemaleHouseholderNoPartnerDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FemaleHouseholderNoPartnerAloneDecennial",
+              "alias": "FemaleHouseholderNoPartnerAloneDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FemaleHouseholderNoPartnerChildrenDecennial",
+              "alias": "FemaleHouseholderNoPartnerChildrenDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FemaleHouseholderNoPartnerNoChildrenDecennial",
+              "alias": "FemaleHouseholderNoPartnerNoChildrenDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FemaleHouseholderNoPartnerOtherDecennial",
+              "alias": "FemaleHouseholderNoPartnerOtherDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamilyHHMarriedCoupleDecennial",
+              "alias": "FamilyHHMarriedCoupleDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamilyHHOtherFamilyDecennial",
+              "alias": "FamilyHHOtherFamilyDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamilyHHMaleHouseholderNoSpouseDecennial",
+              "alias": "FamilyHHMaleHouseholderNoSpouseDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamilyHHFemaleHouseholderNoSpouseDecennial",
+              "alias": "FamilyHHFemaleHouseholderNoSpouseDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamilyHHHouseholderLivingAloneDecennial",
+              "alias": "NonFamilyHHHouseholderLivingAloneDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamilyHHHouseholderNotLivingAloneDecennial",
+              "alias": "NonFamilyHHHouseholderNotLivingAloneDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CompletePlumbing",
+              "alias": "CompletePlumbing",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "IncompletePlumbing",
+              "alias": "IncompletePlumbing",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CompleteKitchen",
+              "alias": "CompleteKitchen",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "IncompleteKitchen",
+              "alias": "IncompleteKitchen",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "DisplayField",
+              "alias": "DisplayField",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 255
+            },
+            {
+              "name": "bg2010ge",
+              "alias": "bg2010ge",
+              "type": "esriFieldTypeBigInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CrossArea",
+              "alias": "CrossArea",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CrossPop",
+              "alias": "CrossPop",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CrossAdPop",
+              "alias": "CrossAdPop",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CrossFam",
+              "alias": "CrossFam",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CrossHH",
+              "alias": "CrossHH",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CrossHU",
+              "alias": "CrossHU",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CrossOwnOcc",
+              "alias": "CrossOwnOcc",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CrossRentOcc",
+              "alias": "CrossRentOcc",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2024",
+              "alias": "SFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2023",
+              "alias": "SFPermits2023",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2022",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2021",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2020",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2019",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2018",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2017",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2016",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2015",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2014",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2013",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2012",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2011",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2010",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2009",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2008",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2007",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2006",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2005",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2004",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2003",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2002",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SFPermits2001",
+              "alias": "Permits2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2024",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2023",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2022",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2021",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2020",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2019",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2018",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2017",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2016",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2015",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2014",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2013",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2012",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2011",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2010",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2009",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2008",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2007",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2006",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2005",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2004",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2003",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2002",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MFPermits2001",
+              "alias": "MFPermits2024",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedYrMov",
+              "alias": "MedYrMov",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedYrMovOwn",
+              "alias": "MedYrMovOwn",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedYrMovRent",
+              "alias": "MedYrMovRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovOwn2021Plus",
+              "alias": "YrMovOwn2021Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovOwn2018to2020",
+              "alias": "YrMovOwn2018to2020",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovOwn2010to2017",
+              "alias": "YrMovOwn2010to2017",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovOwn2000to2009",
+              "alias": "YrMovOwn2000to2009",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovOwn1990to1999",
+              "alias": "YrMovOwn1990to1999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovOwnBefore1990",
+              "alias": "YrMovOwnBefore1990",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovRent2021Plus",
+              "alias": "YrMovRent2021Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovRent2018to2020",
+              "alias": "YrMovRent2018to2020",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovRent2010to2017",
+              "alias": "YrMovRent2010to2017",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovRent2000to2009",
+              "alias": "YrMovRent2000to2009",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovRent1990to1999",
+              "alias": "YrMovRent1990to1999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "YrMovRentBefore1990",
+              "alias": "YrMovRentBefore1990",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnOccupPerRoom0toHalf",
+              "alias": "OwnOccupPerRoom0toHalf",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnOccupPerRoomHalfto1",
+              "alias": "OwnOccupPerRoomHalfto1",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnOccupPerRoom1to1andHalf",
+              "alias": "OwnOccupPerRoom1to1andHalf",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnOccupPerRoom1andHalfto2",
+              "alias": "OwnOccupPerRoom1andHalfto2",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnOccupPerRoom2Plus",
+              "alias": "OwnOccupPerRoom2Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentOccupPerRoom0toHalf",
+              "alias": "RentOccupPerRoom0toHalf",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentOccupPerRoomHalfto1",
+              "alias": "RentOccupPerRoomHalfto1",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentOccupPerRoom1to1andHalf",
+              "alias": "RentOccupPerRoom1to1andHalf",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentOccupPerRoom1andHalfto2",
+              "alias": "RentOccupPerRoom1andHalfto2",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentOccupPerRoom2Plus",
+              "alias": "RentOccupPerRoom2Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRentLessThan10Per",
+              "alias": "CBRentLessThan10Per",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRent10Perto14",
+              "alias": "CBRent10Perto14",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRent15Perto19",
+              "alias": "CBRent15Perto19",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRent20Perto24",
+              "alias": "CBRent20Perto24",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRent25Perto29",
+              "alias": "CBRent25Perto29",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRent30Perto34",
+              "alias": "CBRent30Perto34",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRent35Perto39",
+              "alias": "CBRent35Perto39",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRent40Perto49",
+              "alias": "CBRent40Perto49",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBRent50PerOrMore",
+              "alias": "CBRent50PerOrMore",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortgLessThan10Per",
+              "alias": "CBOwnWithMortgLessThan10Per",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortg10Perto14",
+              "alias": "CBOwnWithMortg10Perto14",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortg15Perto19",
+              "alias": "CBOwnWithMortg15Perto19",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortg20Perto24",
+              "alias": "CBOwnWithMortg20Perto24",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortg25Perto29",
+              "alias": "CBOwnWithMortg25Perto29",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortg30Perto34",
+              "alias": "CBOwnWithMortg30Perto34",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortg35Perto39",
+              "alias": "CBOwnWithMortg35Perto39",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortg40Perto49",
+              "alias": "CBOwnWithMortg40Perto49",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnWithMortg50PerOrMore",
+              "alias": "CBOwnWithMortg50PerOrMore",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortgLessThan10Per",
+              "alias": "CBOwnNoMortgLessThan10Per",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortg10Perto14",
+              "alias": "CBOwnNoMortg10Perto14",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortg15Perto19",
+              "alias": "CBOwnNoMortg15Perto19",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortg20Perto24",
+              "alias": "CBOwnNoMortg20Perto24",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortg25Perto29",
+              "alias": "CBOwnNoMortg25Perto29",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortg30Perto34",
+              "alias": "CBOwnNoMortg30Perto34",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortg35Perto39",
+              "alias": "CBOwnNoMortg35Perto39",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortg40Perto49",
+              "alias": "CBOwnNoMortg40Perto49",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CBOwnNoMortg50PerOrMore",
+              "alias": "CBOwnNoMortg50PerOrMore",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianGrossRentNotAgg",
+              "alias": "MedianGrossRentNotAgg",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MortDebt",
+              "alias": "MortDebt",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MortDebtNoSecondMortNoHEL",
+              "alias": "MortDebtNoSecondMortNoHEL",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MultipleMortDebt",
+              "alias": "MultipleMortDebt",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MultipleMortDebtSecondMortWithHEL",
+              "alias": "MultipleMortDebtSecondMortWithHEL",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MultipleMortDebtNoSecondMortWithHEL",
+              "alias": "MultipleMortDebtNoSecondMortWithHEL",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MultipleMortDebtOnlySecondMort",
+              "alias": "MultipleMortDebtOnlySecondMort",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MortDebtHELOnly",
+              "alias": "MortDebtHELOnly",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HUNoMort",
+              "alias": "HUNoMort",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CT_GEOID",
+              "alias": "GEO_ID",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E001",
+              "alias": "AQO3E001",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E002",
+              "alias": "AQO3E002",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E003",
+              "alias": "AQO3E003",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E004",
+              "alias": "AQO3E004",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E005",
+              "alias": "AQO3E005",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E006",
+              "alias": "AQO3E006",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E007",
+              "alias": "AQO3E007",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E008",
+              "alias": "AQO3E008",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E009",
+              "alias": "AQO3E009",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E010",
+              "alias": "AQO3E010",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E011",
+              "alias": "AQO3E011",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E012",
+              "alias": "AQO3E012",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E013",
+              "alias": "AQO3E013",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E014",
+              "alias": "AQO3E014",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E015",
+              "alias": "AQO3E015",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E016",
+              "alias": "AQO3E016",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AQO3E017",
+              "alias": "AQO3E017",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AvgHHSize",
+              "alias": "AvgHHSize",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AvgHHSizeOwner",
+              "alias": "AvgHHSizeOwner",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AvgHHSizeRenter",
+              "alias": "AvgHHSizeRenter",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamHHTwo",
+              "alias": "FamHHTwo",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamHHThree",
+              "alias": "FamHHThree",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamHHFour",
+              "alias": "FamHHFour",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamHHFive",
+              "alias": "FamHHFive",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamHHSix",
+              "alias": "FamHHSix",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamHHSevenPlus",
+              "alias": "FamHHSevenPlus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamHH",
+              "alias": "NonFamHH",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamOne",
+              "alias": "NonFamOne",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamTwo",
+              "alias": "NonFamTwo",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamThree",
+              "alias": "NonFamThree",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamFour",
+              "alias": "NonFamFour",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamFive",
+              "alias": "NonFamFive",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamSix",
+              "alias": "NonFamSix",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamSevenPlus",
+              "alias": "NonFamSevenPlus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder15to24",
+              "alias": "OwnHouseholder15to24",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder25to34",
+              "alias": "OwnHouseholder25to34",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder35to44",
+              "alias": "OwnHouseholder35to44",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder45to54",
+              "alias": "OwnHouseholder45to54",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder55to59",
+              "alias": "OwnHouseholder55to59",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder60to64",
+              "alias": "OwnHouseholder60to64",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder65to74",
+              "alias": "OwnHouseholder65to74",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder75to84",
+              "alias": "OwnHouseholder75to84",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnHouseholder85Plus",
+              "alias": "OwnHouseholder85Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder15to24",
+              "alias": "RentHouseholder15to24",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder25to34",
+              "alias": "RentHouseholder25to34",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder35to44",
+              "alias": "RentHouseholder35to44",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder45to54",
+              "alias": "RentHouseholder45to54",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder55to59",
+              "alias": "RentHouseholder55to59",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder60to64",
+              "alias": "RentHouseholder60to64",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder65to74",
+              "alias": "RentHouseholder65to74",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder75to84",
+              "alias": "RentHouseholder75to84",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentHouseholder85Plus",
+              "alias": "RentHouseholder85Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAskUnder10k",
+              "alias": "PriceAskUnder10k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk10kto15k",
+              "alias": "PriceAsk10kto15k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk15kto20k",
+              "alias": "PriceAsk15kto20k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk20kto25k",
+              "alias": "PriceAsk20kto25k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk25kto30k",
+              "alias": "PriceAsk25kto30k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk30kto35k",
+              "alias": "PriceAsk30kto35k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk35kto40k",
+              "alias": "PriceAsk35kto40k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk40kto50k",
+              "alias": "PriceAsk40kto50k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk50kto60k",
+              "alias": "PriceAsk50kto60k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk60kto70k",
+              "alias": "PriceAsk60kto70k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk70kto80k",
+              "alias": "PriceAsk70kto80k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk80kto90k",
+              "alias": "PriceAsk80kto90k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk90kto100k",
+              "alias": "PriceAsk90kto100k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk100kto125k",
+              "alias": "PriceAsk100kto125k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk125kto150k",
+              "alias": "PriceAsk125kto150k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk150kto175k",
+              "alias": "PriceAsk150kto175k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk175kto200k",
+              "alias": "PriceAsk175kto200k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk200kto250k",
+              "alias": "PriceAsk200kto250k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk250kto300k",
+              "alias": "PriceAsk250kto300k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk300kto400k",
+              "alias": "PriceAsk300kto400k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk400kto500k",
+              "alias": "PriceAsk400kto500k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk500kto750k",
+              "alias": "PriceAsk500kto750k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk750kto1mil",
+              "alias": "PriceAsk750kto1mil",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk1milto1andhalfmil",
+              "alias": "PriceAsk1milto1andhalfmil",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk1andhalfmilto2mil",
+              "alias": "PriceAsk1andhalfmilto2mil",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "PriceAsk2milPlus",
+              "alias": "PriceAsk2milPlus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask0to20k",
+              "alias": "ask0to20k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask20to35k",
+              "alias": "ask20to35k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask35to60k",
+              "alias": "ask35to60k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask60to90k",
+              "alias": "ask60to90k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask90to150k",
+              "alias": "ask90to150k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask150to250k",
+              "alias": "ask150to250k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask250to400k",
+              "alias": "ask250to400k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask400to750k",
+              "alias": "ask400to750k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ask750plus",
+              "alias": "ask750plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built2020Plus",
+              "alias": "Built2020Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built2010to2019",
+              "alias": "Built2010to2019",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built2000to2009",
+              "alias": "Built2000to2009",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built1990to1999",
+              "alias": "Built1990to1999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built1980to1989",
+              "alias": "Built1980to1989",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built1970to1979",
+              "alias": "Built1970to1979",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built1960to1969",
+              "alias": "Built1960to1969",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built1950to1959",
+              "alias": "Built1950to1959",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Built1940to1949",
+              "alias": "Built1940to1949",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "BuiltBefore1940",
+              "alias": "BuiltBefore1940",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NoBedOwn",
+              "alias": "NoBedOwn",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OneBedOwn",
+              "alias": "OneBedOwn",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoBedOwn",
+              "alias": "TwoBedOwn",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ThreeBedOwn",
+              "alias": "ThreeBedOwn",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FourBedOwn",
+              "alias": "FourBedOwn",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FivePlusBedOwn",
+              "alias": "FivePlusBedOwn",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NoBedRent",
+              "alias": "NoBedRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OneBedRent",
+              "alias": "OneBedRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoBedRent",
+              "alias": "TwoBedRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ThreeBedRent",
+              "alias": "ThreeBedRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FourBedRent",
+              "alias": "FourBedRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FivePlusBedRent",
+              "alias": "FivePlusBedRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ValueUnder10k",
+              "alias": "ValueUnder10k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value10kto15k",
+              "alias": "Value10kto15k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value15kto20k",
+              "alias": "Value15kto20k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value20kto25k",
+              "alias": "Value20kto25k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value25kto30k",
+              "alias": "Value25kto30k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value30kto35k",
+              "alias": "Value30kto35k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value35kto40k",
+              "alias": "Value35kto40k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value40kto50k",
+              "alias": "Value40kto50k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value50kto60k",
+              "alias": "Value50kto60k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value60kto70k",
+              "alias": "Value60kto70k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value70kto80k",
+              "alias": "Value70kto80k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value80kto90k",
+              "alias": "Value80kto90k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value90kto100k",
+              "alias": "Value90kto100k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value100kto125k",
+              "alias": "Value100kto125k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value125kto150k",
+              "alias": "Value125kto150k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value150kto175k",
+              "alias": "Value150kto175k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value175kto200k",
+              "alias": "Value175kto200k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value200kto250k",
+              "alias": "Value200kto250k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value250kto300k",
+              "alias": "Value250kto300k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value300kto400k",
+              "alias": "Value300kto400k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value400kto500k",
+              "alias": "Value400kto500k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value500kto750k",
+              "alias": "Value500kto750k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value750kto1mil",
+              "alias": "Value750kto1mil",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value1milto1andhalfmil",
+              "alias": "Value1milto1andhalfmil",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value1andhalfmilto2mil",
+              "alias": "Value1andhalfmilto2mil",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value2milPlus",
+              "alias": "Value2milPlus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value0to20k",
+              "alias": "Value0to20k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value20to35k",
+              "alias": "Value20to35k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value35to60k",
+              "alias": "Value35to60k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value60to90k",
+              "alias": "Value60to90k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value90to150k",
+              "alias": "Value90to150k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value150to250k",
+              "alias": "Value150to250k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value250to400k",
+              "alias": "Value250to400k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value400to750k",
+              "alias": "Value400to750k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Value750plus",
+              "alias": "Value750plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OneRoom",
+              "alias": "OneRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "TwoRoom",
+              "alias": "TwoRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ThreeRoom",
+              "alias": "ThreeRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FourRoom",
+              "alias": "FourRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FiveRoom",
+              "alias": "FiveRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SixRoom",
+              "alias": "SixRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SevenRoom",
+              "alias": "SevenRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "EightRoom",
+              "alias": "EightRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NinePlusRoom",
+              "alias": "NinePlusRoom",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Own1UnitDetached",
+              "alias": "Own1UnitDetached",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Own1UnitAttached",
+              "alias": "Own1UnitAttached",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Own2Unit",
+              "alias": "Own2Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Own3to4Unit",
+              "alias": "Own3to4Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Own5to9Unit",
+              "alias": "Own5to9Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Own10to19Unit",
+              "alias": "Own10to19Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Own20to49Unit",
+              "alias": "Own20to49Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Own50PlusUnit",
+              "alias": "Own50PlusUnit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnMobileHome",
+              "alias": "OwnMobileHome",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnBoatRVVan",
+              "alias": "OwnBoatRVVan",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Rent1UnitDetached",
+              "alias": "Rent1UnitDetached",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Rent1UnitAttached",
+              "alias": "Rent1UnitAttached",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Rent2Unit",
+              "alias": "Rent2Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Rent3to4Unit",
+              "alias": "Rent3to4Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Rent5to9Unit",
+              "alias": "Rent5to9Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Rent10to19Unit",
+              "alias": "Rent10to19Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Rent20to49Unit",
+              "alias": "Rent20to49Unit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Rent50PlusUnit",
+              "alias": "Rent50PlusUnit",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentMobileHome",
+              "alias": "RentMobileHome",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentBoatRVVan",
+              "alias": "RentBoatRVVan",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CashRent",
+              "alias": "CashRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRentLess100",
+              "alias": "ConRentLess100",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent100to149",
+              "alias": "ConRent100to149",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent150to199",
+              "alias": "ConRent150to199",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent200to249",
+              "alias": "ConRent200to249",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent250to299",
+              "alias": "ConRent250to299",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent300to349",
+              "alias": "ConRent300to349",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent350to399",
+              "alias": "ConRent350to399",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent400to449",
+              "alias": "ConRent400to449",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent450to499",
+              "alias": "ConRent450to499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent500to549",
+              "alias": "ConRent500to549",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent550to599",
+              "alias": "ConRent550to599",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent600to649",
+              "alias": "ConRent600to649",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent650to699",
+              "alias": "ConRent650to699",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent700to749",
+              "alias": "ConRent700to749",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent750to799",
+              "alias": "ConRent750to799",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent800to899",
+              "alias": "ConRent800to899",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent900to999",
+              "alias": "ConRent900to999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent1000to1249",
+              "alias": "ConRent1000to1249",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent1250to1499",
+              "alias": "ConRent1250to1499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent1500to1999",
+              "alias": "ConRent1500to1999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent2000to2499",
+              "alias": "ConRent2000to2499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent2500to2999",
+              "alias": "ConRent2500to2999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent3000to3499",
+              "alias": "ConRent3000to3499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent3500Plus",
+              "alias": "ConRent3500Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NoCashRent",
+              "alias": "NoCashRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedContractRent",
+              "alias": "MedContractRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAskLess100",
+              "alias": "RentAskLess100",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk100to149",
+              "alias": "RentAsk100to149",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk150to199",
+              "alias": "RentAsk150to199",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk200to249",
+              "alias": "RentAsk200to249",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk250to299",
+              "alias": "RentAsk250to299",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk300to349",
+              "alias": "RentAsk300to349",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk350to399",
+              "alias": "RentAsk350to399",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk400to449",
+              "alias": "RentAsk400to449",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk450to499",
+              "alias": "RentAsk450to499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk500to549",
+              "alias": "RentAsk500to549",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk550to599",
+              "alias": "RentAsk550to599",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk600to649",
+              "alias": "RentAsk600to649",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk650to699",
+              "alias": "RentAsk650to699",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk700to749",
+              "alias": "RentAsk700to749",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk750to799",
+              "alias": "RentAsk750to799",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk800to899",
+              "alias": "RentAsk800to899",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk900to999",
+              "alias": "RentAsk900to999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk1000to1249",
+              "alias": "RentAsk1000to1249",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk1250to1499",
+              "alias": "RentAsk1250to1499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk1500to1999",
+              "alias": "RentAsk1500to1999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk2000to2499",
+              "alias": "RentAsk2000to2499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk2500to2999",
+              "alias": "RentAsk2500to2999",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk3000to3499",
+              "alias": "RentAsk3000to3499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk3500Plus",
+              "alias": "RentAsk3500Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "UtilitiesNotIncludedRent",
+              "alias": "UtilitiesNotIncludedRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "UtilitiesIncludedRent",
+              "alias": "UtilitiesIncludedRent",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRentUnder200",
+              "alias": "ConRentUnder200",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent200to349",
+              "alias": "ConRent200to349",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent350to499",
+              "alias": "ConRent350to499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent500to649",
+              "alias": "ConRent500to649",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent650to799",
+              "alias": "ConRent650to799",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent800to1249",
+              "alias": "ConRent800to1249",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent1250to2499",
+              "alias": "ConRent1250to2499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "ConRent2500Plus",
+              "alias": "ConRent2500Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAskUnder200",
+              "alias": "RentAskUnder200",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk200to349",
+              "alias": "RentAsk200to349",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk350to499",
+              "alias": "RentAsk350to499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk500to649",
+              "alias": "RentAsk500to649",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk650to799",
+              "alias": "RentAsk650to799",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk800to1249",
+              "alias": "RentAsk800to1249",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk1250to2499",
+              "alias": "RentAsk1250to2499",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentAsk2500Plus",
+              "alias": "RentAsk2500Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianRooms",
+              "alias": "MedianRooms",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "JurisFilter",
+              "alias": "JurisFilter",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 255
+            },
+            {
+              "name": "GEOIDText",
+              "alias": "GEOIDText",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 255
+            },
+            {
+              "name": "DC10TotPop",
+              "alias": "2010 Total Population",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "DC00TotPop",
+              "alias": "2000 Total Population",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "DC10TotUnits",
+              "alias": "2010 Total Housing Units",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "DC10TotOccUnits",
+              "alias": "2010 Occupied Housing Units",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "DC10TotVacUnits",
+              "alias": "2010 Vacant Housing Units",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "DC00TotUnits",
+              "alias": "2000 Total Housing Units",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SPHHS",
+              "alias": "SPHHS",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHIncLess10k",
+              "alias": "HHIncLess10k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc10kto15k",
+              "alias": "HHInc10kto15k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc15kto20k",
+              "alias": "HHInc15kto20k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc20kto25k",
+              "alias": "HHInc20kto25k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc25kto30k",
+              "alias": "HHInc25kto30k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc30kto35k",
+              "alias": "HHInc30kto35k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc35kto40k",
+              "alias": "HHInc35kto40k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc40kto45k",
+              "alias": "HHInc40kto45k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc45kto50k",
+              "alias": "HHInc45kto50k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc50kto60k",
+              "alias": "HHInc50kto60k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc60kto75k",
+              "alias": "HHInc60kto75k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc75kto100k",
+              "alias": "HHInc75kto100k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc100kto125k",
+              "alias": "HHInc100kto125k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc125kto150k",
+              "alias": "HHInc125kto150k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc150kto200k",
+              "alias": "HHInc150kto200k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc200kPlus",
+              "alias": "HHInc200kPlus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "CivPop18Plus",
+              "alias": "CivPop18Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Veteran",
+              "alias": "Veteran",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RecFoodStamps",
+              "alias": "RecFoodStamps",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RecFoodStampsWithDis",
+              "alias": "RecFoodStampsWithDis",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RecFoodStampsNoDis",
+              "alias": "RecFoodStampsNoDis",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMGLess200",
+              "alias": "OwnCstWithMGLess200",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG200to300",
+              "alias": "OwnCstWithMG200to300",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG300to400",
+              "alias": "OwnCstWithMG300to400",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG400to500",
+              "alias": "OwnCstWithMG400to500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG500to600",
+              "alias": "OwnCstWithMG500to600",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG600to700",
+              "alias": "OwnCstWithMG600to700",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG700to800",
+              "alias": "OwnCstWithMG700to800",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG800to900",
+              "alias": "OwnCstWithMG800to900",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG900to1k",
+              "alias": "OwnCstWithMG900to1k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG1kto1250",
+              "alias": "OwnCstWithMG1kto1250",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG1250to1500",
+              "alias": "OwnCstWithMG1250to1500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG1500to2k",
+              "alias": "OwnCstWithMG1500to2k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG2kto2500",
+              "alias": "OwnCstWithMG2kto2500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG2500to3k",
+              "alias": "OwnCstWithMG2500to3k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG3kto3500",
+              "alias": "OwnCstWithMG3kto3500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG3500to4k",
+              "alias": "OwnCstWithMG3500to4k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG4kPlus",
+              "alias": "OwnCstWithMG4kPlus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMGLess100",
+              "alias": "OwnCstNoMGLess100",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG100to150",
+              "alias": "OwnCstNoMG100to150",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG150to200",
+              "alias": "OwnCstNoMG150to200",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG200to250",
+              "alias": "OwnCstNoMG200to250",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG250to300",
+              "alias": "OwnCstNoMG250to300",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG300to350",
+              "alias": "OwnCstNoMG300to350",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG350to400",
+              "alias": "OwnCstNoMG350to400",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG400to500",
+              "alias": "OwnCstNoMG400to500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG500to600",
+              "alias": "OwnCstNoMG500to600",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG600to700",
+              "alias": "OwnCstNoMG600to700",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG700to800",
+              "alias": "OwnCstNoMG700to800",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG800to900",
+              "alias": "OwnCstNoMG800to900",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG900to1k",
+              "alias": "OwnCstNoMG900to1k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1kto1100",
+              "alias": "OwnCstNoMG1kto1100",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1100to1200",
+              "alias": "OwnCstNoMG1100to1200",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1200to1300",
+              "alias": "OwnCstNoMG1200to1300",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1300to1400",
+              "alias": "OwnCstNoMG1300to1400",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1400to1500",
+              "alias": "OwnCstNoMG1400to1500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1500Plus",
+              "alias": "OwnCstNoMG1500Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedOwnerCostNoMG",
+              "alias": "MedOwnerCostNoMG",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc0to15k",
+              "alias": "HHInc0to15k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc15kto25k",
+              "alias": "HHInc15kto25k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc25kto35k",
+              "alias": "HHInc25kto35k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc35kto45k",
+              "alias": "HHInc35kto45k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc45kto60k",
+              "alias": "HHInc45kto60k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc60kto100k",
+              "alias": "HHInc60kto100k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc100kto150k",
+              "alias": "HHInc100kto150k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HHInc150kPlus",
+              "alias": "HHInc150kPlus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG0to400",
+              "alias": "OwnCstWithMG0to400",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG400to600",
+              "alias": "OwnCstWithMG400to600",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG600to800",
+              "alias": "OwnCstWithMG600to800",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG800to1k",
+              "alias": "OwnCstWithMG800to1k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG1kto1500",
+              "alias": "OwnCstWithMG1kto1500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG1500to2500",
+              "alias": "OwnCstWithMG1500to2500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG2500to3500",
+              "alias": "OwnCstWithMG2500to3500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstWithMG3500Plus",
+              "alias": "OwnCstWithMG3500Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG0to200",
+              "alias": "OwnCstNoMG0to200",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG200to350",
+              "alias": "OwnCstNoMG200to350",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG350to600",
+              "alias": "OwnCstNoMG350to600",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG600to800",
+              "alias": "OwnCstNoMG600to800",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG800to1k",
+              "alias": "OwnCstNoMG800to1k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1kto1200",
+              "alias": "OwnCstNoMG1kto1200",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1200to1400",
+              "alias": "OwnCstNoMG1200to1400",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCstNoMG1400Plus",
+              "alias": "OwnCstNoMG1400Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "InstGrpQPrison",
+              "alias": "InstGrpQPrison",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "InstGrpQJuvie",
+              "alias": "InstGrpQJuvie",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "InstGrpQNursing",
+              "alias": "InstGrpQNursing",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "InstGrpQOther",
+              "alias": "InstGrpQOther",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonInstGrpQCollege",
+              "alias": "NonInstGrpQCollege",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonInstGrpQMilitary",
+              "alias": "NonInstGrpQMilitary",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonInstGrpQOther",
+              "alias": "NonInstGrpQOther",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MaleDecennial",
+              "alias": "MaleDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FemaleDecennial",
+              "alias": "FemaleDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec0to9",
+              "alias": "AgeDec0to9",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec10to17",
+              "alias": "AgeDec10to17",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec18to21",
+              "alias": "AgeDec18to21",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec22to29",
+              "alias": "AgeDec22to29",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec30to39",
+              "alias": "AgeDec30to39",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec40to49",
+              "alias": "AgeDec40to49",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec50to59",
+              "alias": "AgeDec50to59",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec60to69",
+              "alias": "AgeDec60to69",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec70to79",
+              "alias": "AgeDec70to79",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AgeDec80Plus",
+              "alias": "AgeDec80Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrpQInstAndNonInstOtherCombined",
+              "alias": "GrpQInstAndNonInstOtherCombined",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SevereCBAllHHs",
+              "alias": "SevereCBAllHHs",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnerOccCBNoMortgage",
+              "alias": "OwnerOccCBNoMortgage",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent0to400",
+              "alias": "GrossRent0to400",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent400to600",
+              "alias": "GrossRent400to600",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent600to800",
+              "alias": "GrossRent600to800",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent800to1k",
+              "alias": "GrossRent800to1k",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent1kto1500",
+              "alias": "GrossRent1kto1500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent1500to2500",
+              "alias": "GrossRent1500to2500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent2500to3500",
+              "alias": "GrossRent2500to3500",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "GrossRent3500Plus",
+              "alias": "GrossRent3500Plus",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnedDecennial",
+              "alias": "OwnedDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MarriedOrCohabitatingWithKidsDecennial",
+              "alias": "MarriedOrCohabitatingWithKidsDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MarriedOrCohabitatingNoKidsDecennial",
+              "alias": "MarriedOrCohabitatingNoKidsDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HouseholderLivingAloneDecennial",
+              "alias": "HouseholderLivingAloneDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "HouseholderSingleWithKidsDecennial",
+              "alias": "HouseholderSingleWithKidsDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamilyAndOtherDecennial",
+              "alias": "NonFamilyAndOtherDecennial",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MultiFamilyUnits",
+              "alias": "MultiFamilyUnits",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MarriedFamilyHHs2000",
+              "alias": "MarriedFamilyHHs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OtherFamilyHHs2000",
+              "alias": "OtherFamilyHHs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamilyHHs2000",
+              "alias": "FamilyHHs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamilyHHs2000",
+              "alias": "NonFamilyHHs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccupiedHUs2000",
+              "alias": "OccupiedHUs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantHUs2000",
+              "alias": "VacantHUs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnerOccupiedHUs2000",
+              "alias": "OwnerOccupiedHUs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RenterOccupiedHUs2000",
+              "alias": "RenterOccupiedHUs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SingleFamilyHUs2000",
+              "alias": "SingleFamilyHUs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MultiFamilyUnits2000",
+              "alias": "MultiFamilyUnits2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OtherHUTypes2000",
+              "alias": "OtherHUTypes2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnWithMortgCB30to50Per2000",
+              "alias": "OwnWithMortgCB30to50Per2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnWithMortgCBSevere50PerPlus2000",
+              "alias": "OwnWithMortgCBSevere50PerPlus2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnNoMortgCB30to50Per2000",
+              "alias": "OwnNoMortgCB30to50Per2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnNoMortgCBSevere50PerPlus2000",
+              "alias": "OwnNoMortgCBSevere50PerPlus2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCB30to50Per2000",
+              "alias": "OwnCB30to50Per2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnSevereCB50PerPlus2000",
+              "alias": "OwnSevereCB50PerPlus2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentCB30to50Per2000",
+              "alias": "RentCB30to50Per2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentSevereCB50PerPlus2000",
+              "alias": "RentSevereCB50PerPlus2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MarriedFamilyHHs2010",
+              "alias": "MarriedFamilyHHs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OtherFamilyHHs2010",
+              "alias": "OtherFamilyHHs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "FamilyHHs2010",
+              "alias": "FamilyHHs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "NonFamilyHHs2010",
+              "alias": "NonFamilyHHs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnerOccupiedHUs2010",
+              "alias": "OwnerOccupiedHUs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RenterOccupiedHUs2010",
+              "alias": "RenterOccupiedHUs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OccupiedHUs2010",
+              "alias": "OccupiedHUs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "VacantHUs2010",
+              "alias": "VacantHUs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SingleFamilyHUs2010",
+              "alias": "SingleFamilyHUs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MultiFamilyUnits2010",
+              "alias": "MultiFamilyUnits2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OtherHUTypes2010",
+              "alias": "OtherHUTypes2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnWithMortgCB30to50Per2010",
+              "alias": "OwnWithMortgCB30to50Per2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnWithMortgCBSevere50PerPlus2010",
+              "alias": "OwnWithMortgCBSevere50PerPlus2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnNoMortgCB30to50Per2010",
+              "alias": "OwnNoMortgCB30to50Per2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnNoMortgCBSevere50PerPlus2010",
+              "alias": "OwnNoMortgCBSevere50PerPlus2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnCB30to50Per2010",
+              "alias": "OwnCB30to50Per2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnSevereCB50PerPlus2010",
+              "alias": "OwnSevereCB50PerPlus2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentCB30to50Per2010",
+              "alias": "RentCB30to50Per2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "RentSevereCB50PerPlus2010",
+              "alias": "RentSevereCB50PerPlus2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SingleParentHHs2000",
+              "alias": "SingleParentHHs2000",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SingleParentHHs2010",
+              "alias": "SingleParentHHs2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "SingleParentHouseholds2020",
+              "alias": "SingleParentHouseholds2020",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianContractRent2010",
+              "alias": "MedianContractRent2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianGrossRent2010",
+              "alias": "MedianGrossRent2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianOccHUValue2010",
+              "alias": "MedianOccHUValue2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianOwnCosts2010",
+              "alias": "MedianOwnCosts2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianOwnCostsWMort2010",
+              "alias": "MedianOwnCostsWMort2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "MedianOwnCostsNoMort2010",
+              "alias": "MedianOwnCostsNoMort2010",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "OwnSevereCB2020",
+              "alias": "OwnSevereCB2020",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Shape__Area",
+              "alias": "Shape__Area",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Shape__Length",
+              "alias": "Shape__Length",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HousingRequest_ExportFeature1",
+      "title": "City of Dayton Housing Projects (HousingRequest_ExportFeature1)",
+      "type": "Feature Service",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/HousingRequest_ExportFeature1/FeatureServer",
+      "owner": "Cameron.Goschinski",
+      "snippet": "City-funded/involved housing projects, geocoded point export. Backs the public Housing Dashboard StoryMap. One-time export, not live-maintained.",
+      "description": null,
+      "tags": [
+        "Housing Dashboard"
+      ],
+      "created": null,
+      "modified": null,
+      "numViews": null,
+      "licenseInfo": null,
+      "layers": [
+        {
+          "id": 0,
+          "name": "HousingRequest_ExportFeature1",
+          "description": "",
+          "geometryType": "esriGeometryPoint",
+          "recordCount": 376,
+          "lastEditDate": 1763129737432,
+          "fields": [
+            {
+              "name": "FID",
+              "alias": "FID",
+              "type": "esriFieldTypeOID",
+              "nullable": false,
+              "length": null
+            },
+            {
+              "name": "Loc_name",
+              "alias": "Loc_name",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 20
+            },
+            {
+              "name": "Score",
+              "alias": "Score",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "Match_type",
+              "alias": "Match_type",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 2
+            },
+            {
+              "name": "Match_addr",
+              "alias": "Match_addr",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "LongLabel",
+              "alias": "LongLabel",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "ShortLabel",
+              "alias": "ShortLabel",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "Addr_type",
+              "alias": "Addr_type",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 20
+            },
+            {
+              "name": "Type",
+              "alias": "Type",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 50
+            },
+            {
+              "name": "PlaceName",
+              "alias": "PlaceName",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 200
+            },
+            {
+              "name": "Place_addr",
+              "alias": "Place_addr",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "Phone",
+              "alias": "Phone",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 30
+            },
+            {
+              "name": "URL",
+              "alias": "URL",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 250
+            },
+            {
+              "name": "Rank",
+              "alias": "Rank",
+              "type": "esriFieldTypeDouble",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "AddBldg",
+              "alias": "AddBldg",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 125
+            },
+            {
+              "name": "AddNum",
+              "alias": "AddNum",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 50
+            },
+            {
+              "name": "AddNumFrom",
+              "alias": "AddNumFrom",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 50
+            },
+            {
+              "name": "AddNumTo",
+              "alias": "AddNumTo",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 50
+            },
+            {
+              "name": "AddRange",
+              "alias": "AddRange",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 100
+            },
+            {
+              "name": "Side",
+              "alias": "Side",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 1
+            },
+            {
+              "name": "StPreDir",
+              "alias": "StPreDir",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 12
+            },
+            {
+              "name": "StPreType",
+              "alias": "StPreType",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 50
+            },
+            {
+              "name": "StName",
+              "alias": "StName",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 150
+            },
+            {
+              "name": "StType",
+              "alias": "StType",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 30
+            },
+            {
+              "name": "StDir",
+              "alias": "StDir",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 20
+            },
+            {
+              "name": "SubAddr",
+              "alias": "SubAddr",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 250
+            },
+            {
+              "name": "StAddr",
+              "alias": "StAddr",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "Block",
+              "alias": "Block",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "Sector",
+              "alias": "Sector",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "Nbrhd",
+              "alias": "Nbrhd",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "District",
+              "alias": "District",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "City",
+              "alias": "City",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "MetroArea",
+              "alias": "MetroArea",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "Subregion",
+              "alias": "Subregion",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "Region",
+              "alias": "Region",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "RegionAbbr",
+              "alias": "RegionAbbr",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 50
+            },
+            {
+              "name": "Territory",
+              "alias": "Territory",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 120
+            },
+            {
+              "name": "Zone",
+              "alias": "Zone",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 100
+            },
+            {
+              "name": "Postal",
+              "alias": "Postal",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 20
+            },
+            {
+              "name": "PostalExt",
+              "alias": "PostalExt",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 10
+            },
+            {
+              "name": "Country",
+              "alias": "Country",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 30
+            },
+            {
+              "name": "CntryName",
+              "alias": "CntryName",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 100
+            },
+            {
+              "name": "USER_Proje",
+              "alias": "ProjectName",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "USER_Progr",
+              "alias": "ProgramType",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254,
+              "domain": {
+                "Dayton Recovery Plan": "Dayton Recovery Plan",
+                "Welcome Home Ohio": "Welcome Home Ohio",
+                "CDBG": "CDBG",
+                "Private": "Private",
+                "Development Fund": "Development Fund",
+                "ESG/Coc": "ESG/Coc",
+                "HOME": "HOME",
+                "LIHTC": "LIHTC",
+                "General Fund": "General Fund",
+                "HOME/CDBG": "HOME/CDBG",
+                "TIF": "TIF"
+              }
+            },
+            {
+              "name": "USER_Fundi",
+              "alias": "FundingSources",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254,
+              "domain": {
+                "ARPA": "ARPA",
+                "Welcome Home Ohio; Issue 6": "Welcome Home Ohio; Issue 6",
+                "CDBG": "CDBG",
+                "Private Funding": "Private Funding",
+                "ARPA and CDBG": "ARPA and CDBG",
+                "HOME-ARP": "HOME-ARP",
+                "Dev Fund": "Dev Fund",
+                "HOME": "HOME",
+                "ESG": "ESG",
+                "ARPA and HOME": "ARPA and HOME",
+                "CoC": "CoC",
+                "General Fund": "General Fund",
+                "HOME, County CDBG": "HOME, County CDBG",
+                "LIHTC": "LIHTC",
+                "LIHTC; Dev Fund": "LIHTC; Dev Fund",
+                "TIF": "TIF"
+              }
+            },
+            {
+              "name": "USER_Unit_",
+              "alias": "UnitType",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254,
+              "domain": {
+                "Affordable": "Affordable",
+                "Subsidized - 0-80%": "Subsidized - 0-80%",
+                "Market-Rate": "Market-Rate",
+                "Homelessness Assistance": "Homelessness Assistance",
+                "Demolition": "Demolition"
+              }
+            },
+            {
+              "name": "USER_Unit1",
+              "alias": "UnitTenure",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254,
+              "domain": {
+                "Owner": "Owner",
+                "Rental": "Rental",
+                "Homelessness Assistance": "Homelessness Assistance",
+                "Other": " Other",
+                "Demolition": "Demolition"
+              }
+            },
+            {
+              "name": "USER_Pro_1",
+              "alias": "ProjectType",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254,
+              "domain": {
+                "Repair": "Repair",
+                "New Construction": "New Construction",
+                "Rehabilitation": "Rehabilitation",
+                "Infill": "Infill",
+                "Homelessness Assistance": "Homelessness Assistance",
+                "Other": " Other",
+                "Demolition": "Demolition",
+                "Housing Services": "Housing Services"
+              }
+            },
+            {
+              "name": "USER__Unit",
+              "alias": "NumberOfUnits",
+              "type": "esriFieldTypeInteger",
+              "nullable": true,
+              "length": null
+            },
+            {
+              "name": "USER_City_",
+              "alias": "CityFunding",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "USER_Lever",
+              "alias": "LeveragedDollars",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "USER_Locat",
+              "alias": "USER_Locat",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "USER_PID",
+              "alias": "USER_PID",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "USER_Addit",
+              "alias": "Notes",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "USER_Field",
+              "alias": "USER_Field",
+              "type": "esriFieldTypeString",
+              "nullable": true,
+              "length": 254
+            },
+            {
+              "name": "GlobalID",
+              "alias": "GlobalID",
+              "type": "esriFieldTypeGlobalID",
+              "nullable": false,
+              "length": 38
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

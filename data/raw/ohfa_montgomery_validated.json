@@ -1,0 +1,1974 @@
+{
+  "source": "OHFA Projects Exiting LIHTC Program Affordability Period (Tableau export)",
+  "dashboard": "https://analytics.das.ohio.gov/t/OHFAPUB/views/ExitingAffordabilityPublic/ExitingAffordability",
+  "county": "Montgomery",
+  "note": "OHFA column is 'Est. Program Exit' \u2014 authoritative source, still an estimate.",
+  "project_count": 104,
+  "total_units": 8861,
+  "exits_by_year": {
+    "2026": {
+      "projects": 3,
+      "units": 324
+    },
+    "2027": {
+      "projects": 3,
+      "units": 356
+    },
+    "2028": {
+      "projects": 2,
+      "units": 256
+    },
+    "2029": {
+      "projects": 1,
+      "units": 80
+    },
+    "2030": {
+      "projects": 2,
+      "units": 230
+    },
+    "2031": {
+      "projects": 2,
+      "units": 226
+    },
+    "2032": {
+      "projects": 9,
+      "units": 578
+    },
+    "2033": {
+      "projects": 4,
+      "units": 401
+    },
+    "2034": {
+      "projects": 6,
+      "units": 380
+    },
+    "2035": {
+      "projects": 4,
+      "units": 409
+    },
+    "2036": {
+      "projects": 8,
+      "units": 671
+    },
+    "2037": {
+      "projects": 5,
+      "units": 395
+    },
+    "2038": {
+      "projects": 2,
+      "units": 232
+    },
+    "2039": {
+      "projects": 3,
+      "units": 340
+    },
+    "2040": {
+      "projects": 3,
+      "units": 183
+    },
+    "2041": {
+      "projects": 2,
+      "units": 61
+    },
+    "2042": {
+      "projects": 7,
+      "units": 264
+    },
+    "2043": {
+      "projects": 1,
+      "units": 41
+    },
+    "2044": {
+      "projects": 1,
+      "units": 55
+    },
+    "2045": {
+      "projects": 2,
+      "units": 917
+    },
+    "2046": {
+      "projects": 3,
+      "units": 110
+    },
+    "2047": {
+      "projects": 2,
+      "units": 98
+    },
+    "2048": {
+      "projects": 2,
+      "units": 129
+    },
+    "2049": {
+      "projects": 3,
+      "units": 197
+    },
+    "2050": {
+      "projects": 6,
+      "units": 707
+    },
+    "2051": {
+      "projects": 3,
+      "units": 126
+    },
+    "2052": {
+      "projects": 5,
+      "units": 444
+    },
+    "2053": {
+      "projects": 2,
+      "units": 210
+    },
+    "2054": {
+      "projects": 3,
+      "units": 175
+    },
+    "2055": {
+      "projects": 2,
+      "units": 76
+    },
+    "2056": {
+      "projects": 2,
+      "units": 139
+    },
+    "2065": {
+      "projects": 1,
+      "units": 51
+    }
+  },
+  "validation": {
+    "matched": 68,
+    "ohfa_later": 8,
+    "ohfa_earlier": 31,
+    "equal": 29,
+    "median_diff_years": 0.0,
+    "within_1_year_pct": 91.2
+  },
+  "matches": [
+    {
+      "project": "MAD RIVER MANOR",
+      "yr_pis": "1989",
+      "li_units": 74,
+      "derived_exit": 2004,
+      "ohfa_exit": 2056,
+      "diff_years": 52,
+      "ohfa_total_units": 74,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "JAYCEE TOWERS",
+      "yr_pis": "1988",
+      "li_units": 204,
+      "derived_exit": 2003,
+      "ohfa_exit": 2050,
+      "diff_years": 47,
+      "ohfa_total_units": 204,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "SUMMIT SQUARE APTS",
+      "yr_pis": "2006",
+      "li_units": 154,
+      "derived_exit": 2036,
+      "ohfa_exit": 2052,
+      "diff_years": 16,
+      "ohfa_total_units": 154,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "RIVERSIDE COMMONS II",
+      "yr_pis": "1999",
+      "li_units": 40,
+      "derived_exit": 2029,
+      "ohfa_exit": 2038,
+      "diff_years": 9,
+      "ohfa_total_units": 40,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "COURTYARDS OF KETTERING",
+      "yr_pis": "2000",
+      "li_units": 104,
+      "derived_exit": 2030,
+      "ohfa_exit": 2035,
+      "diff_years": 5,
+      "ohfa_total_units": 104,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "ECUMENICAL HOMES I",
+      "yr_pis": "2002",
+      "li_units": 49,
+      "derived_exit": 2032,
+      "ohfa_exit": 2034,
+      "diff_years": 2,
+      "ohfa_total_units": 49,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "KETTERING SQUARE APTS",
+      "yr_pis": "2003",
+      "li_units": 165,
+      "derived_exit": 2033,
+      "ohfa_exit": 2032,
+      "diff_years": -1,
+      "ohfa_total_units": 165,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "MIAMI TOWNSHIP VILLAGE",
+      "yr_pis": "2003",
+      "li_units": 40,
+      "derived_exit": 2033,
+      "ohfa_exit": 2032,
+      "diff_years": -1,
+      "ohfa_total_units": 40,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "MIAMISBURG CENTRAL APT",
+      "yr_pis": "2003",
+      "li_units": 50,
+      "derived_exit": 2033,
+      "ohfa_exit": 2032,
+      "diff_years": -1,
+      "ohfa_total_units": 50,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "MOLER/VANBUREN DEVELOPMENT",
+      "yr_pis": "2003",
+      "li_units": 50,
+      "derived_exit": 2033,
+      "ohfa_exit": 2032,
+      "diff_years": -1,
+      "ohfa_total_units": 50,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "VALLEY VIEW VILLAGE",
+      "yr_pis": "2003",
+      "li_units": 50,
+      "derived_exit": 2033,
+      "ohfa_exit": 2032,
+      "diff_years": -1,
+      "ohfa_total_units": 50,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "JEFFERSON HOMES",
+      "yr_pis": "2005",
+      "li_units": 40,
+      "derived_exit": 2035,
+      "ohfa_exit": 2034,
+      "diff_years": -1,
+      "ohfa_total_units": 40,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "STRATFORD PLACE",
+      "yr_pis": "2005",
+      "li_units": 100,
+      "derived_exit": 2035,
+      "ohfa_exit": 2034,
+      "diff_years": -1,
+      "ohfa_total_units": 100,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "CREEKSIDE VILLAS",
+      "yr_pis": "2000",
+      "li_units": 156,
+      "derived_exit": 2030,
+      "ohfa_exit": 2031,
+      "diff_years": 1,
+      "ohfa_total_units": 156,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "HUFFMAN SENIOR APTS",
+      "yr_pis": "2001",
+      "li_units": 86,
+      "derived_exit": 2031,
+      "ohfa_exit": 2030,
+      "diff_years": -1,
+      "ohfa_total_units": 86,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "TIMBER RIDGE APTS",
+      "yr_pis": "1997",
+      "li_units": 72,
+      "derived_exit": 2027,
+      "ohfa_exit": 2026,
+      "diff_years": -1,
+      "ohfa_total_units": 72,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "FIELDSTONE APTS",
+      "yr_pis": "1998",
+      "li_units": 144,
+      "derived_exit": 2028,
+      "ohfa_exit": 2027,
+      "diff_years": -1,
+      "ohfa_total_units": 144,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "GENERAL FRANKLIN",
+      "yr_pis": "2020",
+      "li_units": 38,
+      "derived_exit": 2050,
+      "ohfa_exit": 2051,
+      "diff_years": 1,
+      "ohfa_total_units": 38,
+      "ohfa_population": "Service Enriched"
+    },
+    {
+      "project": "OMEGA SENIOR LOFTS",
+      "yr_pis": "2020",
+      "li_units": 81,
+      "derived_exit": 2050,
+      "ohfa_exit": 2049,
+      "diff_years": -1,
+      "ohfa_total_units": 81,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "KEY TERRACE",
+      "yr_pis": "2017",
+      "li_units": 40,
+      "derived_exit": 2047,
+      "ohfa_exit": 2046,
+      "diff_years": -1,
+      "ohfa_total_units": 40,
+      "ohfa_population": "Service Enriched"
+    },
+    {
+      "project": "AUDUBON CROSSING",
+      "yr_pis": "2018",
+      "li_units": 50,
+      "derived_exit": 2048,
+      "ohfa_exit": 2047,
+      "diff_years": -1,
+      "ohfa_total_units": 50,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "RIVERSIDE SENIOR LOFTS",
+      "yr_pis": "2018",
+      "li_units": 39,
+      "derived_exit": 2048,
+      "ohfa_exit": 2047,
+      "diff_years": -1,
+      "ohfa_total_units": 48,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "LYONS PLACE II",
+      "yr_pis": "2015",
+      "li_units": 55,
+      "derived_exit": 2045,
+      "ohfa_exit": 2044,
+      "diff_years": -1,
+      "ohfa_total_units": 55,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "BRANDT MEADOWS",
+      "yr_pis": "2020",
+      "li_units": 55,
+      "derived_exit": 2050,
+      "ohfa_exit": 2049,
+      "diff_years": -1,
+      "ohfa_total_units": 55,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "NEW DAYTON HOMES I",
+      "yr_pis": "2006",
+      "li_units": 40,
+      "derived_exit": 2036,
+      "ohfa_exit": 2035,
+      "diff_years": -1,
+      "ohfa_total_units": 40,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "ENGLEWOOD SQUARE",
+      "yr_pis": "2013",
+      "li_units": 41,
+      "derived_exit": 2043,
+      "ohfa_exit": 2042,
+      "diff_years": -1,
+      "ohfa_total_units": 41,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "FORT MCKINLEY HOMES",
+      "yr_pis": "2013",
+      "li_units": 25,
+      "derived_exit": 2043,
+      "ohfa_exit": 2042,
+      "diff_years": -1,
+      "ohfa_total_units": 25,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "GERMANTOWN VILLAGE",
+      "yr_pis": "2013",
+      "li_units": 60,
+      "derived_exit": 2043,
+      "ohfa_exit": 2042,
+      "diff_years": -1,
+      "ohfa_total_units": 60,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "SUNLIGHT HOMES",
+      "yr_pis": "2006",
+      "li_units": 33,
+      "derived_exit": 2036,
+      "ohfa_exit": 2035,
+      "diff_years": -1,
+      "ohfa_total_units": 33,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "LYONS PLACE",
+      "yr_pis": "2010",
+      "li_units": 67,
+      "derived_exit": 2040,
+      "ohfa_exit": 2039,
+      "diff_years": -1,
+      "ohfa_total_units": 67,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "OPPORTUNITY HOUSE",
+      "yr_pis": "2008",
+      "li_units": 20,
+      "derived_exit": 2038,
+      "ohfa_exit": 2037,
+      "diff_years": -1,
+      "ohfa_total_units": 20,
+      "ohfa_population": "Service Enriched"
+    },
+    {
+      "project": "ROOSEVELT HOMES",
+      "yr_pis": "2013",
+      "li_units": 43,
+      "derived_exit": 2043,
+      "ohfa_exit": 2042,
+      "diff_years": -1,
+      "ohfa_total_units": 43,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "WINGATE AT BELLE MEADOWS",
+      "yr_pis": "2010",
+      "li_units": 240,
+      "derived_exit": 2040,
+      "ohfa_exit": 2039,
+      "diff_years": -1,
+      "ohfa_total_units": 240,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "TWIN TOWERS CROSSING II",
+      "yr_pis": "2013",
+      "li_units": 40,
+      "derived_exit": 2043,
+      "ohfa_exit": 2042,
+      "diff_years": -1,
+      "ohfa_total_units": 40,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "STONEY RIDGE ESTATES",
+      "yr_pis": "2008",
+      "li_units": 31,
+      "derived_exit": 2038,
+      "ohfa_exit": 2037,
+      "diff_years": -1,
+      "ohfa_total_units": 25,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "LOFTS AT HOOVER",
+      "yr_pis": "2007",
+      "li_units": 40,
+      "derived_exit": 2037,
+      "ohfa_exit": 2036,
+      "diff_years": -1,
+      "ohfa_total_units": 40,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "RIVER COMMONS II",
+      "yr_pis": "2011",
+      "li_units": 83,
+      "derived_exit": 2041,
+      "ohfa_exit": 2040,
+      "diff_years": -1,
+      "ohfa_total_units": 83,
+      "ohfa_population": "Service Enriched"
+    },
+    {
+      "project": "DAYTON VIEW COMMONS II",
+      "yr_pis": "2012",
+      "li_units": 32,
+      "derived_exit": 2042,
+      "ohfa_exit": 2041,
+      "diff_years": -1,
+      "ohfa_total_units": 32,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "TWIN TOWERS PLACE",
+      "yr_pis": "2008",
+      "li_units": 90,
+      "derived_exit": 2038,
+      "ohfa_exit": 2037,
+      "diff_years": -1,
+      "ohfa_total_units": 100,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "PHEASANT RUN SENIOR APTS",
+      "yr_pis": "2004",
+      "li_units": 63,
+      "derived_exit": 2034,
+      "ohfa_exit": 2034,
+      "diff_years": 0,
+      "ohfa_total_units": 75,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "SENIOR VILLAGE AT DAYTON VIEW",
+      "yr_pis": "2003",
+      "li_units": 30,
+      "derived_exit": 2033,
+      "ohfa_exit": 2033,
+      "diff_years": 0,
+      "ohfa_total_units": 30,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "RIDGEWOOD HEIGHTS",
+      "yr_pis": "2002",
+      "li_units": 40,
+      "derived_exit": 2032,
+      "ohfa_exit": 2032,
+      "diff_years": 0,
+      "ohfa_total_units": 40,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "BELLA VISTA HOMES",
+      "yr_pis": "2003",
+      "li_units": 250,
+      "derived_exit": 2033,
+      "ohfa_exit": 2033,
+      "diff_years": 0,
+      "ohfa_total_units": 251,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "ALBRIGHT APTS",
+      "yr_pis": "2006",
+      "li_units": 112,
+      "derived_exit": 2036,
+      "ohfa_exit": 2036,
+      "diff_years": 0,
+      "ohfa_total_units": 112,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "ASBURY APTS",
+      "yr_pis": "2006",
+      "li_units": 119,
+      "derived_exit": 2036,
+      "ohfa_exit": 2036,
+      "diff_years": 0,
+      "ohfa_total_units": 119,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "DAYTON VIEW COMMONS",
+      "yr_pis": "2003",
+      "li_units": 50,
+      "derived_exit": 2033,
+      "ohfa_exit": 2033,
+      "diff_years": 0,
+      "ohfa_total_units": 50,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "DAYTON HOMES II",
+      "yr_pis": "2004",
+      "li_units": 60,
+      "derived_exit": 2034,
+      "ohfa_exit": 2034,
+      "diff_years": 0,
+      "ohfa_total_units": 60,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "TIMBERLAKE APTS",
+      "yr_pis": "2000",
+      "li_units": 112,
+      "derived_exit": 2030,
+      "ohfa_exit": 2030,
+      "diff_years": 0,
+      "ohfa_total_units": 144,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "CITY FOREST OF DAYTON",
+      "yr_pis": "2003",
+      "li_units": 70,
+      "derived_exit": 2033,
+      "ohfa_exit": 2033,
+      "diff_years": 0,
+      "ohfa_total_units": 70,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "GRAND PLACE APTS",
+      "yr_pis": "2001",
+      "li_units": 70,
+      "derived_exit": 2031,
+      "ohfa_exit": 2031,
+      "diff_years": 0,
+      "ohfa_total_units": 70,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "MERCY SIENA VILLAGE",
+      "yr_pis": "1997",
+      "li_units": 108,
+      "derived_exit": 2027,
+      "ohfa_exit": 2027,
+      "diff_years": 0,
+      "ohfa_total_units": 112,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "ST LEONARD CENTER",
+      "yr_pis": "1997",
+      "li_units": 100,
+      "derived_exit": 2027,
+      "ohfa_exit": 2027,
+      "diff_years": 0,
+      "ohfa_total_units": 100,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "COBBLEGATE SQUARE APTS",
+      "yr_pis": "1996",
+      "li_units": 131,
+      "derived_exit": 2026,
+      "ohfa_exit": 2026,
+      "diff_years": 0,
+      "ohfa_total_units": 132,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "MCBRIDE PLACE",
+      "yr_pis": "2020",
+      "li_units": 64,
+      "derived_exit": 2050,
+      "ohfa_exit": 2050,
+      "diff_years": 0,
+      "ohfa_total_units": 64,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "RESTORATION HOUSING",
+      "yr_pis": "2020",
+      "li_units": 55,
+      "derived_exit": 2050,
+      "ohfa_exit": 2050,
+      "diff_years": 0,
+      "ohfa_total_units": 54,
+      "ohfa_population": "Service Enriched"
+    },
+    {
+      "project": "ROOSEVELT HOMES II",
+      "yr_pis": "2016",
+      "li_units": 30,
+      "derived_exit": 2046,
+      "ohfa_exit": 2046,
+      "diff_years": 0,
+      "ohfa_total_units": 30,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "THE DAYTON ARCADE",
+      "yr_pis": "2020",
+      "li_units": 103,
+      "derived_exit": 2050,
+      "ohfa_exit": 2050,
+      "diff_years": 0,
+      "ohfa_total_units": 110,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "HOMEFULL FAMILY LIVING CENTER",
+      "yr_pis": "2018",
+      "li_units": 34,
+      "derived_exit": 2048,
+      "ohfa_exit": 2048,
+      "diff_years": 0,
+      "ohfa_total_units": 34,
+      "ohfa_population": "Service Enriched"
+    },
+    {
+      "project": "RIVERWORKS LOFTS",
+      "yr_pis": "2019",
+      "li_units": 61,
+      "derived_exit": 2049,
+      "ohfa_exit": 2049,
+      "diff_years": 0,
+      "ohfa_total_units": 61,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "CAMBRIDGE HOUSE APARTMENTS",
+      "yr_pis": "2020",
+      "li_units": 45,
+      "derived_exit": 2050,
+      "ohfa_exit": 2050,
+      "diff_years": 0,
+      "ohfa_total_units": 45,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "NORTHCREST GARDENS APTS",
+      "yr_pis": "2006",
+      "li_units": 182,
+      "derived_exit": 2036,
+      "ohfa_exit": 2036,
+      "diff_years": 0,
+      "ohfa_total_units": 182,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "PINEWOOD GARDENS APTS",
+      "yr_pis": "2006",
+      "li_units": 80,
+      "derived_exit": 2036,
+      "ohfa_exit": 2036,
+      "diff_years": 0,
+      "ohfa_total_units": 80,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "EAST END TWIN TOWERS CROSSING",
+      "yr_pis": "2010",
+      "li_units": 40,
+      "derived_exit": 2040,
+      "ohfa_exit": 2040,
+      "diff_years": 0,
+      "ohfa_total_units": 40,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "CANTERBURY COURT",
+      "yr_pis": "2007",
+      "li_units": 144,
+      "derived_exit": 2037,
+      "ohfa_exit": 2037,
+      "diff_years": 0,
+      "ohfa_total_units": 150,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "WASHINGTON SQUARE HOMES II",
+      "yr_pis": "2011",
+      "li_units": 29,
+      "derived_exit": 2041,
+      "ohfa_exit": 2041,
+      "diff_years": 0,
+      "ohfa_total_units": 29,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "WHITNEY YOUNG ESTATES",
+      "yr_pis": "2007",
+      "li_units": 100,
+      "derived_exit": 2037,
+      "ohfa_exit": 2037,
+      "diff_years": 0,
+      "ohfa_total_units": 100,
+      "ohfa_population": "Senior"
+    },
+    {
+      "project": "THE RISING AT PHOENIX",
+      "yr_pis": "2009",
+      "li_units": 33,
+      "derived_exit": 2039,
+      "ohfa_exit": 2039,
+      "diff_years": 0,
+      "ohfa_total_units": 33,
+      "ohfa_population": "General Occupancy"
+    },
+    {
+      "project": "ALMOND VILLAGE APTS",
+      "yr_pis": "2010",
+      "li_units": 60,
+      "derived_exit": 2040,
+      "ohfa_exit": 2040,
+      "diff_years": 0,
+      "ohfa_total_units": 60,
+      "ohfa_population": "Senior"
+    }
+  ],
+  "projects": [
+    {
+      "Project Number": "950004",
+      "Project Name": "Cobblegate Square Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "132",
+      "Est. Program Exit": "2026",
+      "Null": ""
+    },
+    {
+      "Project Number": "950092",
+      "Project Name": "Shiloh Village",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "120",
+      "Est. Program Exit": "2026",
+      "Null": ""
+    },
+    {
+      "Project Number": "950102",
+      "Project Name": "Timber Ridge Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "72",
+      "Est. Program Exit": "2026",
+      "Null": ""
+    },
+    {
+      "Project Number": "950026",
+      "Project Name": "Mercy Siena Village",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "112",
+      "Est. Program Exit": "2027",
+      "Null": ""
+    },
+    {
+      "Project Number": "960008",
+      "Project Name": "Fieldstone Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "144",
+      "Est. Program Exit": "2027",
+      "Null": ""
+    },
+    {
+      "Project Number": "960047",
+      "Project Name": "St. Leonard Center",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "100",
+      "Est. Program Exit": "2027",
+      "Null": ""
+    },
+    {
+      "Project Number": "960049",
+      "Project Name": "Riverside Commons I",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "80",
+      "Est. Program Exit": "2028",
+      "Null": ""
+    },
+    {
+      "Project Number": "960112",
+      "Project Name": "Lyons Gate Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "176",
+      "Est. Program Exit": "2028",
+      "Null": ""
+    },
+    {
+      "Project Number": "935110",
+      "Project Name": "Spring Hill/ Miami Village",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "80",
+      "Est. Program Exit": "2029",
+      "Null": ""
+    },
+    {
+      "Project Number": "980011",
+      "Project Name": "Huffman Senior Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "86",
+      "Est. Program Exit": "2030",
+      "Null": ""
+    },
+    {
+      "Project Number": "990040",
+      "Project Name": "Timberlake Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "144",
+      "Est. Program Exit": "2030",
+      "Null": ""
+    },
+    {
+      "Project Number": "210242",
+      "Project Name": "Grand Place Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "70",
+      "Est. Program Exit": "2031",
+      "Null": ""
+    },
+    {
+      "Project Number": "990096",
+      "Project Name": "Creekside Villas",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "156",
+      "Est. Program Exit": "2031",
+      "Null": ""
+    },
+    {
+      "Project Number": "010021",
+      "Project Name": "Ridgewood Heights",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "010079",
+      "Project Name": "Shiloh Villas II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "72",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "020096",
+      "Project Name": "Miami Township Village",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "020097",
+      "Project Name": "Miamisburg Central Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "50",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "020098",
+      "Project Name": "Moler/VanBuren Development",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "50",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "020102",
+      "Project Name": "Valleyview Village",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "50",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "020108",
+      "Project Name": "Kettering Square Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "165",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "210024",
+      "Project Name": "Vandalia Village",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "76",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "210203",
+      "Project Name": "Vandalia Village Townhomes",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "35",
+      "Est. Program Exit": "2032",
+      "Null": ""
+    },
+    {
+      "Project Number": "010005",
+      "Project Name": "Senior Village at Dayton View",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "30",
+      "Est. Program Exit": "2033",
+      "Null": ""
+    },
+    {
+      "Project Number": "010006",
+      "Project Name": "Dayton View Commons",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "50",
+      "Est. Program Exit": "2033",
+      "Null": ""
+    },
+    {
+      "Project Number": "020047",
+      "Project Name": "City Forest of Dayton",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "70",
+      "Est. Program Exit": "2033",
+      "Null": ""
+    },
+    {
+      "Project Number": "030003",
+      "Project Name": "Bella Vista Homes",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "251",
+      "Est. Program Exit": "2033",
+      "Null": ""
+    },
+    {
+      "Project Number": "010058",
+      "Project Name": "Ecumenical Homes I",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "49",
+      "Est. Program Exit": "2034",
+      "Null": ""
+    },
+    {
+      "Project Number": "020036",
+      "Project Name": "Pheasant Run Senior Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "75",
+      "Est. Program Exit": "2034",
+      "Null": ""
+    },
+    {
+      "Project Number": "030004",
+      "Project Name": "Jefferson Homes",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2034",
+      "Null": ""
+    },
+    {
+      "Project Number": "030046",
+      "Project Name": "Dayton Homes II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "60",
+      "Est. Program Exit": "2034",
+      "Null": ""
+    },
+    {
+      "Project Number": "030049",
+      "Project Name": "Trotwood Homes",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "56",
+      "Est. Program Exit": "2034",
+      "Null": ""
+    },
+    {
+      "Project Number": "220229",
+      "Project Name": "Stratford Place",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "100",
+      "Est. Program Exit": "2034",
+      "Null": ""
+    },
+    {
+      "Project Number": "040044",
+      "Project Name": "Sunlight Homes",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "33",
+      "Est. Program Exit": "2035",
+      "Null": ""
+    },
+    {
+      "Project Number": "050043",
+      "Project Name": "New Dayton Homes I",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2035",
+      "Null": ""
+    },
+    {
+      "Project Number": "050178",
+      "Project Name": "Chevy Chase Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "232",
+      "Est. Program Exit": "2035",
+      "Null": ""
+    },
+    {
+      "Project Number": "960138",
+      "Project Name": "Courtyards of Kettering",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "104",
+      "Est. Program Exit": "2035",
+      "Null": ""
+    },
+    {
+      "Project Number": "050087",
+      "Project Name": "Washington Square",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "39",
+      "Est. Program Exit": "2036",
+      "Null": ""
+    },
+    {
+      "Project Number": "050089",
+      "Project Name": "Ohio Avenue Commons",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Service Enriched",
+      "Total Units": "27",
+      "Est. Program Exit": "2036",
+      "Null": ""
+    },
+    {
+      "Project Number": "050090",
+      "Project Name": "Lofts at Hoover",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "40",
+      "Est. Program Exit": "2036",
+      "Null": ""
+    },
+    {
+      "Project Number": "060024",
+      "Project Name": "Shiloh Apartments III",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "72",
+      "Est. Program Exit": "2036",
+      "Null": ""
+    },
+    {
+      "Project Number": "240212",
+      "Project Name": "Asbury Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "119",
+      "Est. Program Exit": "2036",
+      "Null": ""
+    },
+    {
+      "Project Number": "240213",
+      "Project Name": "Northcrest Gardens Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "182",
+      "Est. Program Exit": "2036",
+      "Null": ""
+    },
+    {
+      "Project Number": "240221",
+      "Project Name": "Albright Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "112",
+      "Est. Program Exit": "2036",
+      "Null": ""
+    },
+    {
+      "Project Number": "240222",
+      "Project Name": "Pinewood Gardens Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "80",
+      "Est. Program Exit": "2036",
+      "Null": ""
+    },
+    {
+      "Project Number": "060054",
+      "Project Name": "Opportunity House",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Service Enriched",
+      "Total Units": "20",
+      "Est. Program Exit": "2037",
+      "Null": ""
+    },
+    {
+      "Project Number": "060111",
+      "Project Name": "Stoney Ridge Estates",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "25",
+      "Est. Program Exit": "2037",
+      "Null": ""
+    },
+    {
+      "Project Number": "060202",
+      "Project Name": "Whitney Young Estates",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "100",
+      "Est. Program Exit": "2037",
+      "Null": ""
+    },
+    {
+      "Project Number": "070065",
+      "Project Name": "Twin Towers Place",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "100",
+      "Est. Program Exit": "2037",
+      "Null": ""
+    },
+    {
+      "Project Number": "070164",
+      "Project Name": "Canterbury Court",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "150",
+      "Est. Program Exit": "2037",
+      "Null": ""
+    },
+    {
+      "Project Number": "050187",
+      "Project Name": "Cambridge Commons",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "192",
+      "Est. Program Exit": "2038",
+      "Null": ""
+    },
+    {
+      "Project Number": "970054",
+      "Project Name": "Riverside Commons II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2038",
+      "Null": ""
+    },
+    {
+      "Project Number": "040102",
+      "Project Name": "Wingate at Belle Meadows",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "240",
+      "Est. Program Exit": "2039",
+      "Null": ""
+    },
+    {
+      "Project Number": "080091",
+      "Project Name": "The Rising at Phoenix",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "33",
+      "Est. Program Exit": "2039",
+      "Null": ""
+    },
+    {
+      "Project Number": "080168",
+      "Project Name": "Lyons Place",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "67",
+      "Est. Program Exit": "2039",
+      "Null": ""
+    },
+    {
+      "Project Number": "080037",
+      "Project Name": "East End Twin Towers Crossing",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2040",
+      "Null": ""
+    },
+    {
+      "Project Number": "090026",
+      "Project Name": "River Commons II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Service Enriched",
+      "Total Units": "83",
+      "Est. Program Exit": "2040",
+      "Null": ""
+    },
+    {
+      "Project Number": "090084",
+      "Project Name": "Almond Village Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "60",
+      "Est. Program Exit": "2040",
+      "Null": ""
+    },
+    {
+      "Project Number": "090067",
+      "Project Name": "Washington Square Homes II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "29",
+      "Est. Program Exit": "2041",
+      "Null": ""
+    },
+    {
+      "Project Number": "100055",
+      "Project Name": "Dayton View Commons II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "32",
+      "Est. Program Exit": "2041",
+      "Null": ""
+    },
+    {
+      "Project Number": "110036",
+      "Project Name": "Germantown Village",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "60",
+      "Est. Program Exit": "2042",
+      "Null": ""
+    },
+    {
+      "Project Number": "110073",
+      "Project Name": "Roosevelt Homes",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "43",
+      "Est. Program Exit": "2042",
+      "Null": ""
+    },
+    {
+      "Project Number": "110107",
+      "Project Name": "Windcliff Village Phase II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "25",
+      "Est. Program Exit": "2042",
+      "Null": ""
+    },
+    {
+      "Project Number": "110113",
+      "Project Name": "Fort McKinley Homes",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "25",
+      "Est. Program Exit": "2042",
+      "Null": ""
+    },
+    {
+      "Project Number": "110116",
+      "Project Name": "Englewood Square",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "41",
+      "Est. Program Exit": "2042",
+      "Null": ""
+    },
+    {
+      "Project Number": "120046",
+      "Project Name": "Meadows of Martindale Union",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "30",
+      "Est. Program Exit": "2042",
+      "Null": ""
+    },
+    {
+      "Project Number": "120082",
+      "Project Name": "Twin Towers Crossing II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2042",
+      "Null": ""
+    },
+    {
+      "Project Number": "120124",
+      "Project Name": "Village Park Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "41",
+      "Est. Program Exit": "2043",
+      "Null": ""
+    },
+    {
+      "Project Number": "120119",
+      "Project Name": "Lyons Place II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "55",
+      "Est. Program Exit": "2044",
+      "Null": ""
+    },
+    {
+      "Project Number": "140113",
+      "Project Name": "Lakewoods I & II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "417",
+      "Est. Program Exit": "2045",
+      "Null": ""
+    },
+    {
+      "Project Number": "160200",
+      "Project Name": "Northland Village Apartments dba Creekside Townhomes",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "500",
+      "Est. Program Exit": "2045",
+      "Null": ""
+    },
+    {
+      "Project Number": "140061",
+      "Project Name": "Roosevelt Homes II",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "30",
+      "Est. Program Exit": "2046",
+      "Null": ""
+    },
+    {
+      "Project Number": "150036",
+      "Project Name": "Whitmore Arms Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2046",
+      "Null": ""
+    },
+    {
+      "Project Number": "150325",
+      "Project Name": "Key Terrace",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Service Enriched",
+      "Total Units": "40",
+      "Est. Program Exit": "2046",
+      "Null": ""
+    },
+    {
+      "Project Number": "160064",
+      "Project Name": "Riverside Senior Lofts",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "48",
+      "Est. Program Exit": "2047",
+      "Null": ""
+    },
+    {
+      "Project Number": "160211",
+      "Project Name": "Audubon Crossing",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "50",
+      "Est. Program Exit": "2047",
+      "Null": ""
+    },
+    {
+      "Project Number": "160056",
+      "Project Name": "Homefull Family Living Center",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Service Enriched",
+      "Total Units": "34",
+      "Est. Program Exit": "2048",
+      "Null": ""
+    },
+    {
+      "Project Number": "170220",
+      "Project Name": "Dayton YWCA PSH",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Service Enriched",
+      "Total Units": "95",
+      "Est. Program Exit": "2048",
+      "Null": ""
+    },
+    {
+      "Project Number": "160210",
+      "Project Name": "Brandt Meadows",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "55",
+      "Est. Program Exit": "2049",
+      "Null": ""
+    },
+    {
+      "Project Number": "180056",
+      "Project Name": "Omega Senior Lofts",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "81",
+      "Est. Program Exit": "2049",
+      "Null": ""
+    },
+    {
+      "Project Number": "180065",
+      "Project Name": "RiverWorks Lofts",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "61",
+      "Est. Program Exit": "2049",
+      "Null": ""
+    },
+    {
+      "Project Number": "170227",
+      "Project Name": "Cambridge House Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "45",
+      "Est. Program Exit": "2050",
+      "Null": ""
+    },
+    {
+      "Project Number": "180049",
+      "Project Name": "McBride Place",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "64",
+      "Est. Program Exit": "2050",
+      "Null": ""
+    },
+    {
+      "Project Number": "180057",
+      "Project Name": "Restoration Housing",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Service Enriched",
+      "Total Units": "54",
+      "Est. Program Exit": "2050",
+      "Null": ""
+    },
+    {
+      "Project Number": "180219",
+      "Project Name": "The Dayton Arcade",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "110",
+      "Est. Program Exit": "2050",
+      "Null": ""
+    },
+    {
+      "Project Number": "200201",
+      "Project Name": "Jaycee Towers Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "204",
+      "Est. Program Exit": "2050",
+      "Null": ""
+    },
+    {
+      "Project Number": "200211",
+      "Project Name": "Biltmore Towers",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "230",
+      "Est. Program Exit": "2050",
+      "Null": ""
+    },
+    {
+      "Project Number": "170059",
+      "Project Name": "General Franklin",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Service Enriched",
+      "Total Units": "38",
+      "Est. Program Exit": "2051",
+      "Null": ""
+    },
+    {
+      "Project Number": "190238",
+      "Project Name": "Ohio Village",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "48",
+      "Est. Program Exit": "2051",
+      "Null": ""
+    },
+    {
+      "Project Number": "200007",
+      "Project Name": "Hempstead Landing",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "40",
+      "Est. Program Exit": "2051",
+      "Null": ""
+    },
+    {
+      "Project Number": "200251",
+      "Project Name": "Hoover Place Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "144",
+      "Est. Program Exit": "2052",
+      "Null": ""
+    },
+    {
+      "Project Number": "210003",
+      "Project Name": "Darby Run",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "50",
+      "Est. Program Exit": "2052",
+      "Null": ""
+    },
+    {
+      "Project Number": "210057",
+      "Project Name": "Trotwood Senior Lofts",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "50",
+      "Est. Program Exit": "2052",
+      "Null": ""
+    },
+    {
+      "Project Number": "220212",
+      "Project Name": "Summit Square Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "154",
+      "Est. Program Exit": "2052",
+      "Null": ""
+    },
+    {
+      "Project Number": "230007",
+      "Project Name": "CJ McLin Senior Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "46",
+      "Est. Program Exit": "2052",
+      "Null": ""
+    },
+    {
+      "Project Number": "190224",
+      "Project Name": "Southern Montgomery County",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "163",
+      "Est. Program Exit": "2053",
+      "Null": ""
+    },
+    {
+      "Project Number": "210001",
+      "Project Name": "Austin Commons",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "47",
+      "Est. Program Exit": "2053",
+      "Null": ""
+    },
+    {
+      "Project Number": "200071",
+      "Project Name": "Hallmark Meridian Preservation",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "75",
+      "Est. Program Exit": "2054",
+      "Null": ""
+    },
+    {
+      "Project Number": "200074",
+      "Project Name": "Brook Ridge Apartments",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "48",
+      "Est. Program Exit": "2054",
+      "Null": ""
+    },
+    {
+      "Project Number": "210039",
+      "Project Name": "The Senior Village at Kettering Town Center",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "52",
+      "Est. Program Exit": "2054",
+      "Null": ""
+    },
+    {
+      "Project Number": "220035",
+      "Project Name": "Germantown Crossing",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "50",
+      "Est. Program Exit": "2055",
+      "Null": ""
+    },
+    {
+      "Project Number": "230225",
+      "Project Name": "Kinship Family Housing",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "26",
+      "Est. Program Exit": "2055",
+      "Null": ""
+    },
+    {
+      "Project Number": "230202",
+      "Project Name": "The Flats on Wolf Creek",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "65",
+      "Est. Program Exit": "2056",
+      "Null": ""
+    },
+    {
+      "Project Number": "240220",
+      "Project Name": "Mad River Manor",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "Senior",
+      "Total Units": "74",
+      "Est. Program Exit": "2056",
+      "Null": ""
+    },
+    {
+      "Project Number": "210032",
+      "Project Name": "The Lofts at Kettering Town Center",
+      "County": "Montgomery",
+      "Region": "Southwest",
+      "Appalachia": "No",
+      "Population": "General Occupancy",
+      "Total Units": "51",
+      "Est. Program Exit": "2065",
+      "Null": ""
+    }
+  ]
+}

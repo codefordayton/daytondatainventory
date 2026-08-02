@@ -1,0 +1,48 @@
+# Harvested data is regenerable from scripts/ — the scripts and the derived
+# catalog are the artifacts worth versioning, not multi-megabyte API dumps that
+# go stale the moment the source updates.
+#
+# Everything under data/raw is ignored by default; the exceptions below are
+# small, hand-curated, or expensive to re-derive.
+data/raw/*
+!data/raw/.gitkeep
+
+# Hand-maintained — not reproducible by any script.
+!data/raw/manual_sources.json
+
+# Derived specs and probe results: small, slow to rebuild, and useful as a
+# historical record of what each service looked like at harvest time.
+!data/raw/cama_spec.json
+!data/raw/accela_aca_permit_types.json
+!data/raw/capabilities_dayton.json
+!data/raw/capabilities_mvrpc.json
+!data/raw/arcgis_mcohio_server.json
+!data/raw/crawl_mcohio.json
+!data/raw/crawl_dayton.json
+
+# Small curated harvests that back specific findings in docs/ and dictionaries/.
+!data/raw/lihtc_montgomery_oh.json
+!data/raw/hud_assisted_montgomery_oh.json
+!data/raw/hud_public_housing_montgomery.json
+!data/raw/ohfa_montgomery_validated.json
+!data/raw/fields_dayton_housing.json
+!data/raw/fields_prior_research.json
+
+# Deliberately excluded, beyond size:
+#   rental_registrations.json — contains agent names, phone numbers and mailing
+#     addresses. Public record, but no reason to mirror personal contact details
+#     into a git history. Rebuild with scripts/harvest_rental_registrations.py.
+#   accela_incidents.json / accela_parcel_matched.json — complaint records at
+#     address level; regenerate rather than store.
+
+# Subcommittee-internal, not Code for Dayton material.
+PRIOR_RESEARCH_CONTEXT.md
+
+# Generated pages — rebuild with scripts/build_explorer.py and build_onepager.py
+*.generated.html
+
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+env/

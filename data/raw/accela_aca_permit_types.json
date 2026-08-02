@@ -1,0 +1,205 @@
+{
+  "source": "Accela Citizen Access \u2014 City of Dayton Building module",
+  "url": "https://aca-prod.accela.com/DAYTON/Cap/CapHome.aspx?module=Building&TabName=Building",
+  "harvested": "2026-08-02",
+  "note": "Values feed the ddlGSPermitType form field. Hierarchy is module/type/subtype/category.",
+  "count": 49,
+  "permit_types": [
+    {
+      "value": "Building/Licenses/Apprentice Plumbers/License",
+      "label": "Apprentice Plumbers Registration"
+    },
+    {
+      "value": "Building/Licenses/Apprentice Plumbers/Application",
+      "label": "Apprentice Plumbers Registration Application"
+    },
+    {
+      "value": "Building/BBA/NA/NA",
+      "label": "Building Board of Appeal"
+    },
+    {
+      "value": "Building/Building/Commercial/NA",
+      "label": "Commercial Building Permit"
+    },
+    {
+      "value": "Building/Electrical/Commercial/NA",
+      "label": "Commercial Electrical Permit"
+    },
+    {
+      "value": "Building/Fire Alarm/Commercial/NA",
+      "label": "Commercial Fire Alarm Permit"
+    },
+    {
+      "value": "Building/Fire Sprinkler/Commercial/NA",
+      "label": "Commercial Fire Sprinkler Permit"
+    },
+    {
+      "value": "Building/Flood Plain/Commercial/NA",
+      "label": "Commercial Flood Plain Permit"
+    },
+    {
+      "value": "Building/Footer Foundation Slab/Commercial/NA",
+      "label": "Commercial Footer/Foundation/Slab Permit"
+    },
+    {
+      "value": "Building/Gas/Commercial/NA",
+      "label": "Commercial Gas Permit"
+    },
+    {
+      "value": "Building/Mechanical/Commercial/NA",
+      "label": "Commercial Mechanical Permit"
+    },
+    {
+      "value": "Building/Plumbing/Commercial/NA",
+      "label": "Commercial Plumbing Permit"
+    },
+    {
+      "value": "Building/RVO/Commercial/NA",
+      "label": "Commercial RVO Permit"
+    },
+    {
+      "value": "Building/Sewer/Commercial/NA",
+      "label": "Commercial Sewer Permit"
+    },
+    {
+      "value": "Building/Tent Permit/Commercial/NA",
+      "label": "Commercial Tent permit"
+    },
+    {
+      "value": "Building/Waivers/Commercial/TRP",
+      "label": "Commercial TRP Waiver Permit"
+    },
+    {
+      "value": "Building/Water/Commercial/NA",
+      "label": "Commercial Water Permit"
+    },
+    {
+      "value": "Building/Wrecking/Commercial/NA",
+      "label": "Commercial Wrecking Permit"
+    },
+    {
+      "value": "Building/Zoning Only/Commercial/NA",
+      "label": "Commercial Zoning Only Permit"
+    },
+    {
+      "value": "Building/Licenses/Electrical Contractor/License",
+      "label": "Electrical Contractor Registration"
+    },
+    {
+      "value": "Building/Licenses/Electrical Contractor/Application",
+      "label": "Electrical Contractor Registration Application"
+    },
+    {
+      "value": "Building/Licenses/Journeyman Plumbers/License",
+      "label": "Journeyman Registration"
+    },
+    {
+      "value": "Building/Licenses/Journeyman Plumbers/Application",
+      "label": "Journeyman Registration Application"
+    },
+    {
+      "value": "Building/Miscellaneous/NA/NA",
+      "label": "Miscellaneous Permit"
+    },
+    {
+      "value": "Building/REV/NA/NA",
+      "label": "Permit Revision"
+    },
+    {
+      "value": "Building/Licenses/Pipe-Laying/License",
+      "label": "Pipe-Laying Registration"
+    },
+    {
+      "value": "Building/Licenses/Pipe-Laying/Application",
+      "label": "Pipe-Laying Registration Application"
+    },
+    {
+      "value": "Building/Licenses/Plumbing/License",
+      "label": "Plumbing Registration"
+    },
+    {
+      "value": "Building/Licenses/Plumbing/Application",
+      "label": "Plumbing Registration Application"
+    },
+    {
+      "value": "Building/Flood Plain/Residential/NA",
+      "label": "Residential Flood Plain Permit"
+    },
+    {
+      "value": "Building/Building/Residential/NA",
+      "label": "Residential Building Permit"
+    },
+    {
+      "value": "Building/Electrical/Residential/NA",
+      "label": "Residential Electrical Permit"
+    },
+    {
+      "value": "Building/Fire Alarm/Residential/NA",
+      "label": "Residential Fire Alarm Permit"
+    },
+    {
+      "value": "Building/Fire Sprinkler/Residential/NA",
+      "label": "Residential Fire Sprinkler Permit"
+    },
+    {
+      "value": "Building/Footer Foundation Slab/Residential/NA",
+      "label": "Residential Footer/Foundation/Slab Permit"
+    },
+    {
+      "value": "Building/Gas/Residential/NA",
+      "label": "Residential Gas Permit"
+    },
+    {
+      "value": "Building/Mechanical/Residential/NA",
+      "label": "Residential Mechanical Permit"
+    },
+    {
+      "value": "Building/Plumbing/Residential/NA",
+      "label": "Residential Plumbing Permit"
+    },
+    {
+      "value": "Building/RVO/Residential/NA",
+      "label": "Residential RVO Permit"
+    },
+    {
+      "value": "Building/Sewer/Residential/NA",
+      "label": "Residential Sewer Permit"
+    },
+    {
+      "value": "Building/Waivers/Residential/TRP",
+      "label": "Residential TRP Waiver Permit"
+    },
+    {
+      "value": "Building/Water/Residential/NA",
+      "label": "Residential Water Permit"
+    },
+    {
+      "value": "Building/Wrecking/Residential/NA",
+      "label": "Residential Wrecking Permit"
+    },
+    {
+      "value": "Building/Zoning Only/Residential/NA",
+      "label": "Residential Zoning Only Permit"
+    },
+    {
+      "value": "Building/Sign/NA/NA",
+      "label": "Sign Permit"
+    },
+    {
+      "value": "Building/Site Plan Development/NA/NA",
+      "label": "Site Plan Development Permit"
+    },
+    {
+      "value": "Building/Special Service Inspection/NA/NA",
+      "label": "Special Service Inspection"
+    },
+    {
+      "value": "Building/Licenses/HVAC/License",
+      "label": "Warm-Air Heating Contractor Registration"
+    },
+    {
+      "value": "Building/Licenses/HVAC/Application",
+      "label": "Warm-Air Heating Contractor Registration Application"
+    }
+  ]
+}

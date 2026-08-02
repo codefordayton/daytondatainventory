@@ -1,0 +1,751 @@
+{
+  "root": "https://gis.mcohio.org/server/rest/services",
+  "harvested": "2026-08-01",
+  "count": 12,
+  "services": [
+    {
+      "name": "2005_FLASHBACK",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/2005_FLASHBACK/MapServer",
+      "folder": "",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 39,
+          "name": "Annotation",
+          "geometryType": null
+        },
+        {
+          "id": 23,
+          "name": "Parcel ID (Taxpin) (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 40,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 38,
+          "name": "Acres (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 41,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 3,
+          "name": "Index Number (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 42,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 5,
+          "name": "Parcel Dimension (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 43,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 34,
+          "name": "Lot Number (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 44,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 31,
+          "name": "Ordinance (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 45,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 26,
+          "name": "Street ROW Dimensions (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 46,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 24,
+          "name": "Survey Records (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 47,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 0,
+          "name": "Base Layers",
+          "geometryType": null
+        },
+        {
+          "id": 7,
+          "name": "Parcels",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 4,
+          "name": "Streets",
+          "geometryType": "esriGeometryPolyline"
+        },
+        {
+          "id": 6,
+          "name": "Historical Lines",
+          "geometryType": "esriGeometryPolyline"
+        },
+        {
+          "id": 10,
+          "name": "Building Outlines",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 12,
+          "name": "Section Town Range",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 9,
+          "name": "Corporation Lines",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 13,
+          "name": "Corporation Boundary",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 21,
+          "name": "Advance",
+          "geometryType": null
+        },
+        {
+          "id": 50,
+          "name": "Easements (Incomplete)",
+          "geometryType": null
+        },
+        {
+          "id": 2,
+          "name": "Easements (text)(incomplete)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 51,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 14,
+          "name": "Easement Lines (incomplete)",
+          "geometryType": "esriGeometryPolyline"
+        },
+        {
+          "id": 17,
+          "name": "Recorded Plat (Incomplete)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 52,
+          "name": "Aerial Image 2005",
+          "geometryType": null
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "Imagery/AUDGIS_MrSID",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/Imagery/AUDGIS_MrSID/MapServer",
+      "folder": "Imagery",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 11,
+          "name": "MrSID_2024",
+          "geometryType": null
+        },
+        {
+          "id": 0,
+          "name": "MrSID_2022",
+          "geometryType": null
+        },
+        {
+          "id": 1,
+          "name": "MrSID_2019_June_6_Tornado",
+          "geometryType": null
+        },
+        {
+          "id": 2,
+          "name": "MrSID_2019",
+          "geometryType": null
+        },
+        {
+          "id": 3,
+          "name": "MrSID_2016",
+          "geometryType": null
+        },
+        {
+          "id": 4,
+          "name": "MrSID_2013",
+          "geometryType": null
+        },
+        {
+          "id": 5,
+          "name": "MrSID_2012",
+          "geometryType": null
+        },
+        {
+          "id": 6,
+          "name": "MrSID_2010",
+          "geometryType": null
+        },
+        {
+          "id": 7,
+          "name": "MrSID_2007",
+          "geometryType": null
+        },
+        {
+          "id": 8,
+          "name": "MrSID_2005",
+          "geometryType": null
+        },
+        {
+          "id": 10,
+          "name": "MrSID_2000_BW",
+          "geometryType": null
+        },
+        {
+          "id": 9,
+          "name": "MrSID_2000_COLOR",
+          "geometryType": null
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "TestData/mc_parcel_polygon",
+      "type": "FeatureServer",
+      "url": "https://gis.mcohio.org/server/rest/services/TestData/mc_parcel_polygon/FeatureServer",
+      "folder": "TestData",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 0,
+          "name": "mc_parcel_polygon",
+          "geometryType": "esriGeometryPolygon"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "TestData/mc_parcel_polygon",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/TestData/mc_parcel_polygon/MapServer",
+      "folder": "TestData",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 0,
+          "name": "mc_parcel_polygon",
+          "geometryType": "esriGeometryPolygon"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "Utilities/Geometry",
+      "type": "GeometryServer",
+      "url": "https://gis.mcohio.org/server/rest/services/Utilities/Geometry/GeometryServer",
+      "folder": "Utilities",
+      "description": "The Geometry service is used by application developers to perform geometric calculations and web editing   ",
+      "copyright": "",
+      "spatialReference": null,
+      "layers": [],
+      "tables": []
+    },
+    {
+      "name": "VantagePoints/AUDGIS_A1",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/VantagePoints/AUDGIS_A1/MapServer",
+      "folder": "VantagePoints",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 0,
+          "name": "Acres (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 1,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 2,
+          "name": "Easements (text)(incomplete)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 10,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 3,
+          "name": "Index Number (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 4,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 5,
+          "name": "Parcel Dimension (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 6,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 7,
+          "name": "Lot Number (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 9,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 8,
+          "name": "Ordinance (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 18,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 11,
+          "name": "Misc (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 21,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 12,
+          "name": "Old Lot Number (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 20,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 13,
+          "name": "Street ROW Dimensions (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 17,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 14,
+          "name": "Survey Records (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 19,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 15,
+          "name": "Parcel ID (Taxpin) (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 16,
+          "name": "Default",
+          "geometryType": null
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "VantagePoints/AUDGIS_Advance",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/VantagePoints/AUDGIS_Advance/MapServer",
+      "folder": "VantagePoints",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 0,
+          "name": "Flood Plain",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 1,
+          "name": "Section Corner Monuments",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 2,
+          "name": "Survey Points (1972-2017)",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 3,
+          "name": "X-Y-Z Control",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 4,
+          "name": "Annexations",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 5,
+          "name": "Atlas Maps",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 6,
+          "name": "Recorded Plat (text)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 7,
+          "name": "Default",
+          "geometryType": null
+        },
+        {
+          "id": 8,
+          "name": "Default_1",
+          "geometryType": null
+        },
+        {
+          "id": 9,
+          "name": "Default_2",
+          "geometryType": null
+        },
+        {
+          "id": 10,
+          "name": "Recorded Plat",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 11,
+          "name": "Tax Districts",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 12,
+          "name": "Census 2010",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 13,
+          "name": "Spot Elevation",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 14,
+          "name": "Contour_2017",
+          "geometryType": "esriGeometryPolyline"
+        },
+        {
+          "id": 15,
+          "name": "Breakline",
+          "geometryType": "esriGeometryPolyline"
+        },
+        {
+          "id": 16,
+          "name": "Hydrology (Water)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 17,
+          "name": "FloodGrid",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 18,
+          "name": "Soils",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 19,
+          "name": "Neighborhood 2020",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 20,
+          "name": "Address Number Grid",
+          "geometryType": "esriGeometryPolyline"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "VantagePoints/AUDGIS_B1",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/VantagePoints/AUDGIS_B1/MapServer",
+      "folder": "VantagePoints",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 1,
+          "name": "Address",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 2,
+          "name": "Right of Way Parcels",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 3,
+          "name": "Primary Streets",
+          "geometryType": "esriGeometryPolyline"
+        },
+        {
+          "id": 4,
+          "name": "Streets",
+          "geometryType": "esriGeometryPolyline"
+        },
+        {
+          "id": 7,
+          "name": "Parcels",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 6,
+          "name": "Historical Lines",
+          "geometryType": "esriGeometryPolyline"
+        },
+        {
+          "id": 8,
+          "name": "Mobile Home Parks",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 9,
+          "name": "Corporation Lines",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 10,
+          "name": "Building Outlines",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 12,
+          "name": "Section Town Range",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 13,
+          "name": "Corporation Boundary",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 14,
+          "name": "Easement Lines (incomplete)",
+          "geometryType": "esriGeometryPolyline"
+        }
+      ],
+      "tables": [
+        "CAMA"
+      ]
+    },
+    {
+      "name": "VantagePoints/AUDGIS_Dayton",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/VantagePoints/AUDGIS_Dayton/MapServer",
+      "folder": "VantagePoints",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 0,
+          "name": "HistoricDistricts_Dayton_01072020",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 1,
+          "name": "Dayton_Neighborhoods",
+          "geometryType": "esriGeometryPolygon"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "VantagePoints/AUDGIS_PUBLIC",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/VantagePoints/AUDGIS_PUBLIC/MapServer",
+      "folder": "VantagePoints",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 0,
+          "name": "Zoning (Limited Coverage)",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 1,
+          "name": "School",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 2,
+          "name": "Police Stations",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 3,
+          "name": "Fire Departments",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 4,
+          "name": "Fire Hydrants",
+          "geometryType": "esriGeometryPoint"
+        },
+        {
+          "id": 5,
+          "name": "School District",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 6,
+          "name": "Police Response",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 7,
+          "name": "Fire Response",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 8,
+          "name": "Source Water Protection",
+          "geometryType": null
+        },
+        {
+          "id": 9,
+          "name": "WaterProtectionDistrict",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 10,
+          "name": "1000' Buffer",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 11,
+          "name": "WaterResourcesArea",
+          "geometryType": "esriGeometryPolygon"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "VantagePoints/AUDGIS_VOTER",
+      "type": "MapServer",
+      "url": "https://gis.mcohio.org/server/rest/services/VantagePoints/AUDGIS_VOTER/MapServer",
+      "folder": "VantagePoints",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [
+        {
+          "id": 0,
+          "name": "Precinct",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 1,
+          "name": "Ward",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 2,
+          "name": "Senate",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 3,
+          "name": "House",
+          "geometryType": "esriGeometryPolygon"
+        },
+        {
+          "id": 4,
+          "name": "US Congressional",
+          "geometryType": "esriGeometryPolygon"
+        }
+      ],
+      "tables": []
+    },
+    {
+      "name": "VantagePoints/MC_ProLocator",
+      "type": "GeocodeServer",
+      "url": "https://gis.mcohio.org/server/rest/services/VantagePoints/MC_ProLocator/GeocodeServer",
+      "folder": "VantagePoints",
+      "description": "",
+      "copyright": "",
+      "spatialReference": 3735,
+      "layers": [],
+      "tables": []
+    }
+  ]
+}

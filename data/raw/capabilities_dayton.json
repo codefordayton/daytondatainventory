@@ -1,0 +1,2881 @@
+{
+  "probed": 374,
+  "queryable": 256,
+  "harvested": "2026-08-02",
+  "services": {
+    "0f64a3233f8e49bf89daa20b5a0f691f": {
+      "title": " Fleet Management - Equipment Service Request Form _form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_4b723f4263c44a91b161f6315a6a2681_form/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 65
+    },
+    "a270731e141544e0a4395c85faff24a1": {
+      "title": " Fleet Management - Equipment Service Request Form _results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_4b723f4263c44a91b161f6315a6a2681_results/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 65
+    },
+    "f8ebab497a18423c868324037af2b3db": {
+      "title": "2019OrthoCache",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Basemap/2019OrthoCache/MapServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "Service not found"
+    },
+    "3fa5eb0db42043ca8987e900b19f912a": {
+      "title": "2019OrthoImagery",
+      "url": "https://wtrhansen-ags:6443/arcgis/rest/services/Orthos/2019OrthoImagery/MapServer/",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "b0620230543049b29afb74e489394b14": {
+      "title": "2022OrthoCache",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Basemap/2022OrthoCache/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "b859da7a950a4eb69a4cad405805f724": {
+      "title": "2024 Annual Water Meeting_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_dba313d55d174081bceb351728beaa2c_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "085a3e10805b46f6b12f14d9a67e7cc0": {
+      "title": "2024 Annual Water Meeting_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_dba313d55d174081bceb351728beaa2c_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 49
+    },
+    "ff8c4d1ed48d41e8958f511816e255d8": {
+      "title": "2024 Fall Ortho (Portal)",
+      "url": "https://utility.arcgis.com/usrsvcs/servers/ff8c4d1ed48d41e8958f511816e255d8/rest/services/Ortho/2024_Ortho_Fall/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Invalid or missing input parameters."
+    },
+    "b430b1b56f0048d4a35504adfd979e65": {
+      "title": "2024 Feedback ",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_a441b5cb536b4421b3c417a82244eb03/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 9
+    },
+    "0bc6bb8f5a3648769d3f033819279ea2": {
+      "title": "2024 Feedback Form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_a441b5cb536b4421b3c417a82244eb03_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "3608c302426c4b28a0b1171878f9e23f": {
+      "title": "2024 Feedback Results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_a441b5cb536b4421b3c417a82244eb03_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 9
+    },
+    "74f34ebd5f8f41a4bdb86cf79d80ede3": {
+      "title": "2024 Ortho Imagery",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Basemap/Fall2024OrthoCache/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "25786ed1c09e46abadf1c3475bf8292a": {
+      "title": "2026 Technology Capital Project Rank_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_22b7b008a0b0421f9a042f71c187979d_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "b32ea5b5d199433aad2bec9d079b4e7f": {
+      "title": "2026 Technology Capital Project Rank_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_22b7b008a0b0421f9a042f71c187979d_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 15
+    },
+    "4346ec9007e946cfa9dd4c4680352667": {
+      "title": "2026_Spring_Ortho",
+      "url": "https://maps.daytonohio.gov/image/rest/services/Ortho/2026_Spring_Ortho/MapServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "Token Required"
+    },
+    "e384ac4b76df495e9a4736c990f95ee2": {
+      "title": "325 Paul Laurence Dunbar St Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/325_Paul_Laurence_Dunbar_St_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "f7b15083b43246c282f561e4bdc58344": {
+      "title": "Accela Permit Upload Form_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_6c2fa21425bd4c99ad83d5efb801eee3_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "68f4f0a938854b92b7406e15bd39c35e": {
+      "title": "Active Capital Improvement Project Points",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/CapitalPlanning/Active_Capital_Improvement_Projects/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 43
+    },
+    "4b49228b515647b684892a18e8ccd239": {
+      "title": "AdaptDayton Community Survey",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_b82290ad1bb840a3af7583c18dabc5c0/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 1031
+    },
+    "5ec3fafe370c45b2a8002f04a2b6334a": {
+      "title": "AdaptDayton Community Survey_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_b82290ad1bb840a3af7583c18dabc5c0_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "682a2cdce9ab4c4a9872a363854b8fe9": {
+      "title": "AdaptDayton Email",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_caff0e6077df419ab2716dbf17853639/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 130
+    },
+    "af07d89df43b4e83bf441ec84b8a6ae6": {
+      "title": "AdaptDayton Email_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_caff0e6077df419ab2716dbf17853639_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "ff6f8e034dfd447787d3ed7434b2d54f": {
+      "title": "AdaptDayton Email_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_caff0e6077df419ab2716dbf17853639_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 130
+    },
+    "7d80b8be72bf4491a3021c000dca3bd8": {
+      "title": "AdaptDayton Feedback",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_d0af85021a114611984ad9c0c0917d16/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 3
+    },
+    "d58bb171c19f428cb746450078614774": {
+      "title": "AdaptDayton Feedback_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_d0af85021a114611984ad9c0c0917d16_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "54d12ea34750432db515d5e3fd073448": {
+      "title": "AdaptDayton Feedback_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_d0af85021a114611984ad9c0c0917d16_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 3
+    },
+    "78926cb0a01048d3a4fa174e9ca71607": {
+      "title": "All_CRAs",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/All_CRAs/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 13
+    },
+    "0c4e1efbc09c477b80e9ef53118538a0": {
+      "title": "Alley_Pavement_Inspection",
+      "url": "https://utility.arcgis.com/usrsvcs/servers/0c4e1efbc09c477b80e9ef53118538a0/rest/services/PublicWorks/Alley_Pavement_Inspection/MapServer/0",
+      "capabilities": null,
+      "queryable": false,
+      "note": "Error invoking service"
+    },
+    "bdea656ed18845e9be43f85d413fb593": {
+      "title": "Alleys",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Alleys/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 6
+    },
+    "c888b97448644245a2a289f3b3ac1c9d": {
+      "title": "Apex_Dayton City Fiber Layout Map_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Apex_Dayton_City_Fiber_Layout_Map_WFL1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 303
+    },
+    "4e63dc6718394cc2b5e1b2bd14d7946b": {
+      "title": "ARPA Category Amounts Table",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Category_Amounts_Table/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 5
+    },
+    "39285f9a838146218eab43289be2c948": {
+      "title": "ARPA Curb and Sidewalk Repair_Carillon",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Curb_and_Sidewalk_Repair_Carillon/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 5
+    },
+    "9f520558f5af46dd9da48be25c97b960": {
+      "title": "ARPA Curb and Sidewalk Repairs",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Curb_and_Sidewalk_Repairs/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 5
+    },
+    "dfc8a12b997c48e68c47647acaf6a850": {
+      "title": "ARPA Focus Neighborhoods",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Focus_Neighborhoods/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 6
+    },
+    "89b165a2e4eb4aeb94e835700d55a3fc": {
+      "title": "ARPA Nuisance Parcel Points",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Nuisance_Parcel_Points/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 1259
+    },
+    "64a0382d6bea41f9ba4927f1dd468533": {
+      "title": "ARPA_Community_Application_Points",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Community_Application_Points/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 125
+    },
+    "736a6b6854254ac3bb9df69218e9cb3a": {
+      "title": "ARPA_Community_Application_Points_Ranked",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Community_Application_Points_Ranked/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 108
+    },
+    "16777cabe7fe4888a005eeb5349963f8": {
+      "title": "ARPA_Community_Project_Points",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Community_Project_Points/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 329
+    },
+    "fd0ee1d87c7e454588e75d5014d7c1bc": {
+      "title": "ARPA_Internal_City_Application_Points",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Internal_City_Application_Points/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 78
+    },
+    "ba515390f2b140a2ab9018e7b5f48032": {
+      "title": "ARPA_Internal_Project_Points_Ranked",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Internal_Project_Points_Ranked/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 78
+    },
+    "6403b5de1bd047408f3570d1453d6495": {
+      "title": "ARPA_Small_Business_Application_Points_Ranked",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Small_Business_Application_Points_Ranked/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 17
+    },
+    "c11ea7fea7d64a728b7c3e2d5f63476e": {
+      "title": "ARPA_Targeted_Geography",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ARPA_Targeted_Geography/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 56
+    },
+    "3272e50446344452a375c58609aeb337": {
+      "title": "Arrest Dashboard",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Police/ArrestDashboard/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "eb2df5e5856c4428ab4e235c21badae4": {
+      "title": "Arrests OpenData",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/OpenData/Arrests_OpenData/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 1
+    },
+    "79b6331e145b4bbbafe16c5d2e5ef509": {
+      "title": "Arrests_Greater2016",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Arrests_Greater2016/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 26905
+    },
+    "8d0d40e7577f4888b08ae857c76aee85": {
+      "title": "Arrests_Greater2016_TYPE",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Arrests_Greater2016_TYPE/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 45280
+    },
+    "859c294f8b314483bf2a6db1953deb80": {
+      "title": "Arrests_OpenData_HOSTED",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Arrests_OpenData_HOSTED/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 48733
+    },
+    "a0bec2accb6b4666aa5e23076dc33e03": {
+      "title": "AT Round 2_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/AT_Round_2_WFL1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 262
+    },
+    "8c5692ac97114e9eaa2a50623ba130d3": {
+      "title": "AT Round 3_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/AT_Round_3_WFL1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 262
+    },
+    "3a0354c5d5444c2ea7a24b5fd4158016": {
+      "title": "Banner OPERATING STATE PERIOD VW-Mowing 2024 Budget Chart",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "17e4826626a445bcacfb95326db2ac9e": {
+      "title": "Banner OPERATING STATE PERIOD VW-Mowing 2024 budget Indicator",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "ae085b5e50a2469ea0a03db912341429": {
+      "title": "Banner OPERATING STATE PERIOD VW-Mowing 2025 Budget Chart",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "e9a2075fadc24112b47becfe57025636": {
+      "title": "Banner OPERATING STATE PERIOD VW-Mowing 2025 budget Indicator",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "09263910ee354478bd8da17da9ebfead": {
+      "title": "Banner OPERATING STATE PERIOD VW-Parks 2024 Budget Chart",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "981064618da84bce85deeb52dd372af8": {
+      "title": "Banner OPERATING STATE PERIOD VW-Parks 2024 Budget Indicator",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "ac8331b68da847c2a8401c9cd85c7276": {
+      "title": "Banner OPERATING STATE PERIOD VW-Parks 2025 Budget Chart",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "62518729a4c441d7bebc5c25d9a3d19f": {
+      "title": "Banner OPERATING STATE PERIOD VW-Parks 2025 Budget Indicator",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "705d671963e34b1a93b225078e3db1ff": {
+      "title": "Banner OPERATING STATE PERIOD VW-Parks Filter",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "2656a9ac6a4242629201694bb290d4af": {
+      "title": "Banner OPERATING STATE PERIOD VW-Parks Filter-2023",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "b8b005b6664a4bd5b548eaf37a19fb7e": {
+      "title": "Banner OPERATING STATE PERIOD VW-Parks Filter_2",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "a71e5c710e1b4c48898ea92dfc37d248": {
+      "title": "Banner OPERATING STATE PERIOD VW-Paving 2024 Budget Chart",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "31c36f2dca5048e1a7f87d34fd13c957": {
+      "title": "Banner OPERATING STATE PERIOD VW-Paving 2024 Budget Indicator",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "be4669d847a64ab8aee2fd929944d64d": {
+      "title": "Banner OPERATING STATE PERIOD VW-Paving 2025 Budget Chart",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "c0b7fc2cf8fe40bb842fc15178579b76": {
+      "title": "Banner OPERATING STATE PERIOD VW-Paving 2025 Budget Indicator",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "bed3a7d4b734428faecfd6dc4c77d6c3": {
+      "title": "Banner OPERATING STATE PERIOD VW-Preschool 2024 Budget Committed",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "cec9d8ef1c8d4f3689cb6b6a0a90bc84": {
+      "title": "Banner OPERATING STATE PERIOD VW-Preschool 2024 Budget Uncommitted",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "798950780b8f40e9a1bf49c9ca1bf45d": {
+      "title": "Banner OPERATING STATE PERIOD VW-Preschool 2025 Budget Committed",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "e1beb3be95164ec28d5d3e1ab6545bef": {
+      "title": "Banner OPERATING STATE PERIOD VW-Preschool 2025 Budget Uncommitted",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "1e1c25c61bfd41c9b9b025fa69594cd5": {
+      "title": "Banner OPERATING STATE PERIOD VW-Total 2024 Budget Chart",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "485ed7a175a74617ab713eb1e8c3c21e": {
+      "title": "Banner OPERATING STATE PERIOD VW-Total 2025 Budget Chart",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "0bc600b29a3a427d9d7b084f11440bf2": {
+      "title": "Banner_OPERATING_STATE_PERIOD_View",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "ee089634cc7243a1a357c5f23452ea4f": {
+      "title": "Banner_OPERATING_STATE_YEAR_View",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/BannerData/MapServer/3",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "d31bbc83e7394bd8b2292ca09501b5d4": {
+      "title": "BeavercreekTrainingProjects2025_HH",
+      "url": "https://services.arcgis.com/3TIUdMHOqnLBrZEH/arcgis/rest/services/BeavercreekTrainingProjects2025XX/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 6
+    },
+    "8f063be56b7943ceac46052428eab602": {
+      "title": "BeavercreekTrainingProjects2025_Holly",
+      "url": "https://services.arcgis.com/3TIUdMHOqnLBrZEH/arcgis/rest/services/BeavercreekTrainingProjects2025_KYP/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 12
+    },
+    "e1fb5ee956d5443f91df72f571a1d097": {
+      "title": "Bidding Request Form_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_d7fd9c04b99c40328b36537b01948a87_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "89627290184c4ae5bf4c3ec35eb123fa": {
+      "title": "Bridges",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Bridges/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 12
+    },
+    "a6c9a99a43764a02ac638c396241de4e": {
+      "title": "Building Footprints",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Engineering/Building_Footprints/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 338321
+    },
+    "6f82c3567ba54ca38016e860f9b44587": {
+      "title": "Calls For Service OpenData",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/OpenData/CallsForService_OpenData/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "db2cc1f72a844d03bb4f0a8683085314": {
+      "title": "CallsForService",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/CallsForService/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 20372
+    },
+    "6627ca0f9ced4037a8153dbc999442d3": {
+      "title": "CallsForService_OpenData_HOSTED",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/CallsForService_OpenData_HOSTED/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 26028
+    },
+    "4f11fd2f59ba430fba35c67988e45f5c": {
+      "title": "Career Conference Registration Form 2026_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_6bcf3dbacb364c6997fc2e0f6ef5060a_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "8cdcaf3801bc4fb0b2a91335b5ac7d77": {
+      "title": "cbd_cam_shapefiles",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/cbd_cam_shapefiles/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 22
+    },
+    "7e147915b1234cfe92960306984c39c9": {
+      "title": "CCTV_Truck",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Water/CCTV_Truck/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Invalid or missing input parameters."
+    },
+    "d5c5c22a2859493cbd1539d082f67b31": {
+      "title": "CIP Public Project Points",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/CapitalPlanning/Completed_Capital_Improvement_Projects/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 264
+    },
+    "1ec3aac8859244a99861c581552deff2": {
+      "title": "CIP Story Map 2017",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Water/CIP_Story_Map_2017/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 75
+    },
+    "3755f0f753864fd6a62112cd67bdb2ef": {
+      "title": "CIP_Contact_US",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_57b0cd7bcabb4e0ea521329e060189ea/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "038311b6bb9d4d4184bbba60e5ab3396": {
+      "title": "CIP_Contact_US_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_57b0cd7bcabb4e0ea521329e060189ea_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "8718ad7464ea418c9e3ab875c91c7d26": {
+      "title": "CIP_Contact_US_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_57b0cd7bcabb4e0ea521329e060189ea_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "ad69dabe654b48b7a31015afe4b72832": {
+      "title": "City Employee List",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/City_Employee_List/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 1870
+    },
+    "89dab974c5f84f7bb6e3aade430af8c6": {
+      "title": "City Employee List view",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/City_Employee_List_view/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 1870
+    },
+    "7d1d6188ee1544bb8928e3ad329a25cf": {
+      "title": "City Facilities Plumbing Asset Collector View",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/City_Facilities_Plumbing_Asset_Collector_View/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 133
+    },
+    "931fb06adb1f47cc870933fa4cb95085": {
+      "title": "City Hall Window Temperature",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/City_Hall_Window_Temperature/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 972
+    },
+    "a2c44ed458a94df9891a9d576c473321": {
+      "title": "City of Dayton Custodial Inspection ",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_defcda6cdf0f4a6eae37244f54a3370e/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "b44e08d3a6d34df8ab80dec715ea8849": {
+      "title": "City of Dayton Custodial Inspection _form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_defcda6cdf0f4a6eae37244f54a3370e_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "df879f0b17d846c7b6e8d18c61ce8a09": {
+      "title": "City of Dayton Custodial Inspection _results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_defcda6cdf0f4a6eae37244f54a3370e_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "f9d72c9960ab4098ab4e3fac2417253d": {
+      "title": "City of Dayton Data Inventory_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_fd0ab53108cf4144bec5108286d013bd_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "590d657c597c4f0d855c7ec9dddd67cc": {
+      "title": "City of Dayton Intern Weekly Recap_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_c28457dd1ce248fa93da44097e65a42a_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "bfd79e8f9abc454f9abdc4974aa33ae6": {
+      "title": "City of Dayton Tree Planting Request_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_77c195c57d7f4eb78b29fcbd80ccccc7_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "779634593b1f4e0280a6789de14a774d": {
+      "title": "City_of_Dayton_Owned_Parcel",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/City_of_Dayton_Owned_Parcel/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 1926
+    },
+    "450c7ee4a6264172beb5ac95d6d89157": {
+      "title": "City_of_Dayton_Vehicle_Parking_Locations",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/City_of_Dayton_Vehicle_Parking_Locations/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 63
+    },
+    "0fae574bb9324aa5ab903f40358d9337": {
+      "title": "COD Government Services",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/COD_Webpage/COD_Government_Services/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 8
+    },
+    "c23c72d2d34444ccbb0c1c0438dadc48": {
+      "title": "CODBikeRacks_Portal",
+      "url": "https://utility.arcgis.com/usrsvcs/servers/c23c72d2d34444ccbb0c1c0438dadc48/rest/services/Planning/TransportationPlanning/FeatureServer/1",
+      "capabilities": null,
+      "queryable": false,
+      "note": "Error invoking service"
+    },
+    "d50f0a83710e420f85940964be9d9179": {
+      "title": "CommunicationsSystem",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/CommunicationsSystem_22e67ab37c7d4f85b7248d3bcc7e775e/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "9e1de277435f4d689297672f424906a2": {
+      "title": "CommunicationsSystem_viewing",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/CommunicationsSystem_viewing_22e67ab37c7d4f85b7248d3bcc7e775e/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "7caebbf537f848488cd587dc35199844": {
+      "title": "Community Engagement Form_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_72a96b47f9364639a9841e217bf8eb17_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "c0719a4f206c4d93baf073e79cce2fc1": {
+      "title": "Community Wide and City Operation Emissions",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Community_Wide_and_City_Operation_Emissions/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 31
+    },
+    "fae3fc06e8dd4fd39dfd4b5cf548762b": {
+      "title": "Contact Us - Rhythm_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_ce4502ba296f43a0bf7d44b92ba49652_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 860
+    },
+    "ba6d3361382d4f2692a4668b7f77b536": {
+      "title": "Crimes",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Police/Crimes/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "6de39cf02fa24843baef0b3b0ddd559b": {
+      "title": "Crimes Open Data",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/OpenData/Crimes_OpenData/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "995604cc35c94cb9957ad88aef8083b0": {
+      "title": "Crimes_Greater2016",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Crimes_Greater2016/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 59522
+    },
+    "3f0535f9a5884c5ea2aff8721123f54f": {
+      "title": "Crimes_Greater2016_TYPE",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Crimes_Greater2016_TYPE/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 76567
+    },
+    "51be84f1762a48468b63499c5e186407": {
+      "title": "Crimes_OpenData_HOSTED",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Crimes_OpenData_HOSTED/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 50489
+    },
+    "5786c488699d4b5a95af8843c242b0be": {
+      "title": "Curb",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Curb/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 6155
+    },
+    "256ab605f7124617917b55397227c63a": {
+      "title": "Curb _ Sidewalk Inventory_Michael Baker_Pilot Area_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Curb___Sidewalk_Inventory_Michael_Baker_Pilot_Area_WFL1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 51086
+    },
+    "b7aab4040e834671a3114c416ce2b105": {
+      "title": "Curb and Sidewalk Repairs View",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Curb_and_Sidewalk_Repairs_View/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 1472
+    },
+    "7f311f1258784fd7bb2327589a1b1b7c": {
+      "title": "Curb ramps",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Curb_Ramp/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 10
+    },
+    "1c83445963764d59b67824eef2479056": {
+      "title": "Customer Service Recognition Nomination Form_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_1a7f7bb02f744f32a1b62c45a08cf95f_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "09b591d26a7d445580e43c700a4ecc65": {
+      "title": "Daily Staffing Detail",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_1496b85155e14988b41cccd83195d205/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 4863
+    },
+    "f98217d5ae0b46c4bda8d6f5a6aa7ee8": {
+      "title": "Daily Staffing Detail_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_1496b85155e14988b41cccd83195d205_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 535
+    },
+    "31afff67f16c4b448d4aa32870a4de7d": {
+      "title": "Daily Staffing Detail_stakeholder",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_1496b85155e14988b41cccd83195d205_stakeholder/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 535
+    },
+    "396d654c067d4b989222707d1c6acf34": {
+      "title": "Daniel Juday Accelerant Culture Training_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_457f157cc62a487789c7d4cb70909019_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "10ef445970e04b1e88808d5a4c1099ba": {
+      "title": "Dayton Block Groups",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/DaytonBlockGroups/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 194
+    },
+    "ac14e2e76f1941b0b4d4cd8e5a2cdcbe": {
+      "title": "Dayton Corporation Boundary",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Base/Dayton_Corporation_Boundary/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 2
+    },
+    "033898e695784c8a941d092ef1fbdc2d": {
+      "title": "Dayton Delivers Testing Report_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_5a51cf5a89e1403eaf3cb6930c00c578_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "b97b06de48754fc5b1eabd2f30f6af4b": {
+      "title": "Dayton Housing Condition Survey Parcels 2023",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Housing_Condition_Survey_Parcels_2023/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 66033
+    },
+    "401bb2e71adf468d99e6bdcd19931cdc": {
+      "title": "Dayton Housing Condition Survey Parcels 2023_TABLE",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Housing_Condition_Survey_Parcels_2023_TABLE/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 66033
+    },
+    "d0499e0e08454ef4b77d0533544b8e38": {
+      "title": "Dayton Housing Condition Survey Parcels 2025",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Housing_Condition_Survey_Parcels_2025/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 88922
+    },
+    "6fb115ad9be94fb8a813f9766fcf0e1c": {
+      "title": "Dayton Housing Condition Survey Parcels 2025_TABLE",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Housing_Condition_Survey_Parcels_2025_TABLE/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 88922
+    },
+    "a247bc1c8a6a42ba8dfd21f01ed3d043": {
+      "title": "Dayton Mediation Response Unit Calls for Service",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Police/MediationResponseUnit_CFS/MapServer/0",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "60e89f96d252430db59547f5782f9f55": {
+      "title": "Dayton Neighborhood",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/COD_Neighborhoods/MapServer/0",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "35108bb0737947bdb68836ab3bb390d1": {
+      "title": "Dayton Neighborhood Boundary",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Neighborhood_Boundary/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 66
+    },
+    "0f0ae3f184a34d8e95bb87f94f95e88e": {
+      "title": "Dayton Neighborhoods",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Base/Dayton_Neighborhoods/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 97
+    },
+    "04384382287a4392a6b7456060c7ae6c": {
+      "title": "Dayton Parcels for Street Light Viewer",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/DaytonParcel/MapServer/0",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "74f724b29cd84ce9909b3ca9f6a44b4b": {
+      "title": "Dayton Recovery Plan Input Form_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_1eba465e83ed484f83be9235b41619a2_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 124
+    },
+    "1aec41ff703043bda212c39335c957a5": {
+      "title": "Dayton Recreation Centers",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Recreation_Centers/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 9
+    },
+    "0df04bd7622e4959b2b087cb6341dd69": {
+      "title": "Dayton SM Snow Plows (Current GPS)",
+      "url": "https://gomapgeodb3.calamp.com/arcgis/rest/services/DaytonCVS/FeatureServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "a27838feee334c33aea8265735f34351": {
+      "title": "Dayton SM Vehicles (Current GPS)",
+      "url": "https://gomapgeodb3.calamp.com/arcgis/rest/services/DaytonCVS/FeatureServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "de7a59eca1e04cafbf5d68cc1bb2f469": {
+      "title": "Dayton Street Sweeper Routes",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Street_Sweeper_Routes/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 15802
+    },
+    "b8686f462c354e82909d46257cc56297": {
+      "title": "Dayton Used Address",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Basemaps/Dayton_Used_Address/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 163184
+    },
+    "bb86b94b8d3f47eb9aac055603b41158": {
+      "title": "Dayton WC Vehicles (Current GPS)",
+      "url": "https://gomapgeodb3.calamp.com/arcgis/rest/services/DaytonCVS/FeatureServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "ea47d8b937b44f4689006ab455749224": {
+      "title": "Dayton_Alleys_03012023",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Alleys_03012023/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 5335
+    },
+    "96f8c824bd08415eaf69ef06adcdcb37": {
+      "title": "Dayton_Land_Use_Council_Areas",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_Land_Use_Council_Areas/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 6
+    },
+    "1daffd367a784eb8b3bebdaab4309056": {
+      "title": "DAYTON_NEIGHBORHOODS",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/DAYTON_NEIGHBORHOODS/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 65
+    },
+    "1f02d7109367454abb29ba2c8c3e3901": {
+      "title": "Dayton_ServiceLineInventory_public",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Dayton_ServiceLineInventory_public/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 64493
+    },
+    "3f8fe45c9f7b46a8bbbb8f58dca01879": {
+      "title": "DaytonBasemap_Hansen",
+      "url": "http://maps.daytonohio.gov/gisservices/rest/services/Basemaps_105_1/DaytonBasemap_Hansen/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Invalid or missing input parameters."
+    },
+    "585ba05af9484e3591451dd303c7262a": {
+      "title": "DaytonBasemap_MC_FT_All",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Basemaps/DaytonBasemap_MC_FT_All/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 163184
+    },
+    "db15c07a033a45bcbd70dbc34a855eed": {
+      "title": "DaytonNeighborhoods_Population",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/DaytonNeighborhoods_Population/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 65
+    },
+    "3739662ce48242b4852411a5fe883796": {
+      "title": "DaytonParcels",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/DaytonParcels/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 88668
+    },
+    "abfe9a5ff2cb458290cc475a55fd813c": {
+      "title": "Department Staffing Summary",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/service_6ca2882b9ad64177b793c174e03ba4a3/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 25239
+    },
+    "fa04032c2f4b48048f933a4a2f662e0e": {
+      "title": "Department Staffing Summary",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/service_06fc6b6c6b684c64a069e3a9fec732fc/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 2855
+    },
+    "310ba321453b41bb95897c92a1fccc2f": {
+      "title": "Department Staffing Summary Revised",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/service_efc7929e39234037a11c4b75069e0b19/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 1
+    },
+    "d2fa966ad5c24a0093916bd35dd89240": {
+      "title": "Department Staffing Summary_stakeholder",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_a4f85fc9b94d4e89b6a1a1a47403623b_stakeholder/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 4925
+    },
+    "e59562a7928d4c21b8cc8dd7752dd12c": {
+      "title": "Deployment Points",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Deployment_Points/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 41
+    },
+    "2d587e58d66b448a8f72ec58c1dc6639": {
+      "title": "Downtown Tree Inventory",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_e1cfce99214d45818f1d657485f1c6cd/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 72
+    },
+    "6a9d9e8f1d8242edb4c25865f348f164": {
+      "title": "Drone Imagery Digital Surface Model",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Drone_Imagery_Digital_Surface_Model/MapServer",
+      "capabilities": "Map,TilesOnly",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "8594a4940fe14a78bd93107bb0f98ab7": {
+      "title": "Drone Imagery Digital Terrain Model",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Drone_Imagery_Digital_Terrain_Model/MapServer",
+      "capabilities": "Map,TilesOnly",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "464a9b3045304155b5cfa1e60c760a8a": {
+      "title": "Drone Imagery Flight Data",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Drone_Imagery_Flight_Data/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 217
+    },
+    "7502a3d664134fff8bb1a42d4568c42c": {
+      "title": "Drone Imagery Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Drone_Imagery_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "b665b3e41c8c4520828217405ecd62f9": {
+      "title": "Drone Imagery Request_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_e0bfcfbb947440f3bfd95100cc78e14f_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "e249b3b5d5cd44fa9d62910421b5a384": {
+      "title": "Drone Imagery Request_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_e0bfcfbb947440f3bfd95100cc78e14f_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 8
+    },
+    "75e0f09aedcc492093a759bda3e0d018": {
+      "title": "DRP Map Locations",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/DRP_Map/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 146
+    },
+    "38865ead4c734ef6a2134fa4bcab44ee": {
+      "title": "DRP News Releases Test",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/DRP_News_Releases_Test/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 48
+    },
+    "d975e279fd5645c986a17866f247fcbc": {
+      "title": "DRP Request Form - Copy_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_ab2fc21c7605432897342a7d0669d7eb_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "f8cb7053334b49c3bcf01ea1cc324a78": {
+      "title": "DRP Request Form Inputs (System File)",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_ee2cbe74d96545b5819fb591b183e2e2_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "7fcd7090e8ac4c8593c8b5b95af7323e": {
+      "title": "EMapDocumentsAccelaAccelaIncidents_UPDATEAccelaIncidents_UPDATE.aprx",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Accela_UPDATES/AccelaIncidents_UPDATE/MapServer",
+      "capabilities": "Query,Map,Data",
+      "queryable": true,
+      "note": "",
+      "count": 12879
+    },
+    "eb6ff01941804ef4b12a6255edfd820a": {
+      "title": "Employee Suggestion Program View for Monitors",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Employee_Suggestion_Program_View_for_Monitors/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 45
+    },
+    "f9963911edb34604ac1bb511c889d870": {
+      "title": "Employee Suggestion Program_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_ff4b6241aa024a02865dc32e76e360b8_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "4d9ade995ad141f084a9a3e285b5341f": {
+      "title": "End of Summer Co-Op Going Away Party_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_a5044501a79c4560a6599ccbcede191e_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "2ccfe876f1154a488d31ee41b68c0bf2": {
+      "title": "EnvironmentalEquityInAlleghenyCounty_BDA_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/EnvironmentalEquityInAlleghenyCounty_BDA_WFL1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 338
+    },
+    "4bb45913b75c492094d02bd58697f89d": {
+      "title": "EV Parking Inventory_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_5ef0a485a9544563923e560133da6607_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "60fa7af5de384ce09c8835aa71af174f": {
+      "title": "EV Parking Inventory_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_5ef0a485a9544563923e560133da6607_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 84
+    },
+    "4653fd164e184e619282d2797d72c094": {
+      "title": "Existing Plans_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Existing_Plans_WFL1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 6
+    },
+    "f240a2a38fb54351aded0490fa5b5b73": {
+      "title": "Feedback Form - 1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_877e4a0836354e25a7b749dc1bdd57a8/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "00790ac16bbc4fc89240262c726b924c": {
+      "title": "Feedback Form_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_87dba669f21e4ee492cf9b88b512a9fa_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 1
+    },
+    "a158aa0276f54fdc94e91bc932c586dd": {
+      "title": "Feedback Form_stakeholder",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_87dba669f21e4ee492cf9b88b512a9fa_stakeholder/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 1
+    },
+    "74d61a428b2241c6b5f33f610db984f3": {
+      "title": "Fiber Splice Enclosure",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Fiber_Splice_Enclosure/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 31
+    },
+    "757d2a4777294050975cc75f8a395938": {
+      "title": "FiberEndPoints",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/FiberEndPoints/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 91
+    },
+    "c43da42d620f42e0bc29878fdabfd434": {
+      "title": "FiberOpticCable2",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/FiberOpticCable2/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 234
+    },
+    "d5e2f1085a9043bea45b2c369665fd0e": {
+      "title": "Fire Stations",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Fire/Fire_Stations/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 12
+    },
+    "d66b87551be647dfb68f50b50f7812ba": {
+      "title": "FireStations_GC_8_24_2021",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/FireStations_GC_8_24_2021/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 12
+    },
+    "115306a94ea14ecc8a479497fa6a4cc9": {
+      "title": "Five Oaks Park Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Five_Oaks_Park_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "b2a11c3ff080428fa9d6a9f7e857b016": {
+      "title": "Forestry Work Tracking_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_a1a7913b89c343fa975608d90f4e72cb_fieldworker/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "a06922cd74554d3c8aace7fa6067a8b2": {
+      "title": "Gem City Ice Cream Site Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Gem_City_Ice_Cream_Site_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "a8b99af365494da0be504e215aa96e62": {
+      "title": "GIS Copy of Dayton Recovery Plan Monthly Dashboard Data DRP Projects - DRP Projects - FL",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/GIS_Copy_of_Dayton_Recovery_Plan_Monthly_Dashboard_Data_DRP_Projects/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 168
+    },
+    "39dc0c509a6043f298918c3cf328b2b4": {
+      "title": "GIS_Copy_of_Dayton_Recovery_Plan_Monthly_Dashboard_Data_DRP_Projects",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/GIS_Copy_of_Dayton_Recovery_Plan_Monthly_Dashboard_Data_DRP_Projects/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 168
+    },
+    "55b83d7fcd844f1eb061d8def4cbef92": {
+      "title": "Government Services Collection Pickup Map - Public",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/Waste_Collection_Pickup_Map_Public/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 220
+    },
+    "b6309301d2864c288952dca816f75088": {
+      "title": "Greater Downtown Investment",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_df7c10887e354cb289d52e3270910822/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync,ChangeTracking",
+      "queryable": true,
+      "note": "",
+      "count": 128
+    },
+    "755bfc6189f049b397d3818beb1696ac": {
+      "title": "Greater Downtown Investment_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_df7c10887e354cb289d52e3270910822_form/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 128
+    },
+    "e16bd632632e4df7a2b4fc392614befe": {
+      "title": "Greater Downtown Investment_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_df7c10887e354cb289d52e3270910822_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 128
+    },
+    "3bc41d08cd764af8adc8441f55b86ae9": {
+      "title": "Greater_Downtown_Investment_Updated",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Greater_Downtown_Investment_Updated/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 127
+    },
+    "9056889f7686463fa41a8aeb8a9b55ca": {
+      "title": "GreaterMiamiSoleSourceAquifer",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/GreaterMiamiSoleSourceAquifer/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 10
+    },
+    "53250dab2d864ad28cce18f34e5db616": {
+      "title": "Group Homes and 1_000 Foot Buffers_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Group_Homes_and_1_000_Foot_Buffers_WFL1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 188
+    },
+    "9f419643aeaf498680f07e29cb1b9565": {
+      "title": "Hansen Submit Service Request Test_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_c1310afb289140f9b6a1361b2284170e_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 16
+    },
+    "6da224f2bf0d4d7d8246075d5639cee5": {
+      "title": "HCS Request Form_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_d59d9ed501814258b84e89145889c587_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "82d194643b7c4a6ca6fbf19b7d902b3a": {
+      "title": "HOUSING_INSPECTION_AREAS_2025_agol_copy",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/HOUSING_INSPECTION_AREAS_2025_agol_copy/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 107
+    },
+    "b4ff1ced602648d7b0d1abd837c5b943": {
+      "title": "HousingProjects_ProgramType",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/HousingRequest_ExportFeature1/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 376
+    },
+    "1d2bca6d895b41769aff30676cf5ed9c": {
+      "title": "Hub Events (public)",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Hub Events (public)/FeatureServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: URL can't contain control characters. '/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Hub Events (public)/FeatureServer?f=json' (found at least ' ')"
+    },
+    "2160a6656d2345f6bb321b05d671c80b": {
+      "title": "Impervious Area",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Water/ImpArea/MapServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: The read operation timed out"
+    },
+    "0f60f9cadd544f0aa38d404525498d72": {
+      "title": "Intern Supervisor Weekly Form_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_1af669670278418b87072dd8fe621be5_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "892603bf543049119870fd2d4043ec13": {
+      "title": "IPS Graffiti Requests_90 Days_Layer",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/COD_ServiceRequests_Last90/MapServer/0",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "65268946f7384a1a912332dfd5455944": {
+      "title": "Issue 9_PreSchool Promise Schools",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_PreSchool_Promise_Schools/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 74
+    },
+    "bdc7cba3539846789da089ecca7f74a5": {
+      "title": "Issue_9_Neighborhood_Boundary",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Neighborhood_Boundary/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 67
+    },
+    "e8b29a263c1445bc88915e48ebe3b17d": {
+      "title": "Issue_9_Park_Upgrade",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Park_Upgrade/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 24
+    },
+    "4b5d44dfb3964c50a5d1bf64dd936430": {
+      "title": "Issue_9_Preschool Promise School Locations",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Preschool_Promise_School_Locations/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 53
+    },
+    "945996c4352b4fbfb6617fc9a635e930": {
+      "title": "Issue_9_Resurfacing_Centerline",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Resurfacing_Centerline/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 11028
+    },
+    "b1e2f3e5e9a9447081a0b6c9cc380d6e": {
+      "title": "Issue_9_Vacant_Mowing",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Vacant_Mowing/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 7457
+    },
+    "70eac8366869459d89f394d05b72ae8e": {
+      "title": "Issue_9_Vacant_Mowing_2018",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Vacant_Mowing_2018/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 6027
+    },
+    "197987c6f29144c0a5cccb181c941a39": {
+      "title": "Issue_9_Vacant_Mowing_2019",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Vacant_Mowing_2019/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 5182
+    },
+    "74bc3ac6b72b4d57b7622fbd37c23e24": {
+      "title": "Issue_9_Vacant_Mowing_2020",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Vacant_Mowing_2020/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 7640
+    },
+    "5aeb6075ee52464fac934c4638b9d0e2": {
+      "title": "Issue_9_Vacant_Mowing_2021",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Issue_9_Vacant_Mowing_2021/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 7640
+    },
+    "e3ac2139e293449db3303529dacbcc86": {
+      "title": "J_McGee",
+      "url": "https://maps.daytonohio.gov/server/rest/services/PublicWorks/J_McGee/MapServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "Token Required"
+    },
+    "bfcbaaa2097f4b338a5984013fbc9bef": {
+      "title": "James McGee Blvd Trail True Ortho",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/James_McGee_Blvd_Trail_True_Ortho/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "86e2bc07d5414a729e0141f61c84836a": {
+      "title": "Lead Copper Rule Revision - Customer Identification",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_219e7a557141404cb68f43044e7e6d39/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 1003
+    },
+    "d39914bff55543e98f3a630281987316": {
+      "title": "Lead Copper Rule Revision - Customer Identification_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_219e7a557141404cb68f43044e7e6d39_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "8b09481943f540898579cfdadc73bf97": {
+      "title": "Lead Copper Rule Revision - Customer Identification_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_219e7a557141404cb68f43044e7e6d39_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 1003
+    },
+    "bda15e583fcd4fb0a3974990d94bec32": {
+      "title": "Leaf Collection View",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Leaf_Collection_1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 65
+    },
+    "2158692243e54cdea8cead229b4fbf17": {
+      "title": "Litter container",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Litter_container/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 424
+    },
+    "2df59682d92648cb9b39f62e70db4c54": {
+      "title": "Living City Project_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_7e1d7694363b47a2930994443f38194c_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "99d3bab7d497404f960faceca7afe216": {
+      "title": "Living City Project_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_7e1d7694363b47a2930994443f38194c_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 121
+    },
+    "40b94040168b4aaf9dbfdd0981efed60": {
+      "title": "Load Ticket_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_09d6152aa014435fb89586dfb050598e_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 528
+    },
+    "57d0283a3dc541c982d5f301d5d0b008": {
+      "title": "LWV Membership",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/LWV_Membership/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 407
+    },
+    "54ac183c269b47cb93a242fef2a67945": {
+      "title": "MediationResponseUnit_CFS2",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/MediationResponseUnit_CFS2/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "d99f55800e7844a2b95f15fd2ab8ca47": {
+      "title": "MediationResponseUnit_CFS_Units",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/MediationResponseUnit_CFS_Units/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 10049
+    },
+    "9533e5be6c9d4fb6b2a8c1be39f1aff0": {
+      "title": "NATO_Focus_Area",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/NATO_Focus_Area/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 1
+    },
+    "09a4269567a94bd19a54bb8dbbdff754": {
+      "title": "Neighborhood",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Neighborhood/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 66
+    },
+    "fd3ba401ab5b4a7faa5d4ac5d68c6055": {
+      "title": "Neighborhood_Profile",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Neighborhood_Profile/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 65
+    },
+    "b91e32e6015d4018b23cf2566bec956b": {
+      "title": "Neighbourhood_Latest",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Neighbourhood_Latest/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 65
+    },
+    "3471348679484cb39c6491a326f25e22": {
+      "title": "Nuisance Map 10.24",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/FinalJoinedSHP/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 1752
+    },
+    "8b5547a4b4da4cfe9daee9218da4f6b2": {
+      "title": "Nusance_Parcels_Feb_2021",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Nusance_Parcels_Feb_2021/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 1031
+    },
+    "8f26093fc67b43b5beb34bdfe00208dc": {
+      "title": "OfficerInvolvedShooting",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/OfficerInvolvedShooting/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 1
+    },
+    "c4478fd05e214b2c9bf0e573747cac93": {
+      "title": "OfficerInvolvedShooting OpenData",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/OpenData/OfficerInvolvedShooting_OpenData/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "a28655141c254dc491a9d3f395880c5f": {
+      "title": "OfficerInvolvedShooting2",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/OfficerInvolvedShooting2/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "a34c02b163a2468e94f9d2540c261b37": {
+      "title": "OfficerInvolvedShooting_OpenData_HOSTED",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/OfficerInvolvedShooting_OpenData_HOSTED/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "973464d561914c9e8ee7a86a3dd82096": {
+      "title": "Ortho16Cache",
+      "url": "http://wtrags105:6080/arcgis/rest/services/Ortho16Cache/MapServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    "55031200313943cb9e99721e1d1dc980": {
+      "title": "Ortho_Cache_Fall_2024",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Basemap/Fall2024Ortho_Greg/MapServer",
+      "capabilities": "Query,Map,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "9fbf4261675d46639065b1352c4b000c": {
+      "title": "OUPS_StreetLightArea_DSLP_20250715",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/OUPS_StreetLightArea_DSLP_20250715/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 173
+    },
+    "303d1ea8f76d42e2a7f87763584f4a1a": {
+      "title": "Parcels",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Engineering/Parcels/FeatureServer",
+      "capabilities": null,
+      "queryable": false,
+      "note": "Service not found"
+    },
+    "41e7845115be46148821ae709fb4d89b": {
+      "title": "Parcels and Boundaries",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Water/Parcels_Boundary/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 35
+    },
+    "3c909a6de9d24f5bbdb1826b39bdbeb1": {
+      "title": "Parcels_HCS_Nuisance_WaterZero",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Parcels_HCS_Nuisance_WaterZero/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 2823
+    },
+    "42583824d99049ae87f0495414f576be": {
+      "title": "Pavement Centerline_Transmap 2022",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Pavement_Centerline_Transmap_2022/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 10871
+    },
+    "c9c523fe51144a3da3a6861f26625ee3": {
+      "title": "Planning Districts",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Planning_Districts_Boundary/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 5
+    },
+    "284a20534ea14614bb0e46595e637acf": {
+      "title": "Planning_Districts_Neighborhood",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Planning_Districts_Neighborhood/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 65
+    },
+    "efbe1b353d6742ddbec7b8eb46a9618a": {
+      "title": "Plat Submission _fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_00b1d6e0234a4e43bd1dcb5354578aa7_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "f1e3d07790304666a1af14a9585f58f5": {
+      "title": "PND - Development Tracker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_98741fabe7474ab8b3efc864ef853935/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 77
+    },
+    "1f5b2e1e71b94430afe077d53d73eda5": {
+      "title": "PND - Development Tracker_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_98741fabe7474ab8b3efc864ef853935_form/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 77
+    },
+    "99943a40ee6a42c2ae3f776f90d5fee2": {
+      "title": "PND - Development Tracker_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_98741fabe7474ab8b3efc864ef853935_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 77
+    },
+    "5ac03e9267824e2da4b27e125efd9514": {
+      "title": "Police Calls For Service By Dispatch Code",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Police_Calls_For_Service_By_Dispatch_Code/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 20756
+    },
+    "e7de1609421947458574f548c0371bae": {
+      "title": "Police Crimes by Part-REDO Layer",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Police/PoliceALLCrimes_Layer/MapServer/0",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "ea0f6cb1fd204d3b80961ad6dcb3b381": {
+      "title": "Police Patrol Operations Division Layer",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Police/PolicePODS/MapServer/0",
+      "capabilities": "Query,Map,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "f2b6056733fc4278a5355cda8c68c956": {
+      "title": "Police sworn staffing 2024 for arcgis CSV",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Police_sworn_staffing_2024_for_arcgis_CSV/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 10
+    },
+    "da53bd70cdd84dd28b958b1214ec029d": {
+      "title": "Police Transparency Portal Feedback",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_4e0a306e8873471c9dad238097985cc2/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 17
+    },
+    "a2003eaa18524916bf94d3906408d077": {
+      "title": "Police Transparency Portal Feedback_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_4e0a306e8873471c9dad238097985cc2_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 17
+    },
+    "c313043fa80444bb877e8168b63e4343": {
+      "title": "Police Transparency Portal Feedback_stakeholder",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_4e0a306e8873471c9dad238097985cc2_stakeholder/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 17
+    },
+    "9ec59ba43e3b466c9c90bc2580b75be6": {
+      "title": "PoliceCFS",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/PoliceCFS/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 25655
+    },
+    "78073980fe6c4702a12363d2009a8324": {
+      "title": "PoliceFIC_ShowOfForce_HOSTED",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/PoliceFIC_ShowOfForce_HOSTED/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 1419
+    },
+    "ad05ca5ba65643d8a9dd3909c2d82a83": {
+      "title": "PoliceStopDemographics",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/PoliceStopDemographics/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 91217
+    },
+    "1842d3e178e149458d411fe18fc50c30": {
+      "title": "PoliceStops_Demographics_OPENDATA",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/PoliceStops_Demographics_OPENDATA/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 91217
+    },
+    "f1c35c22dfa84fea958197f51163536c": {
+      "title": "Population_Density_per_Neighborhood",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Population_Density_per_Neighborhood/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 66
+    },
+    "75df1a5ad6b84fd28a8ff02d72198984": {
+      "title": "Potholes",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Potholes/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 5
+    },
+    "415d315d4d2c4c3396eaac9e02c6ce24": {
+      "title": "Preschool Promise Enrollment Population Data_2024",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Preschool_Promise_Enrollment_Population_Data_2024/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 8
+    },
+    "7748449d584541ffbc45f43ee5b197e8": {
+      "title": "Preschool Promise K Rediness Assessment Data_2024",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Preschool_Promise_K_Rediness_Assessment_Data_2024/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 21
+    },
+    "8e25ab4c14b24b1eaf8410d3dbb56342": {
+      "title": "Preschool Promise Provider Enrollment Data_2024",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Preschool_Promise_Provider_Enrollment_Data_2024/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 46
+    },
+    "03367180c21c475d8147efcd79e38e4f": {
+      "title": "Preschool_Promise_2018",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Preschool_Promise_2018/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 52
+    },
+    "c6f7b3e9a68a4c5e812156b69ec373c4": {
+      "title": "Preschool_Promise_2022",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Preschool_Promise_2022/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 61
+    },
+    "b9715280d56345e3839b371198fce404": {
+      "title": "Preschool_Promise_2023",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Preschool_Promise_2023/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 71
+    },
+    "bb857949b1794bc1a851e6fdb29855fa": {
+      "title": "Preschool_Promise_2025",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Preschool_Promise_2025/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 69
+    },
+    "e1979ffeda66463a8ef95a619255633a": {
+      "title": "Problem Reporter",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/service_05488f08619149ae87c5de21a55984ea/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 3
+    },
+    "667de8ccddd24d86bea378ca291adc14": {
+      "title": "Property Management Custodial Check List",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_16fcf77a1297487fb0861c67a1615776/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 5
+    },
+    "7ce18669fe50477c887f7a726f2136dd": {
+      "title": "Property Management Custodial Check List_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_16fcf77a1297487fb0861c67a1615776_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "bc7a6386a3f448cf8ebbd3b8a68dd86e": {
+      "title": "Property Management Custodial Check List_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_16fcf77a1297487fb0861c67a1615776_results/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 5
+    },
+    "037a6dd263494f12b1714f73ac71a4ad": {
+      "title": "Proposed_Resurfacing_5_Year",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Proposed_Resurfacing_5_Year/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 11182
+    },
+    "28925a56d5d344f8987dd1dc9ebab5f7": {
+      "title": "PTP Feedback Form_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_3631a0de044d4c2eb5505e60cf259367_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 7
+    },
+    "5ef75c7776dc4330a68a9e04117302c2": {
+      "title": "Public_Facilities",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Public_Facilities/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 171
+    },
+    "b8721430afdb49cfbc9c1be0298cab3e": {
+      "title": "Public_Service_Connections",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/LCRR/Public_Service_Connections/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 64725
+    },
+    "1302d4edd6094c499add41d76187281a": {
+      "title": "PublicServiceConnections",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/PublicServiceConnections/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 64725
+    },
+    "370b2a067a29472bb60449b5c30a2bfb": {
+      "title": "PW_Feedback_2025_table",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/PW_Feedback_2025/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 215
+    },
+    "0c9c8cc29dc1454aaf429d7bd6996917": {
+      "title": "PW_Parks_June2021",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/PW_Parks_June2021/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 41
+    },
+    "7bfefc09799d4c16928aed4845c80024": {
+      "title": "Qualified Opportunity Zones_Montgomery County OH",
+      "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/Opportunity_Zones_1/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 8764
+    },
+    "fb25ac9744cc42f0994dfaaf6d16c1c2": {
+      "title": "Recycle",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Recycle/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "366caafaaa414d988de4e40cb21cae68": {
+      "title": "RecyclecollectionRouteCount",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/RecyclecollectionRouteCount/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 114
+    },
+    "55c50c86849348988c7baa61980c5c00": {
+      "title": "RecyclecollectionRouteCount_1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/RecyclecollectionRouteCount_1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 114
+    },
+    "0bda0a9ea9c44c848c9430a5785a1afb": {
+      "title": "Recycling Route Areas",
+      "url": "http://maps.daytonohio.gov/daytongis/rest/services/COD_Webpage/COD_Government_Services/MapServer/7",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: Expecting value: line 3 column 1 (char 4)"
+    },
+    "1e56b373ee994f8c87a0b44759286d70": {
+      "title": "ReformImplementationTracker",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Police/ReformImplementationTracker/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 142
+    },
+    "b010094f682d4247bfd07622cf000420": {
+      "title": "Residence Park1 True Ortho",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Residence_Park1_True_Ortho/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "3339ad297d86401d972f58244cb40991": {
+      "title": "ResistingArrest_OpenData",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ResistingArrest_OpenData/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 3133
+    },
+    "d84d821d3f9a49edabaef1c119a875f2": {
+      "title": "ResistingDashboard",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ResistingDashboard/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 2976
+    },
+    "51cae4b556de410d969aec1b8f4f893c": {
+      "title": "Resurfacing_Presentation2020",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Resurfacing_Presentation2020/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 7920
+    },
+    "c1a8ff1dcd30425db6a3769577d8ea21": {
+      "title": "Rhythm DIY Testing_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_0f1f8e69112e47838add88980ae5f69c_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "09590e25f4144ffc95e3c690313700c9": {
+      "title": "Rhythm Internal Testing",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_af669804b5ce4468bd0a446b15ac3d6f/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 164
+    },
+    "f8a4330fbe734ed69b206c23eaad7bdc": {
+      "title": "Rhythm Internal Testing Example_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_eafe6d7f99c643c392db982519372550_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 29
+    },
+    "d1ffd41ab0f142db81e2cb78a6cb0fa2": {
+      "title": "Rhythm Internal Testing_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_af669804b5ce4468bd0a446b15ac3d6f_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 164
+    },
+    "df5bfb8222b642c78a6b01a8859686b1": {
+      "title": "Rhythm Internal Testing_stakeholder",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_af669804b5ce4468bd0a446b15ac3d6f_stakeholder/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 164
+    },
+    "19cdbb069a8e44a6b85885abc2eab785": {
+      "title": "Road Safety Action Plan",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Point_Line_Shapefile_Upload/FeatureServer",
+      "capabilities": "Create,Query,Editing,ChangeTracking",
+      "queryable": true,
+      "note": "",
+      "count": 347
+    },
+    "1aee3a982cf3448c9882118520001c80": {
+      "title": "Road Safety Action Plan Reference Layer",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/CityofDaytonSafetyActionPlanReferenceLayers/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 17375
+    },
+    "be7232647f1b4291ad1a7cdaef272435": {
+      "title": "RPLC_MCES_Assets",
+      "url": "https://utility.arcgis.com/usrsvcs/servers/be7232647f1b4291ad1a7cdaef272435/rest/services/RPLC_PublishedServices/RPLC_MCES_Assets/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Invalid or missing input parameters."
+    },
+    "7072c5af20c44e28aadae6953861a2de": {
+      "title": "Satisfaction Survey - Rhythm_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_d7ed404cc3304c6598f0e87ee70b2a2f_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 142
+    },
+    "0f022de183a54b17844786106f4d96ae": {
+      "title": "Scada_Sites_shp",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Scada_Sites_shp/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 44
+    },
+    "eaf369d5ca7647aaab14fd5bc4c8a2ab": {
+      "title": "ServiceableLocations",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ServiceableLocations_22e67ab37c7d4f85b7248d3bcc7e775e/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "643e6cf16cf34bc8a671bfbc8284bc1e": {
+      "title": "ServiceableLocations_editing",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ServiceableLocations_editing_22e67ab37c7d4f85b7248d3bcc7e775e/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "24005c54f21a4726aa9890b761d47933": {
+      "title": "ServiceableLocations_viewing",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/ServiceableLocations_viewing_22e67ab37c7d4f85b7248d3bcc7e775e/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 4
+    },
+    "e82639b84f324f3cb9279a19cd912e23": {
+      "title": "Shade Tree Planting_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_fd42cd2bb4f648468bdd539972867a60_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 133
+    },
+    "142cf04852824e9fab8b5fd08587f081": {
+      "title": "Sign Shop Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Sign_Shop_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "a043ac9828e14b9aa7f49b7caaeaa5bf": {
+      "title": "Sinclair UAV Outfall Areas",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Water/Sinclair_UAV_OutfallAreas/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 32
+    },
+    "8c82b70e43c24ea188aa945c1461690a": {
+      "title": "SLSA 2014 Parcels",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/SLSA_2014_Parcels/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 88512
+    },
+    "26ab57a7888545709aa4fa95a8232f72": {
+      "title": "SLSA_2014_Parcels",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/SLSA_2014_Parcels/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 88512
+    },
+    "692cd0277e9a4a5da08c2303fea8e1c6": {
+      "title": "Snow Plow Roadeo ",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_fd5fb79be6234255adf650d427f1deb2/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 48
+    },
+    "7d59dad40a364751a8096720a5d98c9d": {
+      "title": "Snow Plow Roadeo _form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_fd5fb79be6234255adf650d427f1deb2_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "29a776702290489cac3a6da479b6a15c": {
+      "title": "Snow Plow Roadeo _results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_fd5fb79be6234255adf650d427f1deb2_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 48
+    },
+    "16b5f8c6b488458e94a91f454d30b765": {
+      "title": "St_Annes_Hill_SLSA_2017_WEB",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/St_Annes_Hill_SLSA_2017_WEB/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 455
+    },
+    "20ff302944994449b1088b39be587e9b": {
+      "title": "Stakeholder Feedback_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_cd286ffa20544c549bc847dee344464f_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "f20092e08b1d4c3287bb8c6275ae3499": {
+      "title": "Start List",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Start_List/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 64
+    },
+    "5d82a3fadbd74c0f916ecc891cdfe2bb": {
+      "title": "Storm Drain Murals Service Data",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Environmental/StormDrain_Artscape/FeatureServer",
+      "capabilities": "Query,Create,Update,Delete,Uploads,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 21
+    },
+    "7a6efeab577d4b3da7e5e6c57ffda593": {
+      "title": "Storm Drain Nickname Viewer",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Storm_Drain_Nickname_Viewer/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 175
+    },
+    "b3cc4202f54d46009e243f02c206d0bf": {
+      "title": "Storm Reporting Training_CG_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Storm_Reporting_Training_CG_WFL1/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 1
+    },
+    "3279c774fb9f44c19d610935d0e0ecb2": {
+      "title": "Storm Reporting Training_Jen_WFL1",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Storm_Reporting_Training_Jen_WFL1/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 1
+    },
+    "adf52f91ba2c4e76bcc805209037ec53": {
+      "title": "Street Light",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Street_Light/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 9
+    },
+    "f7c9438065854d53a5e28c27ebf3fad4": {
+      "title": "Street Light 2016",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/Street_Light_Edit_Map_SDE_10_3_1/FeatureServer",
+      "capabilities": "Query,Create,Update,Delete,Uploads,Editing",
+      "queryable": true,
+      "note": "",
+      "count": 20816
+    },
+    "ae42501e331d41bba2029adea9095746": {
+      "title": "Street Light 2016 no edit",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/PublicWorks/Street_Light_Edit_Map_SDE_10_3_1/MapServer/0",
+      "capabilities": "Query,Map,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "9583b799558248b0a57117b06836fb03": {
+      "title": "Street Light Inventory",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Street_Light_Inventory/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 36
+    },
+    "2a88a3d7084c4a0cb0e5cef9df37047d": {
+      "title": "Student/Teacher Feedback Survey 2026_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_1b6c4d7a86004a43a4b1861b8f3f4b18_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "17dd55d122304c5bb8aca7d52ddcc057": {
+      "title": "Succession Planning Workforce Assessment Form_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_603bea7b69384e858878e9de772f8c15_form/FeatureServer",
+      "capabilities": "Create,Query,Editing,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 6
+    },
+    "c6d1e6af0ed54ff1a448d9e8ea579fb0": {
+      "title": "Succession Planning Workforce Assessment Form_results",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_603bea7b69384e858878e9de772f8c15_results/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 16
+    },
+    "a0256065da5744648af3199a810cc5c9": {
+      "title": "Texas_Reservoirs_Recent_Conditions_-_Brian",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Texas_Reservoirs_Recent_Conditions_-_Brian/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 122
+    },
+    "d7aa9179d00c437fbbae7d9eb9cb11af": {
+      "title": "TornadoAssessment_Housing",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/TornadoAssessment_Housing/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 1015
+    },
+    "bbb2fca7609a46d1b20f5ecb3d335990": {
+      "title": "TornadoAssessment_RedCross",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/TornadoAssessment_RedCross/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 825
+    },
+    "2c69a8dbef6a4827954b42df2118b657": {
+      "title": "Trash Route Areas",
+      "url": "http://maps.daytonohio.gov/daytongis/rest/services/COD_Webpage/COD_Government_Services/MapServer/6",
+      "capabilities": null,
+      "queryable": false,
+      "note": "service unreachable: Expecting value: line 3 column 1 (char 4)"
+    },
+    "65c4d65315874021a948184d18ebab25": {
+      "title": "Tree Planting View",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Tree_Planting_View/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 365
+    },
+    "e1f5ad4cf4aa4178a007ccfcecd2e151": {
+      "title": "Tree Removed View",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Tree_Removed_View/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 457
+    },
+    "1c3980cc093b4e898b90c5582f9a4422": {
+      "title": "Tree Ticket Photo_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_0e2d3ef99f0147f5a326250244f31e64_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 314
+    },
+    "3fd77c79d987457a94fea1afbb356fac": {
+      "title": "Tree Ticket_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_e903c012d60641f3a1bfe13785c63b66_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 285
+    },
+    "5b128bc3425843d98d5fbbb76151accc": {
+      "title": "Tree_Planting",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Tree_Planting/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 365
+    },
+    "c51d32de826d4d21a17900b9977bc5b3": {
+      "title": "Tree_Removed",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Tree_Removed/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 457
+    },
+    "931bc14caa8e4b9cb1acb1ca2e239c67": {
+      "title": "UOF Type OpenData",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/OpenData/UseOfForce_Type_OpenData/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "c3540493bff64ce1804c0d7829f8dcda": {
+      "title": "UOF_CountTable",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/UOF_CountTable/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 733
+    },
+    "2d6d42efbff84fb7af75836b908eb121": {
+      "title": "Updated Storm Drain Data USE",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Updated_Storm_Drain_Data_USE/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,ChangeTracking",
+      "queryable": true,
+      "note": "",
+      "count": 22496
+    },
+    "27ff67266b4047119d9e1f5204e82a47": {
+      "title": "UseOfForce_DemographicsXY_V2",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/UseOfForce_DemographicsXY_V2/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 710
+    },
+    "2e20daa409604cfa9404579e1730038d": {
+      "title": "UseOfForce_Type_OpenData_HOSTED",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/UseOfForce_Type_OpenData_HOSTED/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 1217
+    },
+    "fb8ea03872564a9898718f09e3f79bb6": {
+      "title": "UseOfForce_TypeXY_V2",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/UseOfForce_TypeXY_V2/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 710
+    },
+    "6c42a563fc22473db3d8faf3912b951f": {
+      "title": "UseOfForce_TypeXY_V2",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Police/UseOfForce_TypeXY_V2/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "ff43050dc45349b588c4b118aceec6e3": {
+      "title": "Victim Crimes",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Police/Victim_Crimes/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": false,
+      "note": "Query declared but no layers or tables"
+    },
+    "3b3fe20c680c45a39ac735ad91afa69a": {
+      "title": "VLM_MOW_RESULTS_2024Q",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/VLM_MOW_RESULTS_2024Q/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 64
+    },
+    "53e90b3265e6453f98ec0e7c904c4bce": {
+      "title": "Volunteer Feedback Survey 2026_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_8b0de4c49c4e42d2b01661df9bcf11dd_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "9b35dc6569964ac2b9b16322e8d3a508": {
+      "title": "Volunteer Feedback Survey_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_d1bcb0f68a5c4d5dbbfba0112565bc7a_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "c755e8ff88b042f5a60f0096ab14268d": {
+      "title": "Volunteer Information for Disasters HFL",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Volunteer_Information_for_Disasters_HFL/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Extract,Sync,ChangeTracking",
+      "queryable": true,
+      "note": "",
+      "count": 0
+    },
+    "8de6976829194d7caa5da57bba157667": {
+      "title": "Wagner Ford Landfill April 2023 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_April_2023_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "fc792fe15e954c1ebab60812b0c431af": {
+      "title": "Wagner Ford Landfill Dec 2021 Mavic Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_Dec_2021_Mavic_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "0428886074fc4a7ca80a2edad7714d6a": {
+      "title": "Wagner Ford Landfill Dec 2021 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_Dec_2021_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "d16c10a931bd489faf509e2fc665a56f": {
+      "title": "Wagner Ford Landfill December 2024 True Ortho",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_December_2024_True_Ortho/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "6d0378440c5749f1821de40f571ccd31": {
+      "title": "Wagner Ford Landfill February 2024 Orthomosaic True Ortho",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_February_2024_Orthomosaic_True_Ortho/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "8857c6704969474187d4e3adac373bdf": {
+      "title": "Wagner Ford Landfill Jan 2023 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_Jan_2023_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "5edb64e6a5af4a27aff9d57befb6e5d9": {
+      "title": "Wagner Ford Landfill July 2023 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_July_2023_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "023740abbb57416b88a19d307de57079": {
+      "title": "Wagner Ford Landfill Mar 2023 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_Mar_2023_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "9207e26128a3401daf85787574abbace": {
+      "title": "Wagner Ford Landfill Nov 2022 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_Nov_2022_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "3032420580bf4102a03e7424c2674502": {
+      "title": "Wagner Ford Landfill Oct 2022 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_Oct_2022_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "fa88f25686fb46bd88622f4f9b71a11a": {
+      "title": "Wagner Ford Landfill October 2023 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_October_2023_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "055675efddba41d89c1711839fdee862": {
+      "title": "Wagner Ford Landfill Sept 2021 Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_Sept_2021_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "0656e344c3d749c38c27e3b709eb2deb": {
+      "title": "Wagner Ford Landfill September 2024 True Ortho",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Wagner_Ford_Landfill_September_2024_True_Ortho/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "06fd9fee80924a3baa1664ab1495f4eb": {
+      "title": "Waste Route Count  View",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Waste_Route_Count__1/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 101
+    },
+    "0d9e95e0beca42c9b4b96d1c4278ce67": {
+      "title": "Waste_Collection_Zone_Finder",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Waste_Collection_Zone_Finder/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 62
+    },
+    "fbb7e7a2b6084ab4805c75ea13fcf453": {
+      "title": "Waste_Collection_Zone_Finder_view",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Waste_Collection_Zone_Finder_view/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 62
+    },
+    "601f7d3e113c44239cf6f3de3a88c944": {
+      "title": "WasteCollection",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/WasteCollection/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 233
+    },
+    "ffa3d2880f2f4643ba9e259047b08a37": {
+      "title": "WasteCollection_view",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/WasteCollection_view/FeatureServer",
+      "capabilities": "Query,Extract",
+      "queryable": true,
+      "note": "",
+      "count": 233
+    },
+    "78e3680bc1604ba49d46c9d4d0531e9a": {
+      "title": "WasteRouteCount",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/WasteRouteCount/FeatureServer",
+      "capabilities": "Create,Delete,Query,Editing,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 101
+    },
+    "90bb0750db504924afd0cfe80716a261": {
+      "title": "Water Annual Meeting 2023_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_ce7766f8f6964f08b29d4e6cd3cff79a_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "ded070fc22014d2dbe7beb4e290a01c6": {
+      "title": "Water Annual Meeting 2025 Survey_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_ab662f504de04b4082a29f2587bc5ac8_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "152f76a4b9924a2b80e1baa7a331ea65": {
+      "title": "Water Protection District",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Water/Water_Protection_District/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 12
+    },
+    "4f88aa3edab145adbca87c1545d2aebd": {
+      "title": "Water Resource Area",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Water/Water_Resource_Area/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 2
+    },
+    "35e33b386e2a46ea970efd21a247d568": {
+      "title": "Welcome Park Orthomosaic",
+      "url": "https://tiles.arcgis.com/tiles/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Welcome_Park_Orthomosaic/MapServer",
+      "capabilities": "Map,TilesOnly,Tilemap",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "d004c28152344ea9b347b613bf7f7781": {
+      "title": "Well Head Operation Areas",
+      "url": "https://maps.daytonohio.gov/gisservices/rest/services/Water/Well_Head_Operation_Areas/MapServer",
+      "capabilities": "Map,Query,Data",
+      "queryable": true,
+      "note": "",
+      "count": 12
+    },
+    "9ddb7464f7be4152a9995e97d9eb49aa": {
+      "title": "Work From Home Device Needs-Issue Devices DRAFT",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_597fc248b0354b4bb5b2f909f76587de/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 323
+    },
+    "df2e335422504b15a17eabd636915cd4": {
+      "title": "Work From Home Device Needs-Issue Devices DRAFT_fieldworker",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_597fc248b0354b4bb5b2f909f76587de_fieldworker/FeatureServer",
+      "capabilities": "Create,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 323
+    },
+    "4f5b56426bed4e208913667b5c6b6c31": {
+      "title": "Work From Home Device Needs-Issue Devices DRAFT_stakeholder",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_597fc248b0354b4bb5b2f909f76587de_stakeholder/FeatureServer",
+      "capabilities": "Create,Delete,Query,Update,Editing,Extract,Sync",
+      "queryable": true,
+      "note": "",
+      "count": 323
+    },
+    "1ae5eb148e34418194134847e1f34343": {
+      "title": "Your Dollars Your Neighborhood-Contact Us_form",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/survey123_e02e4ef0902249eab6ac19be74950978_form/FeatureServer",
+      "capabilities": "Create,Editing",
+      "queryable": false,
+      "note": "no Query capability \u2014 not readable as data"
+    },
+    "b280beb8fe754e60828c6176b4eb2f0b": {
+      "title": "Zoning",
+      "url": "https://services2.arcgis.com/3dDB2Kk6kuA2gIGw/arcgis/rest/services/Zoning/FeatureServer",
+      "capabilities": "Query",
+      "queryable": true,
+      "note": "",
+      "count": 970
+    }
+  }
+}
