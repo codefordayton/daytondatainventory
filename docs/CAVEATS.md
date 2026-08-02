@@ -420,3 +420,26 @@ treat a stale item date as evidence the data is stale, or a fresh one as evidenc
 returned by queries. Check age before using anything as current.
 
 Full detail, including measured County cadence, is in `docs/FRESHNESS.md`.
+
+## A 403 on maps.daytonohio.gov is not a lockout
+
+Opening `https://maps.daytonohio.gov/gisservices/rest/services` in a browser returns
+**403 — "The administrator has disabled the Services Directory."** That is Esri's
+human-browsable HTML view being switched off as a hardening setting. It is long-standing
+configuration, not a block, and not a reaction to anyone's traffic.
+
+**The JSON API underneath is fully open.** Append `?f=json` to any URL on that host:
+
+```
+/rest/services            -> 403   (HTML directory, disabled)
+/rest/services?f=json     -> 200   (35 folders, 18 root services)
+/…/MapServer/0/query?where=1=1&returnCountOnly=true&f=json   -> works
+```
+
+Every harvester here appends `f=json`, which is why none of them ever saw the 403.
+
+The side effect is worth naming: with the directory disabled and no portal linking to it,
+this server is effectively undiscoverable by browsing — 352 services and ~59.5 million
+records that are entirely public and that a person clicking around would conclude are not
+there. `docs/SOURCES.md` lists the folder structure and `dictionaries/` covers the layers
+that carry data.
