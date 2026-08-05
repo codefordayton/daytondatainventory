@@ -25,6 +25,10 @@ ADDR_URL = ("https://maps.daytonohio.gov/gisservices/rest/services/Basemaps/"
 FIELDS = ("ADDRKEY,TAXPINNO,K_PID,STNO,PREDIR,STNAME,SUFFIX,POSTDIR,CITY,ZIP,"
           "USEDADDRESS,FullAddress,LUC_Description")
 
+# Geometry is requested in WGS84 so the server reprojects for us — the source is
+# State Plane feet, and reprojecting locally would mean a dependency.
+OUT_SR = 4326
+
 # Accela writes suffixes in short form (AVE/ST/DR); the address layer is mostly
 # consistent but not entirely, so both sides are folded to a common vocabulary.
 SUFFIX = {
@@ -70,15 +74,19 @@ def fetch_all(url, fields, where="1=1", page=1000):
     """
     out, off = [], 0
     while True:
-        q = {"where": where, "outFields": fields, "returnGeometry": "false",
-             "resultOffset": off, "resultRecordCount": page, "f": "json",
-             "orderByFields": "OBJECTID"}
+        q = {"where": where, "outFields": fields, "returnGeometry": "true",
+             "outSR": OUT_SR, "resultOffset": off, "resultRecordCount": page,
+             "f": "json", "orderByFields": "OBJECTID"}
         with urllib.request.urlopen(f"{url}?{urllib.parse.urlencode(q)}", timeout=180) as r:
             d = json.load(r)
         if "error" in d:
             raise SystemExit(f"API error: {d['error']}")
         feats = d.get("features", [])
-        out.extend(f["attributes"] for f in feats)
+        for f in feats:
+            a = dict(f["attributes"])
+            g = f.get("geometry") or {}
+            a["_lon"], a["_lat"] = g.get("x"), g.get("y")
+            out.append(a)
         print(f"  {len(out):,}", file=sys.stderr)
         more = d.get("exceededTransferLimit") or d.get("properties", {}).get("exceededTransferLimit")
         if not feats or not more:
@@ -96,7 +104,8 @@ if __name__ == "__main__":
         pid = (r.get("TAXPINNO") or "").strip()
         rec = {"parcel": pid, "k_pid": (r.get("K_PID") or "").strip(),
                "address": (r.get("USEDADDRESS") or r.get("FullAddress") or "").strip(),
-               "luc": (r.get("LUC_Description") or "").strip()}
+               "luc": (r.get("LUC_Description") or "").strip(),
+               "lon": r.get("_lon"), "lat": r.get("_lat")}
         if pid:
             with_parcel += 1
         key = r.get("ADDRKEY")

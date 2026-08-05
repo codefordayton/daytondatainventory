@@ -41,6 +41,10 @@ PRIOR_RESEARCH_CONTEXT.md
 # Generated pages — rebuild with scripts/build_explorer.py and build_onepager.py
 *.generated.html
 
+# data/derived IS tracked: these are the consumable outputs other people ingest,
+# small enough to version, and useful without running anything. Regenerate with
+# scripts/build_permit_layer.py.
+
 __pycache__/
 *.pyc
 .DS_Store
