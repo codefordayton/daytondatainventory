@@ -146,3 +146,21 @@ so in the description costs nothing and prevents someone analysing 2017 data as 
 **Confirm `City_of_Dayton_Owned_Parcel`.** Five years without an update on the city's own
 property inventory is either a metadata problem or a real one, and it matters for
 disposition and land bank work.
+
+---
+
+## Permits: the two sources are 5 weeks apart
+
+Measured 2026-08-04.
+
+| Source | Cadence | Newest record |
+|---|---|---|
+| **Accela Citizen Access** | **live** | permits dated the same day; 65 in the preceding 7 days |
+| County CAMA `PERMIT.DAT` | monthly | 2026-06-30 (the extract's cut date) |
+
+No Accela record postdates CAMA's cut, so the gap is entirely CAMA's publication cycle
+rather than missing data. Use Accela for current activity, CAMA for depth (1960–2026) and
+valuation. See `docs/PERMIT_LINKING.md`.
+
+⚠️ CAMA contains at least one permit dated **2045**. Validate date ranges before
+aggregating.

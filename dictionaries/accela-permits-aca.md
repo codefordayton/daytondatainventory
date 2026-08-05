@@ -114,6 +114,14 @@ per type and date range. A full backfill means iterating 49 types across a date 
 valuation. CAMA has valuation and parcel IDs; ACA has currency and the city's own type
 taxonomy. Neither supersedes the other, and they should not be summed.
 
-**No parcel ID.** ACA returns an address, so joining to parcels needs the same address
-bridge used for code enforcement — see
-[`address-parcel-bridge.md`](address-parcel-bridge.md).
+**No parcel ID.** Two routes to one:
+
+1. **Link to County CAMA on the permit number** — free, no requests, resolves ~36% of
+   records including demolitions and structural work. See
+   [`docs/PERMIT_LINKING.md`](../docs/PERMIT_LINKING.md).
+2. **The address bridge**, as used for code enforcement — see
+   [`address-parcel-bridge.md`](address-parcel-bridge.md).
+
+⚠️ Plumbing, water, sewer and fire-protection permits are **absent from CAMA entirely**
+(the County records permits bearing on assessed value), so route 1 cannot reach them at
+any match quality. Use the record detail pages or the address bridge for those.
