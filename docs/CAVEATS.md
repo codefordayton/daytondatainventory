@@ -466,3 +466,17 @@ the usable discriminator: LUC 640 is operational municipal property (2,108 parce
 LUC 300/400/500 is vacant land (439).
 
 Full analysis in `docs/CITY_OWNED_PROPERTY.md`.
+
+## "The parcel layer" is eleven different layers
+
+Layers named "parcel" on the City's GIS server are published at **eleven distinct record
+counts**. In the Dayton-scale cluster the spread is **2,099 records** — 86,799 · 86,939 ·
+88,512 · 88,898 — and none is marked canonical.
+
+This inventory uses **`DaytonParcels` (88,668)** as its spine, and the 96.3% City↔County
+join rate is measured against that choice. A different copy would give a different figure,
+and nothing in the metadata flags the choice as consequential.
+
+Not all apparent duplication is real: composite map services legitimately include a shared
+reference layer. The genuine issue is the divergent counts within a cluster, which cannot
+be explained by sharing. See `docs/DUPLICATE_LAYERS.md`.

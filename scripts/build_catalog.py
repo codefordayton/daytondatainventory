@@ -47,14 +47,52 @@ GRAN = [
 ]
 
 HOUSING_KW = re.compile(
-    r"housing|parcel|propert|vacant|abandon|nuisance|blight|demoli|code.?enforc|"
-    r"violation|rental|landlord|tenant|evict|permit|inspect|zoning|land.?bank|"
-    r"foreclos|tax|deed|sale|address|neighborhood|lead|rehab|assess|delinquen|"
-    r"afford|tenure|cost.?burden|lihtc|subsid|income", re.I)
+    r"\bhousing\b|\bparcel|\bpropert|\bvacan|\babandon|\bnuisance|\bblight|"
+    r"\bdemoli|code.?enforc|\bviolation|\brental\b|\brenter|\blandlord|\btenant|"
+    r"\bevict|\bpermit|\bzoning|land.?bank|\bforeclos|\btax|\bdeed|\bsale|"
+    r"\baddress|neighborhood|\brehab|\bassess|\bdelinquen|\bafford|\btenure|"
+    r"cost.?burden|\blihtc\b|\bsubsid|\bincome|homestead|owner.?occ|"
+    r"\baccela\b|\bcama\b|\bhcs\b|taxroll|conveyance|\bplat\b", re.I)
+
+# Terms that disqualify a row regardless of keyword hits. Keyword matching alone
+# swept in bike rentals under "affordability" (via "rent") and storm-outfall
+# inspections under "condition" — the keyword is present, the subject is not
+# housing. Applied to both the housing flag and theme assignment.
+NOT_HOUSING = re.compile(
+    r"\bbike|bikeway|greenway|\btrail\b|\btransit\b|\bbus\b|highway.?shield|"
+    r"traffic.?stress|traffic.?signal|\bhydrant|lift.?station|\boutfall|"
+    r"storm.?water|stormwater|storm.?sewer|sanitary.?sewer|watershed|"
+    r"\bculvert|guardrail|\bpavement\b|street.?tree|\bplayground", re.I)
+
+
+# Service and layer names are frequently CamelCase or delimiter-packed
+# ("DaytonParcels", "Accela_UPDATES/AccelaIncidents"). Word-boundary patterns
+# silently fail against those, so names are split into words before matching.
+_CAMEL = re.compile(r"(?<=[a-z0-9])(?=[A-Z])")
+
+
+def wordify(text):
+    return _CAMEL.sub(" ", re.sub(r"[_/\-.]+", " ", text or ""))
+
+
+def is_housing(blob):
+    """Housing relevance needs a keyword hit AND no disqualifying subject."""
+    t = wordify(blob)
+    return bool(HOUSING_KW.search(t)) and not NOT_HOUSING.search(t)
 
 
 def classify(text, table, default=""):
+    """Assign the first matching label.
+
+    Infrastructure subjects are held out of the housing-flavoured themes —
+    a storm outfall "condition assessment" is not housing condition.
+    """
+    text = wordify(text)
+    infra = bool(NOT_HOUSING.search(text))
     for label, pat in table:
+        if infra and label in ("condition/quality", "affordability/tenure",
+                               "ownership/transfers", "vacancy"):
+            continue
         if re.search(pat, text, re.I):
             return label
     return default
@@ -148,7 +186,7 @@ def rows():
                 formats="ArcGIS FeatureServer/MapServer; GeoJSON, CSV, Shapefile export",
                 records=counts.get(i["id"], ""),
                 updated=ms_to_date(i.get("modified")),
-                housing_relevant=("Y" if HOUSING_KW.search(blob)
+                housing_relevant=("Y" if is_housing(blob)
                                   and cap.get("queryable", True) else ""),
                 url=i.get("url") or "",
                 item_page=f"{portal}/home/item.html?id={i['id']}",
@@ -178,7 +216,7 @@ def rows():
                 cadence="live service (verify)",
                 formats=f"ArcGIS {s['type']}",
                 records=f"{len(s.get('layers', []))} layers",
-                housing_relevant="Y" if HOUSING_KW.search(blob) else "",
+                housing_relevant="Y" if is_housing(blob) else "",
                 url=s["url"], item_page=root,
                 notes=re.sub(r"\s+", " ", (s.get("description") or ""))[:200],
             ))
@@ -204,7 +242,7 @@ def rows():
                 formats="ZIP of CSV (see docs/mc_file_layouts/)",
                 records=f"{ds['file_count']} files",
                 updated=newest.get("created") or "",
-                housing_relevant="Y" if HOUSING_KW.search(ds["name"]) else "",
+                housing_relevant="Y" if is_housing(ds["name"]) else "",
                 url=newest["url"],
                 item_page="https://go.mcohio.org/applications/treasurer/search/filedownloads.cfm",
                 notes=f"Newest file {newest.get('size_bytes') or 0:,} bytes. Official record layout PDF available.",
