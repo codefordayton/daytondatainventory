@@ -32,6 +32,7 @@ authoritative but not yet systematically swept.
 | `docs/FRESHNESS.md` | Measured refresh cadence and staleness. Which sources are actually current. |
 | `docs/PERMIT_LINKING.md` | How the City's live permit system and the County's copy relate, and how far they join. |
 | `docs/PERMIT_LAYER.md` | Parcel-keyed permit layer for ingestion into parcel platforms. |
+| `docs/CITY_OWNED_PROPERTY.md` | Reconciling City and County records of City-owned property. |
 | `data/derived/` | Consumable outputs — parcel-keyed CSVs and GeoJSON. |
 | `docs/mc_file_layouts/` | Official record-layout PDFs from the County (7 files) |
 | `data/raw/` | Raw harvest output (JSON). Regenerate the rest from these. |

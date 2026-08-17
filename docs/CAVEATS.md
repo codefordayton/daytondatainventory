@@ -443,3 +443,26 @@ this server is effectively undiscoverable by browsing — 352 services and ~59.5
 records that are entirely public and that a person clicking around would conclude are not
 there. `docs/SOURCES.md` lists the folder structure and `dictionaries/` covers the layers
 that carry data.
+
+## City-owned property: two records that disagree
+
+**No single source encompasses City-owned property.** The City's GIS layer holds 1,912
+parcels and was last edited 2021-07-30; the County tax roll attributes 2,781 to the City
+and is published daily. **They agree on 1,688** — 1,093 appear only in the County record,
+224 only in the City's. Any count of "City-owned properties" must say which record it came
+from.
+
+**Owner-name matching pulls in the school district.** A naive match on owner names
+containing *city* and *dayton* returns 2,904 parcels, of which **107 belong to the Dayton
+City School District** — a separate legal body — plus churches, LLCs and County parcels.
+Tightening the match naively also fails: the roll writes the City as `CITY OF DAYTON`,
+`THE CITY OF DAYTON`, `DAYTON OH CITY OF` and `DAYTON CITY OH OF`, so an anchored filter
+drops real parcels. See `scripts/build_city_owned_inventory.py` for the curated matcher.
+
+**Building value alone does not separate function from development potential.** Only 263
+of 2,781 City parcels carry a building, so filtering on it removes City Hall and the fire
+stations but leaves every park, median and street remnant. The County's land use code is
+the usable discriminator: LUC 640 is operational municipal property (2,108 parcels), while
+LUC 300/400/500 is vacant land (439).
+
+Full analysis in `docs/CITY_OWNED_PROPERTY.md`.
