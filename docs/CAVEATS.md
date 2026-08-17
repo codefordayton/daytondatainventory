@@ -474,8 +474,13 @@ counts**. In the Dayton-scale cluster the spread is **2,099 records** — 86,799
 88,512 · 88,898 — and none is marked canonical.
 
 This inventory uses **`DaytonParcels` (88,668)** as its spine, and the 96.3% City↔County
-join rate is measured against that choice. A different copy would give a different figure,
-and nothing in the metadata flags the choice as consequential.
+join rate is measured against that choice. A different copy would give a different figure.
+
+`DaytonParcels` does turn out to be defensible: it publishes `dataLastEditDate` of
+**2026-06-16**, the most recent of any parcel layer that reports one. But that signal only
+exists on ArcGIS Online — **zero of the 56 parcel layers on the on-premise server publish
+an edit date**, and that is where the divergent counts live. One of them is identifiable:
+88,512 is `SLSA_2014_Parcels`, last edited **February 2017**.
 
 Not all apparent duplication is real: composite map services legitimately include a shared
 reference layer. The genuine issue is the divergent counts within a cluster, which cannot
