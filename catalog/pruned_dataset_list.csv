@@ -1,0 +1,262 @@
+name,theme,publisher,bucket,prune_status,prune_reason,geo_flag,scratchpad_flag,records,fields,updated
+BethelTwp_Zoning,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",deduped,duplicate of Regional Zoning 2025 (same record/field count),not-checked,,970,29,2025-11-26
+Regional Zoning 2008,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",deduped,duplicate of Regional Zoning 2025 (same record/field count),not-checked,,970,29,2025-11-26
+Fire/Parcels,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,273627,58,
+Parcels_Join,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,273627,125,
+PublicWorks/DaytonOwnedParcel,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,273627,196,
+Water/ParcelLayerWE,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,273627,85,
+PublicWorks/DaytonParcel,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,254227,196,
+Basemaps/DaytonParcels_NoAttachments,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,88668,57,2026-06-16
+PublicWorks/SLSA_2014_Parcels,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,88512,17,
+SLSA 2014 Parcels,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,88512,17,2018-11-12
+SLSA_2014_Parcels,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,88512,17,2018-11-12
+Base/DaytonParcels,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,86939,58,
+Environmental/Parcels,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,86939,57,
+Environmental/Parcels,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,86939,57,
+COD_Webpage/Parcels_Boundary,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,86799,58,
+Engineering/Parcel_Layer,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,86799,58,
+Parcels and Boundaries,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,35,81,2018-11-09
+Water/Parcels_Boundary,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,35,81,
+CommunityParcels,ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,,0,2024-11-11
+motparcels2,ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",deduped,"duplicate of DaytonParcels (canonical, Tier 2)",not-checked,,,0,2026-05-07
+TornadoAssessment_Housing,,City of Dayton,Lower-value / context,kept,,ok,ok,1015,24,2019-09-25
+Lead Copper Rule Revision - Customer Identification,,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,,0,2025-06-16
+Lead Copper Rule Revision - Customer Identification_results,,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,,0,2026-07-02
+Preschool Promise K Rediness Assessment Data_2024,,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,,0,2024-08-22
+TornadoAssessment_RedCross,,City of Dayton,Lower-value / context,kept,,ok,ok,,0,2019-09-25
+Hexagonal_LandBank,,MVRPC (regional),Lower-value / context,kept,,ok,ok,,0,2018-03-16
+Housing - Jurisdiction,,MVRPC (regional),Lower-value / context,kept,,ok,ok,,0,2022-05-23
+Housing_Insecurity_ZIP,,MVRPC (regional),Lower-value / context,kept,,ok,ok,,0,2025-02-13
+Housing_Insecurity_ZIP_Clip,,MVRPC (regional),Lower-value / context,kept,,ok,ok,,0,2025-02-26
+HS_Place_Remainder,,MVRPC (regional),Lower-value / context,kept,,ok,ok,,0,2025-08-29
+RoadsandRivers,,MVRPC (regional),Lower-value / context,kept,,ok,ok,,0,2018-02-12
+"Regional Zoning, 2025",affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",kept,,ok,ok,970,29,2025-11-26
+HS_BlockGroups,affordability/tenure,MVRPC (regional),Tier 1 (backbone),kept,,ok,ok,793,744,2026-05-14
+Weak Areas in Siebert Neighborhood Exercise,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",kept,,ok,false-positive (small-by-design or pipeline gap),66,20,2023-10-16
+"Aggregate Income, 1980",affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2020-01-17
+"Aggregate Income, 2010",affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2020-01-17
+BethelTwpMultiZone,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2020-03-04
+HouseholdIncome,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2019-10-11
+HouseholdIncomeFINAL,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2019-10-11
+P4H Block Groups Final Version Backup,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2022-05-17
+PLAN4Health Built Environment Assessment Census Tracts,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2022-11-01
+PLAN4Health Built Environment Assessment Hexagons,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2022-11-01
+PLAN4Health Health Environment Assessment Block Groups,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2022-10-07
+SiebertRiverviewProjectAreaBoundary,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2020-08-10
+Projects Exiting LIHTC Program Affordability Period,affordability/tenure,Ohio Housing Finance Agency,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+National Housing Preservation Database (NHPD),affordability/tenure,PAHRC / NLIHC,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Nuisance Map 10.24,code enforcement,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,1752,13,2025-10-24
+ARPA Nuisance Parcel Points,code enforcement,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,1259,27,2022-09-27
+Dayton Recovery Plan (ARPA),code enforcement,City of Dayton,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+EMapDocumentsAccelaAccelaIncidents_UPDATEAccelaIncidents_UPDATE.aprx,code enforcement,City of Dayton,"High-value, weak data — FIX-IT candidate",kept,,OUTLIER,ok,,0,2023-01-19
+Dayton Housing Condition Survey Parcels 2025,condition/quality,City of Dayton,Tier 1 (backbone),kept,,ok,ok,88922,66,2026-07-10
+Dayton Housing Condition Survey Parcels 2025_TABLE,condition/quality,City of Dayton,Tier 1 (backbone),kept,,no-extent-data,ok,88922,66,2026-07-10
+PublicWorks/VLM_Inspection,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,88898,56,
+PublicWorks/VLM_Inspection,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,88898,56,
+PublicWorks/VLM_Inspection_UPDATE,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,88898,44,
+PublicWorks/VLM_Inspection_UPDATE,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,88898,44,
+Dayton Housing Condition Survey Parcels 2023,condition/quality,City of Dayton,Tier 1 (backbone),kept,,ok,ok,66033,29,2024-12-18
+Dayton Housing Condition Survey Parcels 2023_TABLE,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,66033,17,2024-12-22
+PublicWorks/VLM_Inspected_UPDATE,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,12536,42,
+PublicWorks/VLM_Inspected_UPDATE,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,12536,42,
+PublicWorks/VLM_Inspected,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,12531,65,
+PublicWorks/VLM_Inspected,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,no-extent-data,ok,12531,65,
+Parcels_HCS_Nuisance_WaterZero,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,2823,109,2024-09-13
+HOUSING_INSPECTION_AREAS_2025_agol_copy,condition/quality,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,107,12,2025-11-17
+Address -> Parcel Bridge (code enforcement join),condition/quality,City of Dayton,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,1,
+BuildingServices/BuildingServicesHousingInspectionAreas,condition/quality,City of Dayton,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+BuildingServices/BuildingServicesHousingInspectionAreas,condition/quality,City of Dayton,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Dayton Housing Condition Survey (Hub site),condition/quality,City of Dayton,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+DevelopedLand,condition/quality,MVRPC (regional),"High-value, good data — promotion candidate",kept,,ok,ok,,0,2025-06-05
+Population_Density_per_Neighborhood,demographics,City of Dayton,Medium-value / supporting,kept,,ok,false-positive (small-by-design or pipeline gap),66,27,2023-06-11
+DaytonNeighborhoods_Population,demographics,City of Dayton,Medium-value / supporting,kept,,ok,ok,65,33,2024-12-11
+2020 Census Profile Block Groups Data,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2023-11-03
+2020 Census Profile Census Tracts Data,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-10-19
+2020 Census Profile Jurisdiction Data,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-10-19
+BG _ HousingAge,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2026-03-24
+Census2020_Pop,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-06-30
+D-Hive Census Housing and Population Change,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2021-08-18
+Housing - Block Group,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-05-23
+Housing - Census Tract,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-05-23
+"Housing Data, ACS 2015",demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2019-07-09
+HousingInsecurityTractUpdated,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2025-02-19
+HS_CensusTracts,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2025-11-25
+LandBankRevised_BlockGroup,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2018-01-25
+NIP_blockgroups,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2016-05-12
+Tracts_HousingAge,demographics,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2026-03-23
+AddressEdits/BaseAddresses,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,1047380,142,
+AddressEdits/BaseAddresses,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,1047380,142,
+Basemaps/Dayton_Used_Address,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,163184,47,2018-11-09
+Dayton Used Address,geography/reference,City of Dayton,Lower-value / context,kept,,ok,ok,163184,47,2018-11-09
+Rhythm/RhythmAddress,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,163184,47,
+AddressEdits/UsedAddressEditor,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,163032,50,
+AddressEdits/UsedAddressEditor,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,163032,50,
+AddressTest,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,160873,43,
+AddressTest,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,ok,160873,43,
+Base/Dayton_Neighborhoods,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,false-positive (small-by-design or pipeline gap),97,54,
+Base/Neighborhoods,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,false-positive (small-by-design or pipeline gap),97,27,
+Dayton Neighborhoods,geography/reference,City of Dayton,Lower-value / context,kept,,ok,false-positive (small-by-design or pipeline gap),97,54,2018-11-09
+DAYTON_NEIGHBORHOODS,geography/reference,City of Dayton,Lower-value / context,kept,,ok,false-positive (small-by-design or pipeline gap),97,54,2018-11-09
+PublicWorks/COD_Neighborhoods,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,false-positive (small-by-design or pipeline gap),97,27,
+Issue_9_Neighborhood_Boundary,geography/reference,City of Dayton,Lower-value / context,kept,,ok,false-positive (small-by-design or pipeline gap),67,7,2022-06-22
+Dayton Neighborhood Boundary,geography/reference,City of Dayton,Lower-value / context,kept,,ok,ok,66,6,2025-11-17
+Neighborhood,geography/reference,City of Dayton,Lower-value / context,kept,,ok,false-positive (small-by-design or pipeline gap),66,20,2023-10-16
+EastNeighborhoodBoundaries,geography/reference,MVRPC (regional),Lower-value / context,kept,,ok,false-positive (small-by-design or pipeline gap),66,20,2023-10-16
+Seibert Riverview Curtis Neighborhood Survey (Summer 2020)_fieldworker,geography/reference,MVRPC (regional),Lower-value / context,kept,,no-extent-data,FLAGGED,66,20,2023-10-16
+MC Neighborhood Codes,geography/reference,Montgomery County Auditor/Treasurer,Lower-value / context,kept,,no-extent-data,false-positive (small-by-design or pipeline gap),66,20,2023-10-16
+Neighborhood_Profile,geography/reference,City of Dayton,Lower-value / context,kept,,ok,false-positive (small-by-design or pipeline gap),65,15,2021-08-03
+DaytonNeighborhoods,geography/reference,MVRPC (regional),Lower-value / context,kept,,ok,ok,65,33,2024-12-11
+COVID19/AddressSearch,geography/reference,City of Dayton,Lower-value / context,kept,,no-extent-data,FLAGGED,7,48,
+City_of_Dayton_Vehicle_Parking_Locations,geography/reference,City of Dayton,Lower-value / context,kept,,ok,ok,,0,2022-10-25
+FireStations_GC_8_24_2021,geography/reference,City of Dayton,Lower-value / context,kept,,ok,ok,,0,2021-09-14
+CastlewoodBoundaries,geography/reference,MVRPC (regional),Lower-value / context,kept,,ok,ok,,0,2020-12-16
+Jurisdiction Boundaries-lines_Housing,geography/reference,MVRPC (regional),Lower-value / context,kept,,ok,ok,,0,2026-03-11
+Street Lists (voter address ranges by precinct),geography/reference,Montgomery County Board of Elections,Lower-value / context,kept,,no-extent-data,ok,,0,
+HousingProjects_ProgramType,investment/projects,City of Dayton,Tier 2 (backbone),kept,,ok,ok,376,56,2025-11-14
+ARPA Focus Neighborhoods,investment/projects,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,false-positive (small-by-design or pipeline gap),6,20,2022-09-27
+Public Housing Developments + Authorities (GDPM),investment/projects,HUD,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+DaytonParcels,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,88668,57,2026-06-16
+City_of_Dayton_Owned_Parcel,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,1926,20,2021-07-30
+Nusance_Parcels_Feb_2021,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,1031,15,2021-11-30
+LIHTC Properties (Montgomery County OH),ownership/transfers,HUD,Tier 1 (backbone),kept,,no-extent-data,ok,120,0,
+Multifamily Properties - Assisted (project-based Section 8),ownership/transfers,HUD,Tier 1 (backbone),kept,,no-extent-data,false-positive (small-by-design or pipeline gap),83,0,
+Public housing & HCV inventory,ownership/transfers,Greater Dayton Premier Management,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Aggregation_of_TornadoCases_and_Damaged_by_hexagon_bins,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2020-04-08
+D-Hive Census and Housing Demographics,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2020-07-16
+Deeds_Point_Information,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2019-04-05
+Flood Hazard,ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",kept,,ok,ok,,0,2025-01-07
+MontgomeryTableProperty,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,no-extent-data,ok,,0,2022-02-09
+MotCoLandBank_parcels,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2018-03-16
+SiebertProjectTNIParcels,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2020-08-03
+TotalTableProperty,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,no-extent-data,ok,,0,2022-02-09
+Local Homelessness Data (CoC),ownership/transfers,Montgomery County,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Conveyance (deed transfer) form search,ownership/transfers,Montgomery County Auditor,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Property record search (CAMA front end),ownership/transfers,Montgomery County Auditor,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+TestData/mc_parcel_polygon,ownership/transfers,Montgomery County Auditor,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+TestData/mc_parcel_polygon,ownership/transfers,Montgomery County Auditor,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+MC Monthly Sales,ownership/transfers,Montgomery County Auditor/Treasurer,Tier 1 (backbone),kept,,no-extent-data,ok,,23,2026-07-31
+MC Weekly Sales,ownership/transfers,Montgomery County Auditor/Treasurer,Tier 1 (backbone),kept,,no-extent-data,ok,,23,2026-07-25
+MC Yearly Sales,ownership/transfers,Montgomery County Auditor/Treasurer,Tier 1 (backbone),kept,,no-extent-data,ok,,23,2026-08-01
+Map of Multifamily Rental Properties,ownership/transfers,Ohio Housing Finance Agency,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Qualified Contract Listing,ownership/transfers,Ohio Housing Finance Agency,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Police/CrimeVictimDashboard,public safety,City of Dayton,Lower-value / context,kept,,no-extent-data,FLAGGED,35,35,
+MC Taxroll,tax/delinquency,Montgomery County Auditor/Treasurer,Tier 1 (backbone),kept,,no-extent-data,ok,254693,82,2026-07-31
+Qualified Opportunity Zones_Montgomery County OH,tax/delinquency,City of Dayton,"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2022-12-07
+tax_district,tax/delinquency,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2020-05-15
+Residential Rental Property Registration roster,tax/delinquency,Montgomery County Auditor,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+MC Available Tax Refunds,tax/delinquency,Montgomery County Auditor/Treasurer,"High-value, weak data — FIX-IT candidate",kept,,no-extent-data,ok,,0,07/31/2026
+MC Delinquent Files,tax/delinquency,Montgomery County Auditor/Treasurer,Tier 1 (backbone),kept,,no-extent-data,ok,,0,2026-07-31
+"Deeds, mortgages, liens",tax/delinquency,Montgomery County Recorder,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Issue_9_Vacant_Mowing_2020,vacancy,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,7640,29,2020-08-06
+Issue_9_Vacant_Mowing_2021,vacancy,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,7640,29,2022-06-13
+Issue_9_Vacant_Mowing,vacancy,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,7457,14,2017-10-25
+Issue_9_Vacant_Mowing_2018,vacancy,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,6027,15,2018-10-22
+Issue_9_Vacant_Mowing_2019,vacancy,City of Dayton,"High-value, good data — promotion candidate",kept,,ok,ok,5182,15,2020-08-06
+Building permits & trade licences (49 record types),vacancy,City of Dayton,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+Vacant Property Registration,vacancy,City of Dayton,"High-value, UNPROFILED — needs a pass",kept,,no-extent-data,ok,,0,
+VacancyRevised_Res_Bus_090916,vacancy,MVRPC (regional),"High-value, weak data — FIX-IT candidate",kept,,ok,ok,,0,2016-09-09
+Plan & Build Guidebook / Zoning,zoning/land use,City of Dayton,Medium-value / supporting,kept,,no-extent-data,ok,970,29,2025-11-26
+Zoning,zoning/land use,City of Dayton,Medium-value / supporting,kept,,ok,ok,970,29,2025-11-26
+ClaytonZoning,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,970,29,2025-11-26
+HarrisonTwpZoning,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,970,29,2025-11-26
+"Regional Zoning, 2015",zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,970,29,2025-11-26
+Riverside Zoning 2026,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,970,29,2025-11-26
+"Riverside zoning, 2021",zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,970,29,2025-11-26
+RiversideZoning,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,970,29,2025-11-26
+"Trotwood Zoning, Jan20",zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,970,29,2025-11-26
+Planning_Districts_Neighborhood,zoning/land use,City of Dayton,Medium-value / supporting,kept,,ok,false-positive (small-by-design or pipeline gap),65,21,2023-06-02
+COD_Webpage/Zoning,zoning/land use,City of Dayton,Medium-value / supporting,kept,,no-extent-data,FLAGGED,4,80,
+Planning cases,zoning/land use,City of Dayton,Medium-value / supporting,kept,,no-extent-data,ok,,0,
+Succession Planning Workforce Assessment Form_form,zoning/land use,City of Dayton,Medium-value / supporting,kept,,no-extent-data,ok,,0,2026-06-26
+Succession Planning Workforce Assessment Form_results,zoning/land use,City of Dayton,Medium-value / supporting,kept,,no-extent-data,ok,,0,2026-06-26
+ALI_Analysis,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-07-21
+BEA_Hexes,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-10-03
+Block_Groups_Overall,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-10-19
+Census_Tracts_Overall,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-10-03
+PLAN4Health Wright-Patterson Air Force Base,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2022-09-02
+Riverside Districts,zoning/land use,MVRPC (regional),Medium-value / supporting,kept,,ok,ok,,0,2026-03-18
+Concord Twp Zoning_V,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,970,29,2025-11-26
+Monroe Twp Zoning_V,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,970,29,2025-11-26
+Newberry Twp Zoning_V,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,970,29,2025-11-26
+Newton Twp Zoning_V,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,970,29,2025-11-26
+Springcreek Twp Zoning_V,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,970,29,2025-11-26
+Staunton Twp Zoning_V,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,970,29,2025-11-26
+Union Twp Zoning_V,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,970,29,2025-11-26
+Washington Twp Zoning_V,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,970,29,2025-11-26
+EnvironmentalEquityInAlleghenyCounty_BDA_WFL1,affordability/tenure,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2024-08-01
+GMR Bike Rental,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2020-02-12
+PLAN4Health Census Tracts,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2022-02-16
+PLAN4Health County Boundaries,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2022-09-02
+PLAN4Health Highway Shields,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2022-02-16
+PLAN4Health Miami Valley Jurisdiction Boundaries,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2022-09-02
+PLAN4Health Precincts,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2022-02-18
+Regional Bikeway in Miami Valley,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2020-12-03
+Water/WST_ConditionAssessment,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,2553,177,
+Water/WST_ConditionAssessment,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,2553,177,
+Water/Storm_Outfall_Inspections,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,536,16,
+Water/Storm_Outfall_Inspections,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,536,16,
+Water/Storm_Outfall_Inspections_Desktop,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,536,15,
+Environmental/StormOutfallSamplingReferenceData,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,422,513,
+Environmental/StormOutfallSamplingVisualInspectionReferenceLayers,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise (infra condition mistagged as housing; caught in freshness pass),no-extent-data,,92,305,
+Water/Lift_Station_Condition_Assessment,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,15,55,
+Water/Lift_Station_Condition_Assessment,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,15,55,
+City of Dayton Custodial Inspection,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,4,25,2025-12-02
+City of Dayton Custodial Inspection _results,condition/quality,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,4,25,2025-12-02
+Property Management Custodial Check List,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2025-12-01
+Property Management Custodial Check List_results,ownership/transfers,City of Dayton,"High-value, good data — promotion candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2025-11-19
+Active Community Index Compared to Population Density (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+BEA Hexes ACI Index (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+BEA Hexes AI Index (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+BEA Hexes LU Index (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Children (0-17) Population Density (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Concord Twp MultiZone_V,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2017-10-30
+Crashes Involving a Bicyclist or Pedestrian (Since 2020) (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Crosswalk Density (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+"Density of Crashes (All Types, Since 2020) (Properties Saved)",ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Developed Areas (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+FromPiquaSidewalks (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Generalized Land Use (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Jurisdiction Boundaries (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Level of Traffic Stress (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Mask for Study Area (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Monroe Twp MultiZone_V,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2017-10-30
+Newberry Twp MultiZone_V,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2017-10-30
+Newton Twp MultiZone_V,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2017-10-30
+Older Adults (65) Population Density (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Percent of Population that Commutes 15 Minutes or less on Average (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Percent of Population that Drives Alone to Work (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Piqua Sidewalks (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Population Density (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Poverty Rate (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Riverside_Wastewater_NotLikely,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2015-10-27
+Riverside_Water_NotLikely,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2015-10-27
+Speed Limit (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Springcreek Twp MultiZone_V,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2017-10-30
+Staunton Twp MultiZone_V,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2017-10-30
+Unemployment Rate (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+Union Twp MultiZone_V,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2017-10-30
+UnionTwpParcelsMiaCo,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise/off-topic/wrong-geography,not-checked,,,0,2020-04-08
+Washington Twp MultiZone_V,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2017-10-30
+Zero Car Households (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+ZIP Codes (Properties Saved),ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",removed,noise (out-of-jurisdiction / orphaned bookmark),not-checked,,,0,2025-07-11
+BMVSurveyMap2022_WFL1,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2022-11-03
+County_Boundaries,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2022-05-25
+Low Income Low Access,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2026-06-15
+pesMedianIncome2,affordability/tenure,MVRPC (regional),"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2025-07-10
+PLAN4Health Built Environment Assessment Block Groups,affordability/tenure,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2022-11-01
+Fire/Inspections_Not_Completed,condition/quality,City of Dayton,"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,no-extent-data,ok,5033,68,
+Fire/Inspections_Not_Completed,condition/quality,City of Dayton,"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,no-extent-data,ok,5033,68,
+Fire/Hydrant_Completed_Inspections,condition/quality,City of Dayton,"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,no-extent-data,ok,2567,85,
+Fire/Hydrant_Completed_Inspections,condition/quality,City of Dayton,"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,no-extent-data,ok,2567,85,
+Fire/2018_Completed_Inspections,condition/quality,City of Dayton,"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,no-extent-data,FLAGGED,6,36,
+TAZPopulationProjections,investment/projects,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2022-10-03
+St_Annes_Hill_SLSA_2017_WEB,ownership/transfers,City of Dayton,"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2017-11-29
+CostBurdenedByTract_WFL1,ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2026-02-27
+DRMP_Focal_Parks_Deeds_Point,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2019-04-05
+GreeneTableProperty,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,no-extent-data,ok,,0,2023-02-17
+MCD_Easements_Property,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2017-05-16
+MCDMerge,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2017-05-23
+MiamiTableProperty,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,no-extent-data,ok,,0,2022-03-04
+PropertyRecoveredTimeSeries,ownership/transfers,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,no-extent-data,ok,,0,2022-05-04
+PropertyRecoveredTimeSeriesFixedMay22,ownership/transfers,MVRPC (regional),"High-value, good data — promotion candidate",review,ambiguous relevance — needs a human call,no-extent-data,ok,,0,2024-05-14
+MOTNAP,vacancy,MVRPC (regional),"High-value, weak data — FIX-IT candidate",review,ambiguous relevance — needs a human call,ok,ok,,0,2017-11-27
