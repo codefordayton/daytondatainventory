@@ -485,3 +485,16 @@ an edit date**, and that is where the divergent counts live. One of them is iden
 Not all apparent duplication is real: composite map services legitimately include a shared
 reference layer. The genuine issue is the divergent counts within a cluster, which cannot
 be explained by sharing. See `docs/DUPLICATE_LAYERS.md`.
+
+## The tax roll's ACRES field is unusable alone
+
+`ACRES` is blank or zero on **89% of Dayton parcels**. Zero there means *not recorded*, not
+*small* — the County measures most city lots by frontage and depth rather than area.
+
+A size distribution built on it looks entirely plausible and is almost entirely artifact.
+Use parcel geometry instead: `DaytonParcels.Shape__Area × 0.000146` gives acres, calibrated
+against the 271 parcels that do carry a recorded acreage and matching to three decimal
+places.
+
+`docs/DEVELOPABLE_SITES.md` ships `acres`, `acres_geometry` and `acres_best` side by side so
+the difference stays visible.

@@ -34,6 +34,7 @@ authoritative but not yet systematically swept.
 | `docs/PERMIT_LAYER.md` | Parcel-keyed permit layer for ingestion into parcel platforms. |
 | `docs/CITY_OWNED_PROPERTY.md` | Reconciling City and County records of City-owned property. |
 | `docs/DUPLICATE_LAYERS.md` | Eleven record counts for "the parcel layer" — and which one this inventory uses. |
+| `docs/DEVELOPABLE_SITES.md` | Undeveloped land and vacant non-residential structures, for site-inventory work. |
 | `data/derived/` | Consumable outputs — parcel-keyed CSVs and GeoJSON. |
 | `docs/mc_file_layouts/` | Official record-layout PDFs from the County (7 files) |
 | `data/raw/` | Raw harvest output (JSON). Regenerate the rest from these. |
