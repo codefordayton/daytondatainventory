@@ -8,6 +8,10 @@ adaptive reuse."*
 Built by [`scripts/build_developable_sites.py`](../scripts/build_developable_sites.py).
 Outputs in `data/derived/`. Built 2026-08-21.
 
+**Audience: developers.** The question is *where could something be built* — not what is
+already being built. The City's Housing Dashboard answers the latter and is a different
+product for a different reader.
+
 ⚠️ **This is the universe to filter from, not a filtered list.** 11,907 parcels is a long
 way from "a detailed list of developable sites." Nothing here has been checked for
 easements, deed restrictions, environmental status, or whether a parcel recorded as vacant
@@ -138,7 +142,13 @@ had no HCS record at all.
 parcel as residential vacant land. It says nothing about whether anything can be built
 there.
 
-**Proposed and approved projects are not included.** The nearest source,
-`HousingProjects_ProgramType` (376 City-funded projects), is a one-time export last touched
-November 2025 and carries no links to plan documents. Compiling approved plans remains
-manual work — and is precisely the gap that prompted this request.
+**Approved plans and proposed sites are not included.** Compiling those remains manual
+work, and it is precisely the gap that prompted this request.
+
+Note that `HousingProjects_ProgramType` / the City's Housing Dashboard StoryMap is **not**
+the same thing and should not be offered as a substitute. That layer shows 376 projects
+already **in execution** — funded, underway, or complete — which answers a resident's or a
+civic-health question ("what is happening in Dayton?"). This layer answers a developer's
+("where could something be built?"). Opportunity and activity are different questions, and
+a site that already has a funded project on it is arguably the *last* place a developer
+needs to look.
