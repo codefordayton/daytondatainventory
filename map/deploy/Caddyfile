@@ -1,0 +1,24 @@
+{
+	admin off
+	persist_config off
+	auto_https off
+}
+
+# Railway terminates TLS at its edge and passes plain HTTP on $PORT.
+:{$PORT:8080} {
+	root * /site
+	encode gzip
+	file_server
+
+	# Gate the whole site behind a username + password.
+	# AUTH_USER / AUTH_HASH are provided by entrypoint.sh at startup.
+	basic_auth {
+		{$AUTH_USER} {$AUTH_HASH}
+	}
+
+	# Keep it out of search engines even if the URL leaks.
+	header {
+		X-Robots-Tag "noindex, nofollow, noarchive"
+		-Server
+	}
+}

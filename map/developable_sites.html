@@ -86,12 +86,51 @@
   .legend .row { display:flex; align-items:center; gap:7px; }
 
   /* ---- sources ---- */
-  details summary::-webkit-details-marker { color:var(--muted); }
-  dl.src { margin:12px 0 0; font-size:12px; line-height:1.5; }
-  dl.src dt { color:var(--ink); font-weight:650; margin-top:9px; }
+  .snap { font-size:12px; line-height:1.55; color:var(--ink-2); margin:0 0 10px; }
+  .snap b { color:var(--ink); }
+  dl.src { margin:0 0 12px; font-size:12px; line-height:1.5; }
+  dl.src dt { color:var(--ink); font-weight:650; margin-top:8px; }
   dl.src dt:first-child { margin-top:0; }
-  dl.src dd { margin:2px 0 0; color:var(--ink-2); }
+  dl.src dd { margin:1px 0 0; color:var(--ink-2); }
   dl.src .mono { font-size:11px; color:var(--ink); }
+  .btn { width:100%; font:inherit; font-size:12.5px; font-weight:600; padding:8px 10px;
+         border:1px solid var(--hair); border-radius:6px; background:var(--surface-2);
+         color:var(--ink); cursor:pointer; }
+  .btn:hover { border-color:var(--accent); color:var(--accent); }
+
+  /* ---- methodology modal ---- */
+  #scrim { position:fixed; inset:0; background:rgba(22,27,34,.45); z-index:3000;
+           display:none; overflow-y:auto; padding:36px 20px; }
+  #scrim.open { display:block; }
+  .sheet { max-width:760px; margin:0 auto; background:var(--surface); border-radius:10px;
+           box-shadow:var(--shadow); padding:0 0 34px; }
+  .sheet-head { position:sticky; top:0; background:var(--surface); border-bottom:1px solid var(--hair);
+                padding:20px 34px 15px; border-radius:10px 10px 0 0;
+                display:flex; align-items:flex-start; gap:16px; }
+  .sheet-head h2 { margin:0; font-size:21px; letter-spacing:-.018em; flex:1; }
+  .sheet-head p { margin:4px 0 0; font-size:12.5px; color:var(--ink-2); }
+  .x { border:0; background:none; font-size:24px; line-height:1; color:var(--muted);
+       cursor:pointer; padding:0 2px; }
+  .x:hover { color:var(--ink); }
+  .sheet-body { padding:4px 34px 0; font-size:13.5px; line-height:1.65; color:var(--ink-2); }
+  .sheet-body h3 { color:var(--ink); font-size:14.5px; margin:26px 0 7px; letter-spacing:-.008em; }
+  .sheet-body h3:first-child { margin-top:18px; }
+  .sheet-body p, .sheet-body li { margin:0 0 9px; }
+  .sheet-body b, .sheet-body strong { color:var(--ink); }
+  .sheet-body ul { margin:0 0 9px; padding-left:19px; }
+  .sheet-body table { border-collapse:collapse; width:100%; font-size:12.5px; margin:6px 0 12px; }
+  .sheet-body th { text-align:left; font-weight:650; color:var(--ink); padding:6px 10px 6px 0;
+                   border-bottom:1px solid var(--hair); font-size:11px;
+                   letter-spacing:.06em; text-transform:uppercase; }
+  .sheet-body td { padding:6px 10px 6px 0; border-bottom:1px solid var(--hair);
+                   vertical-align:top; }
+  .sheet-body td.n { font-variant-numeric:tabular-nums; white-space:nowrap;
+                     font-family:ui-monospace,"SF Mono",Menlo,monospace; color:var(--ink); }
+  .sheet-body code { font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:12px;
+                     background:var(--surface-2); padding:1px 5px; border-radius:4px; color:var(--ink); }
+  .warn { border-left:3px solid var(--accent); background:var(--accent-soft);
+          padding:11px 14px; margin:12px 0; border-radius:0 5px 5px 0; }
+  .warn b { color:var(--ink); }
 </style>
 </head>
 <body>
@@ -160,38 +199,18 @@
   </div>
 
   <div class="sb-section">
-    <details>
-      <summary class="glabel" style="cursor:pointer;margin:0">Data sources</summary>
-      <dl class="src">
-        <dt>Ownership, land use, assessed value, address, census tract</dt>
-        <dd>Montgomery County Auditor &amp; Treasurer &mdash; tax roll, published daily.
-            <span class="mono">TAXROLL_20260731</span></dd>
-
-        <dt>Vacancy of structures</dt>
-        <dd>City of Dayton &mdash; 2025 Housing Condition Survey (88,922 parcels).
-            Only parcels the survey records vacant are shown as structures.</dd>
-
-        <dt>Parcel size and location</dt>
-        <dd>City of Dayton &mdash; <span class="mono">DaytonParcels</span>, with
-            Montgomery County <span class="mono">mc_parcel_polygon</span> as fallback.
-            Acreage is derived from parcel geometry because the tax roll's own acreage
-            field is unrecorded on 89% of Dayton parcels.</dd>
-
-        <dt>Addresses</dt>
-        <dd>City of Dayton &mdash; <span class="mono">Dayton Used Address</span>
-            (163,184 address points).</dd>
-
-        <dt>Neighborhood outlines &amp; basemap</dt>
-        <dd>City of Dayton neighborhood boundaries; basemap &copy; OpenStreetMap
-            contributors.</dd>
-
-        <dt>Derived here</dt>
-        <dd>Owner category and the assembly figures (how many sites an owner holds) are
-            calculated from the data above, not supplied by any agency.</dd>
-      </dl>
-      <p class="hint">All sources are public. Nothing is licensed or restricted.
-         Built 22 Aug 2026.</p>
-    </details>
+    <span class="glabel">About this data</span>
+    <p class="snap"><b>Point-in-time snapshot.</b> Built 22 Aug 2026 from extracts taken
+       on the dates below. It does <b>not</b> refresh on its own.</p>
+    <dl class="src">
+      <dt>Ownership, land use, value</dt>
+      <dd>Montgomery County tax roll &mdash; extract of <b>31 Jul 2026</b></dd>
+      <dt>Vacancy of structures</dt>
+      <dd>City Housing Condition Survey 2025 &mdash; data last edited <b>10 Jul 2026</b></dd>
+      <dt>Parcel size &amp; location</dt>
+      <dd>City <span class="mono">DaytonParcels</span> &mdash; last edited <b>16 Jun 2026</b></dd>
+    </dl>
+    <button id="openMethod" class="btn">Methodology &amp; sources</button>
   </div>
 
   <div class="sb-section" style="border-bottom:none;padding-bottom:6px">
@@ -208,6 +227,168 @@
 </aside>
 
 <div id="map"></div>
+
+<div id="scrim" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+ <div class="sheet">
+  <div class="sheet-head">
+    <div>
+      <h2 id="mTitle">Methodology &amp; sources</h2>
+      <p>How this layer was built, what it includes, and where it should not be trusted.</p>
+    </div>
+    <button class="x" id="closeMethod" aria-label="Close">&times;</button>
+  </div>
+  <div class="sheet-body">
+
+    <div class="warn">
+      <b>This is a screening tool, not a vetted list.</b> Nothing here has been checked for
+      easements, deed restrictions, environmental condition, utility access or zoning
+      suitability. A parcel appearing here means the County classifies it as vacant land, or
+      the City&rsquo;s condition survey recorded a non-residential building as vacant. It does
+      not mean anything can be built on it.
+    </div>
+
+    <h3>The question this answers</h3>
+    <p>The 2026 Bowen study recommends inventorying <em>&ldquo;undeveloped land and
+       underutilized structures (e.g. vacant schools, churches, warehouses) that could
+       support residential development or adaptive reuse.&rdquo;</em> This is a first pass at
+       that inventory, aimed at a developer asking <b>where could something be built</b> —
+       not at a resident asking what is already being built. The City&rsquo;s Housing
+       Dashboard answers that second question and is a separate product.</p>
+
+    <h3>Point-in-time, not live</h3>
+    <p>Built <b>22 August 2026</b>. Each upstream source refreshes on its own schedule, but
+       <b>this layer does not update itself</b> — it is a snapshot of the extracts below and
+       will drift as parcels change hands, are split, or are built on.</p>
+    <table>
+      <tr><th>Source</th><th>Snapshot</th><th>Upstream cadence</th></tr>
+      <tr><td>Montgomery County tax roll</td><td class="n">31 Jul 2026</td><td>published daily</td></tr>
+      <tr><td>City Housing Condition Survey 2025</td><td class="n">10 Jul 2026</td><td>survey-driven</td></tr>
+      <tr><td>City <code>DaytonParcels</code></td><td class="n">16 Jun 2026</td><td>irregular</td></tr>
+      <tr><td>City <code>Dayton Used Address</code></td><td class="n">—</td><td>publishes no edit date</td></tr>
+    </table>
+    <p>Rebuilding is a scripted step, not a manual one; the pipeline is in the project
+       repository.</p>
+
+    <h3>What is included, and on what basis</h3>
+    <table>
+      <tr><th>Type</th><th>Count</th><th>Rule</th></tr>
+      <tr><td>Vacant land</td><td class="n">11,816</td>
+          <td>County land use code <code>300</code> industrial, <code>400</code> commercial or
+              <code>500</code> residential vacant land. Any owner.</td></tr>
+      <tr><td>Vacant structure</td><td class="n">91</td>
+          <td>A church, school or warehouse parcel <em>carrying a building</em> that the
+              Housing Condition Survey records as vacant, boarded, or slated for demolition.</td></tr>
+    </table>
+    <p>The structure rule matters: <b>595 parcels in those same land uses were excluded</b>
+       because the survey records them occupied. This is measured vacancy, not an assumption
+       that every church or warehouse is available. 43 candidate parcels had no survey record
+       at all and are excluded — a building the survey never visited will not appear here
+       regardless of its actual state.</p>
+
+    <h3>Size — and a trap worth knowing</h3>
+    <div class="warn">
+      <b>The County&rsquo;s own acreage field is unusable on its own.</b> <code>ACRES</code> is
+      blank or zero on <b>89% of Dayton parcels</b>. Zero there means <em>not recorded</em>,
+      not <em>small</em> — most city lots are measured by frontage and depth instead. A size
+      distribution built on that field looks entirely plausible and is almost entirely
+      artifact. An earlier version of this layer made exactly that mistake.
+    </div>
+    <p>Acreage here is derived from <b>parcel geometry</b> — the mapped polygon area from
+       <code>DaytonParcels</code> — converted with a factor calibrated against the 271
+       parcels that <em>do</em> carry a recorded acreage. Derived values match the recorded
+       ones to three decimal places.</p>
+    <p>Both figures ship in the underlying data (<code>acres</code>, <code>acres_geometry</code>,
+       <code>acres_best</code>) so the provenance of any number stays visible.</p>
+    <table>
+      <tr><th>Size</th><th>Sites</th></tr>
+      <tr><td>under &frac14; acre</td><td class="n">10,975</td></tr>
+      <tr><td>&frac14; – &frac12; acre</td><td class="n">333</td></tr>
+      <tr><td>&frac12; – 1 acre</td><td class="n">181</td></tr>
+      <tr><td>1 – 2 acres</td><td class="n">110</td></tr>
+      <tr><td>2 – 5 acres</td><td class="n">107</td></tr>
+      <tr><td>5+ acres</td><td class="n">76</td></tr>
+      <tr><td>not recorded</td><td class="n">125</td></tr>
+    </table>
+    <p>A quarter-acre floor reduces the list from 11,907 to <b>807</b>; a one-acre floor to
+       <b>293</b>. The size slider is deliberately non-linear because most of the useful range
+       sits under two acres. <b>Parcels with no recorded size disappear once any floor is
+       set</b> — showing them would imply they clear a threshold that cannot be verified.</p>
+
+    <h3>How sites were placed on the map</h3>
+    <p><b>11,639 of 11,907 (97.8%)</b> have coordinates, resolved in this order:</p>
+    <ul>
+      <li>City address point, where the parcel has an addressed location</li>
+      <li>else parcel centroid from City <code>DaytonParcels</code></li>
+      <li>else parcel centroid from Montgomery County <code>mc_parcel_polygon</code></li>
+    </ul>
+    <p>The remaining <b>268</b> are absent from both parcel layers. <b>229 of them carry a
+       street-only address with no house number</b> (<code>GIBBS LN</code>,
+       <code>W 3RD ST</code>) — the signature of rights-of-way, remnant strips and rail
+       corridors that appear on the tax roll without a mapped polygon. Address geocoding
+       cannot place them either, since there is no house number to geocode. They are left
+       unplaced rather than approximated: a marker in the wrong location is worse than no
+       marker.</p>
+
+    <h3>Which fields come from where</h3>
+    <table>
+      <tr><th>Field</th><th>Source</th></tr>
+      <tr><td>Parcel ID, address, owner name, owner mailing address</td><td>County tax roll</td></tr>
+      <tr><td>Land use code &amp; description, parcel class</td><td>County tax roll</td></tr>
+      <tr><td>Assessed land / building / total value, year built</td><td>County tax roll</td></tr>
+      <tr><td>Census tract, neighborhood code</td><td>County tax roll</td></tr>
+      <tr><td>Vacancy status, condition grade</td><td>City Housing Condition Survey 2025</td></tr>
+      <tr><td>Acreage</td><td>Derived from <code>DaytonParcels</code> geometry</td></tr>
+      <tr><td>Latitude / longitude</td><td>City address points, else parcel centroids</td></tr>
+      <tr><td><b>Owner category</b></td><td><b>Derived here</b> — pattern match on owner name</td></tr>
+      <tr><td><b>Assembly figures</b></td><td><b>Derived here</b> — aggregated across this layer</td></tr>
+    </table>
+    <p>The last two rows are ours, not any agency&rsquo;s. Ownership itself comes straight
+       from the tax roll&rsquo;s <code>OWNERNAME1</code> field and is not inferred.</p>
+
+    <h3>Owner categories are heuristic</h3>
+    <p>The <em>city / land bank / other public / company / individual</em> grouping is a
+       pattern match on the owner-name string. It is used only to <b>categorise</b> owners,
+       never to decide who owns a parcel.</p>
+    <p>The distinction matters because owner-name matching is genuinely error-prone here. A
+       naive search for owners containing &ldquo;city&rdquo; and &ldquo;Dayton&rdquo; across
+       the tax roll returns 2,904 parcels, of which <b>123 belong to other entities — 107 of
+       them the Dayton City School District</b>, a separate legal body. Tightening the match
+       naively fails too, because the roll writes the City five different ways
+       (<code>CITY OF DAYTON</code>, <code>THE CITY OF DAYTON</code>,
+       <code>DAYTON OH CITY OF</code>, and others). The categoriser here is curated for those
+       cases, but the labels remain worth spot-checking.</p>
+
+    <h3>Assembly potential</h3>
+    <p>Each site carries how many sites its owner holds in this layer, and their combined
+       acreage. Contiguous lots under a single owner are the practical route to a site larger
+       than one parcel, and they do not look like sites when read parcel by parcel.</p>
+    <p>This is a <b>proxy, not adjacency</b>. It counts an owner&rsquo;s holdings anywhere in
+       the city, not just neighbouring lots. True adjacency would need a geometry pass.</p>
+
+    <h3>Known limits</h3>
+    <ul>
+      <li><b>Not vetted.</b> No check for easements, deed restrictions, environmental status,
+          utility access or zoning.</li>
+      <li><b>Land use codes describe assessment, not potential.</b> <code>LUC 500</code> means
+          the Auditor classes a parcel as residential vacant land. It says nothing about
+          buildability.</li>
+      <li><b>Structure vacancy depends on survey coverage.</b> A building the survey did not
+          visit will not appear.</li>
+      <li><b>268 sites are unplaced</b>, mostly rights-of-way and remnant strips.</li>
+      <li><b>Approved plans and proposed projects are not included.</b> No public dataset
+          links approved plans to parcels; compiling them remains manual work — and is
+          precisely the gap that prompted this.</li>
+    </ul>
+
+    <h3>Reproducing it</h3>
+    <p>Every step is scripted and re-runnable from public sources. No licensed data, no
+       restricted access, no manual editing of the outputs. The pipeline, field-level data
+       dictionaries and the full set of caveats live in the project repository.</p>
+
+  </div>
+ </div>
+</div>
+
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
@@ -327,6 +508,19 @@
     e.addEventListener("input", apply);
   });
   apply();
+
+  /* ---- methodology modal ---- */
+  var scrim = document.getElementById("scrim");
+  function setModal(open) {
+    scrim.classList.toggle("open", open);
+    if (open) document.getElementById("closeMethod").focus();
+  }
+  document.getElementById("openMethod").addEventListener("click", function () { setModal(true); });
+  document.getElementById("closeMethod").addEventListener("click", function () { setModal(false); });
+  scrim.addEventListener("click", function (e) { if (e.target === scrim) setModal(false); });
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && scrim.classList.contains("open")) setModal(false);
+  });
 
   /* ---- legend ---- */
   var legend = L.control({ position: "bottomright" });
