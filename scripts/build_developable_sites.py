@@ -86,10 +86,14 @@ def main():
     for rec in bridge["by_addrkey"].values():
         if rec.get("parcel") and rec.get("lat"):
             coords.setdefault(rec["parcel"], (rec["lat"], rec["lon"]))
+    # Centroids are shared across scripts, so coverage cannot be assumed: this
+    # file was originally built for the city-owned analysis and silently left
+    # half the developable sites unmapped. Missing parcels are reported so the
+    # gap is visible rather than looking like a property of the data.
     cpath = os.path.join(os.path.dirname(a.bridge), "parcel_centroids.json")
-    if os.path.exists(cpath):
-        for pid, (lat, lon) in json.load(open(cpath)).items():
-            coords.setdefault(pid, (lat, lon))
+    centroids = json.load(open(cpath)) if os.path.exists(cpath) else {}
+    for pid, (lat, lon) in centroids.items():
+        coords.setdefault(pid, (lat, lon))
 
     rows = []
     with open(a.taxroll, newline="", encoding="utf-8", errors="replace") as f:
@@ -194,6 +198,12 @@ def main():
             if ac < lim:
                 dist[label] += 1
                 break
+    unmapped = [r for r in rows if r["lat"] == ""]
+    if unmapped:
+        print(f"NOTE: {len(unmapped):,} parcels have no geometry in either the City or "
+              f"County parcel layer.\n      Refresh with scripts/fetch_parcel_geometry.py "
+              f"before assuming this is a data limit.\n")
+
     print(f"developable sites: {len(rows):,}")
     for k, v in collections.Counter(r["site_type"] for r in rows).most_common():
         print(f"    {k:<18}{v:>7,}")

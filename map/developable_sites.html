@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dayton — Developable Sites</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+<style>
+  :root {
+    --plane:#f6f7f8; --surface:#ffffff; --surface-2:#f2f4f6; --ink:#161b22; --ink-2:#59616c;
+    --muted:#89919c; --hair:#dfe3e8; --accent:#9c4f2e; --accent-soft:#f4e7e0;
+    --land:#2a78d6; --structure:#eb6834;
+    --pub:#1baf7a; --lb:#7b5cf0;
+    --shadow:0 1px 2px rgba(22,27,34,.05), 0 8px 24px rgba(22,27,34,.07);
+    --sidebar-w:346px;
+  }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; }
+  body {
+    font-family:system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:var(--plane);
+    display:flex; height:100vh; overflow:hidden; -webkit-font-smoothing:antialiased;
+  }
+  .mono { font-family:ui-monospace,"SF Mono",Menlo,monospace; }
+
+  /* ---- sidebar ---- */
+  #sidebar {
+    width:var(--sidebar-w); flex:none; background:var(--surface); border-right:1px solid var(--hair);
+    display:flex; flex-direction:column; overflow-y:auto; z-index:1200;
+  }
+  .sb-head { padding:18px 20px 14px; border-bottom:1px solid var(--hair); }
+  .eyebrow { font-size:10.5px; letter-spacing:.14em; text-transform:uppercase;
+             color:var(--accent); font-weight:700; margin:0 0 5px; }
+  .sb-head h1 { font-size:19px; line-height:1.2; margin:0; letter-spacing:-.012em; font-weight:720; }
+  .sb-head p { font-size:12.5px; color:var(--ink-2); margin:7px 0 0; line-height:1.5; }
+
+  .orient { padding:13px 20px; background:var(--accent-soft); border-bottom:1px solid var(--hair);
+            font-size:12.5px; line-height:1.55; color:var(--ink-2); }
+  .orient b { color:var(--ink); }
+
+  .sb-section { padding:15px 20px; border-bottom:1px solid var(--hair); }
+  .glabel { font-size:10.5px; letter-spacing:.09em; text-transform:uppercase; color:var(--muted);
+            font-weight:700; display:block; margin-bottom:10px; }
+  label.chk { display:flex; align-items:center; gap:8px; font-size:13px; padding:3px 0; cursor:pointer; }
+  label.chk input { accent-color:var(--accent); margin:0; }
+  .sw { display:inline-block; width:10px; height:10px; border-radius:50%; flex:none; }
+
+  .slider-row { display:flex; align-items:center; gap:10px; font-size:12.5px; color:var(--ink-2); margin-top:4px; }
+  .slider-row input[type=range] { flex:1; accent-color:var(--accent); }
+  .slider-row b { font-variant-numeric:tabular-nums; color:var(--ink); min-width:62px; text-align:right;
+                  font-family:ui-monospace,"SF Mono",Menlo,monospace; font-size:12px; }
+  .hint { font-size:11.5px; color:var(--muted); margin:8px 0 0; line-height:1.5; }
+
+  /* ---- readout ---- */
+  .readout { padding:14px 20px; background:var(--surface-2); border-bottom:1px solid var(--hair); }
+  .big { font-size:29px; font-weight:700; letter-spacing:-.025em; font-variant-numeric:tabular-nums;
+         font-family:ui-monospace,"SF Mono",Menlo,monospace; line-height:1.1; }
+  .big small { font-size:12.5px; font-weight:600; color:var(--ink-2); letter-spacing:0;
+               font-family:system-ui,sans-serif; }
+  .split { display:flex; gap:18px; margin-top:10px; }
+  .split div { font-size:12px; color:var(--ink-2); }
+  .split b { display:block; font-size:16px; color:var(--ink); font-variant-numeric:tabular-nums;
+             font-family:ui-monospace,"SF Mono",Menlo,monospace; }
+
+  /* ---- detail ---- */
+  #detail { padding:15px 20px; font-size:13px; line-height:1.6; }
+  #detail .none { color:var(--muted); font-size:12.5px; }
+  #detail h3 { margin:0 0 3px; font-size:15px; letter-spacing:-.01em; }
+  #detail .sub { color:var(--ink-2); font-size:12.5px; margin:0 0 12px; }
+  .kv { display:grid; grid-template-columns:104px 1fr; gap:4px 10px; font-size:12.5px; }
+  .kv dt { color:var(--muted); }
+  .kv dd { margin:0; color:var(--ink); }
+  .tag { display:inline-block; font-size:10.5px; font-weight:700; letter-spacing:.05em;
+         text-transform:uppercase; padding:2px 7px; border-radius:10px; color:#fff; }
+
+  footer { margin-top:auto; padding:14px 20px 20px; font-size:11px; color:var(--muted); line-height:1.55; }
+
+  /* ---- map ---- */
+  #map { flex:1; height:100%; }
+  .leaflet-popup-content { margin:11px 13px; font-family:system-ui,sans-serif; font-size:12.5px; }
+  .leaflet-popup-content b { font-size:13.5px; }
+  .legend { background:var(--surface); padding:9px 12px; border-radius:7px; box-shadow:var(--shadow);
+            font-size:12px; line-height:1.8; }
+  .legend .row { display:flex; align-items:center; gap:7px; }
+</style>
+</head>
+<body>
+
+<aside id="sidebar">
+  <div class="sb-head">
+    <p class="eyebrow">City of Dayton</p>
+    <h1>Developable Sites</h1>
+    <p>Undeveloped land and vacant non-residential structures that could support
+       residential development or adaptive reuse.</p>
+  </div>
+
+  <div class="orient">
+    This is a <b>screening tool</b>, not a vetted list. Nothing here has been checked for
+    easements, environmental status or zoning suitability. Start by raising the minimum
+    size — most parcels are small infill lots.
+  </div>
+
+  <div class="readout">
+    <div class="big" id="count">—<small> sites shown</small></div>
+    <div class="split">
+      <div>Vacant land<b id="cLand">—</b></div>
+      <div>Structures<b id="cStruct">—</b></div>
+      <div>Total acres<b id="cAcres">—</b></div>
+    </div>
+  </div>
+
+  <div class="sb-section">
+    <span class="glabel">Minimum size</span>
+    <div class="slider-row">
+      <input type="range" id="minAc" min="0" max="200" value="0">
+      <b id="minAcv">any</b>
+    </div>
+    <p class="hint">10,975 of 11,907 parcels are under a quarter acre. A ¼-acre floor
+       leaves 807; one acre leaves 293.</p>
+  </div>
+
+  <div class="sb-section">
+    <span class="glabel">Site type</span>
+    <label class="chk"><input type="checkbox" id="tL" checked>
+      <span class="sw" style="background:var(--land)"></span>Vacant land</label>
+    <label class="chk"><input type="checkbox" id="tS" checked>
+      <span class="sw" style="background:var(--structure)"></span>Vacant structure
+      <span class="mono" style="color:var(--muted);font-size:11px">(church / school / warehouse)</span></label>
+  </div>
+
+  <div class="sb-section">
+    <span class="glabel">Owner</span>
+    <label class="chk"><input type="checkbox" class="own" value="city" checked>City of Dayton</label>
+    <label class="chk"><input type="checkbox" class="own" value="land bank" checked>Land bank</label>
+    <label class="chk"><input type="checkbox" class="own" value="other public" checked>Other public</label>
+    <label class="chk"><input type="checkbox" class="own" value="company / trust" checked>Company / trust</label>
+    <label class="chk"><input type="checkbox" class="own" value="individual" checked>Individual</label>
+    <p class="hint">Publicly held parcels are usually the simplest to acquire.</p>
+  </div>
+
+  <div class="sb-section">
+    <span class="glabel">Assembly potential</span>
+    <div class="slider-row">
+      <span>Owner holds ≥</span>
+      <input type="range" id="minOwn" min="1" max="25" value="1">
+      <b id="minOwnv">1 site</b>
+    </div>
+    <p class="hint">Adjacent lots under one owner are the practical route to a site
+       larger than a single parcel.</p>
+  </div>
+
+  <div class="sb-section" style="border-bottom:none;padding-bottom:6px">
+    <span class="glabel">Selected site</span>
+  </div>
+  <div id="detail"><p class="none">Click a site on the map.</p></div>
+
+  <footer>
+    Vacant land from Montgomery County land use codes 300/400/500, refreshed daily.
+    Vacant structures confirmed against the 2025 Housing Condition Survey.
+    11,639 of 11,907 parcels are mapped; the remaining 268 are rights-of-way and remnant
+    strips with no mapped polygon. See docs/DEVELOPABLE_SITES.md.
+  </footer>
+</aside>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="data/neighborhoods_geojson.js"></script>
+<script src="data/sites_geojson.js"></script>
+<script src="data/stats.js"></script>
+<script>
+(function () {
+  "use strict";
+  var COLOR = { L: getCSS("--land"), S: getCSS("--structure") };
+  function getCSS(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+
+  var map = L.map("map", { preferCanvas: true, zoomControl: true })
+             .setView([39.758, -84.192], 12);
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a> contributors', maxZoom: 19
+  }).addTo(map);
+
+  /* ---- neighborhood outlines, for orientation only ---- */
+  L.geoJSON(window.NEIGHBORHOODS_GEOJSON, {
+    style: { color: "#6b7480", weight: 1, opacity: .5, fill: false, interactive: false }
+  }).addTo(map);
+
+  /* ---- sites ---- */
+  var layer = L.layerGroup().addTo(map);
+  var feats = window.SITES_GEOJSON.features;
+  var markers = feats.map(function (f) {
+    var p = f.properties, c = f.geometry.coordinates;
+    // Radius carries size so large parcels read at a glance without zooming.
+    var r = p.a ? Math.max(3.5, Math.min(11, 3.5 + Math.sqrt(p.a) * 3.2)) : 3;
+    var m = L.circleMarker([c[1], c[0]], {
+      radius: r, color: "#fff", weight: 1, opacity: .85,
+      fillColor: COLOR[p.t], fillOpacity: p.t === "S" ? .92 : .68
+    });
+    m.on("click", function () { showDetail(p); });
+    m.bindPopup(popup(p));
+    m._p = p;
+    return m;
+  });
+
+  function money(n) { return n ? "$" + Number(n).toLocaleString() : "—"; }
+  function acres(a) { return a ? a.toFixed(a < 1 ? 3 : 2) + " ac" : "not recorded"; }
+
+  function popup(p) {
+    return "<b>" + (p.ad || p.p) + "</b><br>" +
+           p.u + " · " + acres(p.a) + "<br>" +
+           "<span style='color:#59616c'>" + p.o + "</span>";
+  }
+
+  function showDetail(p) {
+    var tag = "<span class='tag' style='background:" + COLOR[p.t] + "'>" +
+              (p.t === "S" ? "Vacant structure" : "Vacant land") + "</span>";
+    var rows = [
+      ["Parcel", "<span class='mono'>" + p.p + "</span>"],
+      ["Size", acres(p.a)],
+      ["Use", p.u],
+      ["Owner", p.o],
+      ["Owner type", p.ot],
+      ["Mailing", p.om || "—"],
+      ["Assessed", money(p.v) + (p.vl ? " <span style='color:#89919c'>(land " + money(p.vl) + ")</span>" : "")],
+      ["Owner holds", p.oc + " site" + (p.oc === 1 ? "" : "s") + (p.oa ? " · " + p.oa.toFixed(2) + " ac" : "")],
+      ["Census tract", p.ct || "—"]
+    ];
+    if (p.hs) rows.push(["Condition", p.hs + (p.hg ? " · " + p.hg : "")]);
+    if (p.yb) rows.push(["Year built", p.yb]);
+    document.getElementById("detail").innerHTML =
+      "<h3>" + (p.ad || p.p) + "</h3><p class='sub'>" + tag + "</p><dl class='kv'>" +
+      rows.map(function (r) { return "<dt>" + r[0] + "</dt><dd>" + r[1] + "</dd>"; }).join("") +
+      "</dl>";
+  }
+
+  /* ---- filtering ---- */
+  // Slider is non-linear: most of the interesting range sits under two acres,
+  // so a linear 0-5 scale would waste most of the travel.
+  function sliderToAcres(v) { return v === 0 ? 0 : Math.pow(v / 200, 2) * 20; }
+
+  var el = {
+    minAc: document.getElementById("minAc"), minAcv: document.getElementById("minAcv"),
+    minOwn: document.getElementById("minOwn"), minOwnv: document.getElementById("minOwnv"),
+    tL: document.getElementById("tL"), tS: document.getElementById("tS"),
+    count: document.getElementById("count"), cLand: document.getElementById("cLand"),
+    cStruct: document.getElementById("cStruct"), cAcres: document.getElementById("cAcres")
+  };
+  var owners = Array.prototype.slice.call(document.querySelectorAll(".own"));
+
+  function apply() {
+    var minA = sliderToAcres(+el.minAc.value);
+    var minO = +el.minOwn.value;
+    var want = {};
+    owners.forEach(function (c) { if (c.checked) want[c.value] = 1; });
+    var types = { L: el.tL.checked, S: el.tS.checked };
+
+    el.minAcv.textContent = minA === 0 ? "any" : minA.toFixed(minA < 1 ? 2 : 1) + " ac";
+    el.minOwnv.textContent = minO + " site" + (minO === 1 ? "" : "s");
+
+    layer.clearLayers();
+    var n = 0, nl = 0, ns = 0, ac = 0;
+    for (var i = 0; i < markers.length; i++) {
+      var p = markers[i]._p;
+      if (!types[p.t]) continue;
+      if (!want[p.ot]) continue;
+      if (p.oc < minO) continue;
+      // A parcel with no recorded size is excluded once a floor is set —
+      // showing it would imply it meets a threshold we cannot verify.
+      if (minA > 0 && !(p.a >= minA)) continue;
+      layer.addLayer(markers[i]);
+      n++; ac += p.a || 0;
+      if (p.t === "S") ns++; else nl++;
+    }
+    el.count.innerHTML = n.toLocaleString() + "<small> sites shown</small>";
+    el.cLand.textContent = nl.toLocaleString();
+    el.cStruct.textContent = ns.toLocaleString();
+    el.cAcres.textContent = ac >= 1000 ? Math.round(ac).toLocaleString() : ac.toFixed(1);
+  }
+
+  [el.minAc, el.minOwn, el.tL, el.tS].concat(owners).forEach(function (e) {
+    e.addEventListener("input", apply);
+  });
+  apply();
+
+  /* ---- legend ---- */
+  var legend = L.control({ position: "bottomright" });
+  legend.onAdd = function () {
+    var d = L.DomUtil.create("div", "legend");
+    d.innerHTML =
+      "<div class='row'><span style='width:10px;height:10px;border-radius:50%;background:" +
+        COLOR.L + ";display:inline-block'></span> Vacant land</div>" +
+      "<div class='row'><span style='width:10px;height:10px;border-radius:50%;background:" +
+        COLOR.S + ";display:inline-block'></span> Vacant structure</div>" +
+      "<div style='color:#89919c;margin-top:3px'>Circle size ≈ parcel acreage</div>";
+    return d;
+  };
+  legend.addTo(map);
+})();
+</script>
+</body>
+</html>

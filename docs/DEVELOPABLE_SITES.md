@@ -129,10 +129,19 @@ The tax roll is published daily, so this refreshes as often as needed.
 **Not a vetted list.** No check for easements, deed restrictions, environmental status,
 utility access, or zoning suitability. A developer would need all of those.
 
-**Half the sites lack coordinates.** 5,986 of 11,907 are mapped. Vacant lots frequently
-have no address point, and 341 parcels were not found in the current parcel layer at all —
-consistent with the parcel-vintage divergence documented in
-[`DUPLICATE_LAYERS.md`](DUPLICATE_LAYERS.md).
+**268 sites (2.3%) have no geometry.** 11,639 of 11,907 are mapped.
+
+An earlier build mapped only 5,986 and this section described that as a data limitation.
+It was not — the shared `parcel_centroids.json` had only ever been populated for the
+city-owned analysis, and the developable-sites build silently reused it. Fixed by
+[`scripts/fetch_parcel_geometry.py`](../scripts/fetch_parcel_geometry.py), which fills the
+gap from `DaytonParcels` first and Montgomery County's `mc_parcel_polygon` second.
+
+The remaining 268 are genuinely absent from both parcel layers. 229 of them carry a
+street-only address with no house number (`GIBBS LN`, `W 3RD ST`), which is the signature
+of rights-of-way, remnant strips and rail corridors — tax roll records without a mapped
+polygon. Address geocoding cannot place them either, since there is no house number to
+geocode.
 
 **Vacancy for structures depends on the condition survey.** A church or warehouse the
 survey did not visit will not appear, regardless of its actual state. 43 candidate parcels
