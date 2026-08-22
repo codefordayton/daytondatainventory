@@ -84,6 +84,14 @@
   .legend { background:var(--surface); padding:9px 12px; border-radius:7px; box-shadow:var(--shadow);
             font-size:12px; line-height:1.8; }
   .legend .row { display:flex; align-items:center; gap:7px; }
+
+  /* ---- sources ---- */
+  details summary::-webkit-details-marker { color:var(--muted); }
+  dl.src { margin:12px 0 0; font-size:12px; line-height:1.5; }
+  dl.src dt { color:var(--ink); font-weight:650; margin-top:9px; }
+  dl.src dt:first-child { margin-top:0; }
+  dl.src dd { margin:2px 0 0; color:var(--ink-2); }
+  dl.src .mono { font-size:11px; color:var(--ink); }
 </style>
 </head>
 <body>
@@ -149,6 +157,41 @@
     </div>
     <p class="hint">Adjacent lots under one owner are the practical route to a site
        larger than a single parcel.</p>
+  </div>
+
+  <div class="sb-section">
+    <details>
+      <summary class="glabel" style="cursor:pointer;margin:0">Data sources</summary>
+      <dl class="src">
+        <dt>Ownership, land use, assessed value, address, census tract</dt>
+        <dd>Montgomery County Auditor &amp; Treasurer &mdash; tax roll, published daily.
+            <span class="mono">TAXROLL_20260731</span></dd>
+
+        <dt>Vacancy of structures</dt>
+        <dd>City of Dayton &mdash; 2025 Housing Condition Survey (88,922 parcels).
+            Only parcels the survey records vacant are shown as structures.</dd>
+
+        <dt>Parcel size and location</dt>
+        <dd>City of Dayton &mdash; <span class="mono">DaytonParcels</span>, with
+            Montgomery County <span class="mono">mc_parcel_polygon</span> as fallback.
+            Acreage is derived from parcel geometry because the tax roll's own acreage
+            field is unrecorded on 89% of Dayton parcels.</dd>
+
+        <dt>Addresses</dt>
+        <dd>City of Dayton &mdash; <span class="mono">Dayton Used Address</span>
+            (163,184 address points).</dd>
+
+        <dt>Neighborhood outlines &amp; basemap</dt>
+        <dd>City of Dayton neighborhood boundaries; basemap &copy; OpenStreetMap
+            contributors.</dd>
+
+        <dt>Derived here</dt>
+        <dd>Owner category and the assembly figures (how many sites an owner holds) are
+            calculated from the data above, not supplied by any agency.</dd>
+      </dl>
+      <p class="hint">All sources are public. Nothing is licensed or restricted.
+         Built 22 Aug 2026.</p>
+    </details>
   </div>
 
   <div class="sb-section" style="border-bottom:none;padding-bottom:6px">
